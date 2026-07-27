@@ -1,0 +1,2197 @@
+{
+	"orderInfo": [
+		{
+			"index": 2,
+			"asc": true,
+			"field": "pack"
+		},
+		{
+			"index": 4,
+			"asc": true,
+			"field": "tema"
+		}
+	],
+	"sql": "SELECT\n\"uid\",\npack,\nfuid_pack,\ntema,\nfuid_tema,\nmd_add,\nmd_alt,\nmd_usr,\nmd_usr_last,\nfuid,\n\"order\"\nFROM app.t_tema_pack\nORDER BY tema, pack\n",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_tema_pack",
+	"name": "app.t_tema_pack",
+	"shortTableName": "app_t_tema_pack1",
+	"caseSensitiveSearch": "",
+	"pageSizeRecords": 5,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"25",
+		"50",
+		"100"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"masterTables": [
+		{
+			"table": 1955166805,
+			"detailsKeys": [
+				"fuid_tema"
+			],
+			"masterKeys": [
+				"uid"
+			]
+		},
+		{
+			"table": 2192867662,
+			"detailsKeys": [
+				"fuid_pack"
+			],
+			"masterKeys": [
+				"uid"
+			]
+		}
+	],
+	"detailsBadgeColor": "d2691e",
+	"fields": [
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "id"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "pack",
+			"sqlExpression": "pack",
+			"strField": "pack",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_pack",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "pack",
+					"lookupDisplayField": "pack",
+					"lookupOrderBy": "pack",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_pack",
+							"lookupField": "uid"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "pack",
+			"label": {
+				"Portuguese(Brazil)": "Pacote"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "fuid_pack",
+			"sqlExpression": "fuid_pack",
+			"strField": "fuid_pack",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_pack",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "id. Pacote"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "tema",
+			"sqlExpression": "tema",
+			"strField": "tema",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_tema",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "tema",
+					"lookupDisplayField": "tema",
+					"lookupOrderBy": "tema",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_tema",
+							"lookupField": "uid"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "tema",
+			"label": {
+				"Portuguese(Brazil)": "Tema"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "fuid_tema",
+			"sqlExpression": "fuid_tema",
+			"strField": "fuid_tema",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_tema",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "id. Tema"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		},
+		{
+			"name": "order",
+			"sqlExpression": "\"order\"",
+			"strField": "order",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "order",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Order"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_tema_pack"
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"whereTabs": [
+		{}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_BEFOREDELETE",
+			"pageType": "list",
+			"code": "\nif(($deleted_values[\"tema\"] == 'Mapas Base'))\n{\n\techo '<script type=\"text/javascript\"> window.onload = function () { alert(\"Este Tema_x_Pacote não pode ser excluído.\"); }</script>';\n\treturn false;\n}\nelse\n{\n\treturn true;\n};"
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field2",
+								"integrated_edit_field"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field3",
+								"integrated_edit_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header",
+					"title": {
+						"page": "add",
+						"table": "app.t_tema_pack",
+						"type": 7
+					}
+				},
+				"add_cancel": {
+					"type": "add_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field2": {
+					"field": "tema",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field1": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "fuid_tema",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Incluir Tema x Pacote"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_reset"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field2",
+								"integrated_edit_field"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field3",
+								"integrated_edit_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header",
+					"title": {
+						"page": "edit",
+						"table": "app.t_tema_pack",
+						"type": 7
+					}
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					}
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"integrated_edit_field": {
+					"field": "pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field2": {
+					"field": "tema",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field1": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "fuid_tema",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"nowrap": true,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Editar Tema x Pacote [{%uid}]"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "uid",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "pack",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "fuid_pack",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "tema",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "fuid_tema",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "uid",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "pack",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "fuid_pack",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "tema",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "fuid_tema",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 1,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_details"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_details"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_details"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "uid",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "uid",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "uid",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "tema",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "tema",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "tema",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "pack",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "pack",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "pack",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [
+								"grid_edit"
+							],
+							"columnName": "edit",
+							"field": ""
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"headcell_details": {
+							"model": "headcell_details",
+							"items": [],
+							"columnName": "details",
+							"field": ""
+						},
+						"cell_details": {
+							"model": "cell_details",
+							"items": [
+								"grid_alldetails_link"
+							],
+							"columnName": "details",
+							"field": ""
+						},
+						"footcell_details": {
+							"model": "footcell_details",
+							"items": [],
+							"columnName": "details",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "tema_pacote"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"nowrap": true,
+					"bold": true,
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add",
+					"popup": true,
+					"label": {
+						"type": 0,
+						"text": "Incluir"
+					}
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"popup": true
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"delete": {
+					"type": "delete",
+					"label": {
+						"type": 0,
+						"text": "Excluir"
+					}
+				},
+				"simple_grid_field": {
+					"field": "uid",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field1": {
+					"field": "pack",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "tema",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"grid_alldetails_link": {
+					"type": "grid_alldetails_link"
+				},
+				"-3": {
+					"type": "-"
+				},
+				"simple_grid_field2": {
+					"type": "grid_field_label",
+					"field": "uid",
+					"clickSort": true
+				},
+				"simple_grid_field4": {
+					"type": "grid_field_label",
+					"field": "tema",
+					"clickSort": true
+				},
+				"simple_grid_field5": {
+					"type": "grid_field_label",
+					"field": "pack",
+					"clickSort": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"delete_selected"
+					]
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"pageWidth": "compact",
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "uid",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "pack",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "fuid_pack",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "tema",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "fuid_tema",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				},
+				"integrated_edit_field": {
+					"field": "uid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "pack",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "tema",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "fuid_tema",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Tema x Pacote"
+	}
+}

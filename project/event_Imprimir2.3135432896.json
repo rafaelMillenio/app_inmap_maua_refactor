@@ -1,0 +1,6 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Imprimir2",
+	"beforeJsCode": "params[\"ic\"] = Runner.getControl(pageid, 'cinscricaonew');\n\nparams[\"ic\"] = params[\"ic\"].getValue();\n\n",
+	"afterJsCode": "window.open('t_imobiliario_recad_print.php?q=%28cinscricaonew~equal~'+params[\"ic\"]+'%29','_blank');"
+}

@@ -1,0 +1,5809 @@
+{
+	"sql": "SELECT\n\tcdc,\n\tchave_lote,\n\tdes_identificacao,\n\tarea_terr,\n\tqtd_construcoes,\n\tarea_original_lote,\n\tarea_estimada_lote,\n\tvar_abs_lote,\n\tvar_pc_lote,\n\tfx_abs,\n\tfx_pc,\n\tnome_prop,\n\tcod_logradouro,\n\tloc_logradouro,\n\tloc_numero,\n\tloc_complemento,\n\tloc_bairro,\n\tloc_cep,\n\tent_logradouro,\n\tent_numero,\n\tent_complemento,\n\tent_bairro,\n\tent_cidade,\n\tent_cep,\n\tent_uf,\n\tdes_cobranca,\n\tstatus,\n\tgrupo,\n\t\"uid\",\n\tmd_add,\n\tmd_alt,\n\tmd_usr,\n\tmd_usr_last,\n\tfuid\nFROM app.t_estim_area_const_vistoria ",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_estim_area_const_vistoria",
+	"name": "app.t_estim_area_const_vistoria",
+	"shortTableName": "t_estim_area_const_vistoria",
+	"displayLoading": true,
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"listAjax": true,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": "app.tdirfoto"
+			},
+			"openData": {
+				"how": "popup",
+				"page": "view",
+				"table": "app.tdirfoto",
+				"url": ""
+			}
+		},
+		"fields": {
+			"area_estimada_lote": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"area_original_lote": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"area_terr": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cdc": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"chave_lote": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cod_logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"des_cobranca": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"des_identificacao": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_bairro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_cep": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_cidade": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_complemento": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_numero": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ent_uf": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"fx_abs": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"fx_pc": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"grupo": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loc_bairro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loc_cep": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loc_complemento": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loc_logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loc_numero": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"nome_prop": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"qtd_construcoes": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"status": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"uid": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"var_abs_lote": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"var_pc_lote": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 5,
+	"pageSizePrintRecords": 5,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"20",
+		"50",
+		"100",
+		"200"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"detailsBadgeColor": "DB7093",
+	"detailsTables": [
+		772557685,
+		3450134899
+	],
+	"fields": [
+		{
+			"name": "cdc",
+			"sqlExpression": "cdc",
+			"strField": "cdc",
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cdc",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "CDC"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "chave_lote",
+			"sqlExpression": "chave_lote",
+			"strField": "chave_lote",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "chave_lote",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Chave"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "des_identificacao",
+			"sqlExpression": "des_identificacao",
+			"strField": "des_identificacao",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "des_identificacao",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Inscrição"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "area_terr",
+			"sqlExpression": "area_terr",
+			"strField": "area_terr",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "area_terr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Área Terr."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "qtd_construcoes",
+			"sqlExpression": "qtd_construcoes",
+			"strField": "qtd_construcoes",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "qtd_construcoes",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Qt. Construções"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "area_original_lote",
+			"sqlExpression": "area_original_lote",
+			"strField": "area_original_lote",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "area_original_lote",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Área Const. Ant."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "area_estimada_lote",
+			"sqlExpression": "area_estimada_lote",
+			"strField": "area_estimada_lote",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "area_estimada_lote",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Área Estimada"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "var_abs_lote",
+			"sqlExpression": "var_abs_lote",
+			"strField": "var_abs_lote",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "var_abs_lote",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Var. Abs."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "var_pc_lote",
+			"sqlExpression": "var_pc_lote",
+			"strField": "var_pc_lote",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "var_pc_lote",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Var. Pc."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "fx_abs",
+			"sqlExpression": "fx_abs",
+			"strField": "fx_abs",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fx_abs",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fx. Abs."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "fx_pc",
+			"sqlExpression": "fx_pc",
+			"strField": "fx_pc",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fx_pc",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fx. Pc."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "nome_prop",
+			"sqlExpression": "nome_prop",
+			"strField": "nome_prop",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nome_prop",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Proprietário"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "cod_logradouro",
+			"sqlExpression": "cod_logradouro",
+			"strField": "cod_logradouro",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_logradouro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Log."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "loc_logradouro",
+			"sqlExpression": "loc_logradouro",
+			"strField": "loc_logradouro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loc_logradouro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "loc_numero",
+			"sqlExpression": "loc_numero",
+			"strField": "loc_numero",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loc_numero",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Número"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "loc_complemento",
+			"sqlExpression": "loc_complemento",
+			"strField": "loc_complemento",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loc_complemento",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Compl."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "loc_bairro",
+			"sqlExpression": "loc_bairro",
+			"strField": "loc_bairro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loc_bairro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Bairro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "loc_cep",
+			"sqlExpression": "loc_cep",
+			"strField": "loc_cep",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loc_cep",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cep"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_logradouro",
+			"sqlExpression": "ent_logradouro",
+			"strField": "ent_logradouro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_logradouro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent. Log."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_numero",
+			"sqlExpression": "ent_numero",
+			"strField": "ent_numero",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_numero",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent. Numero"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_complemento",
+			"sqlExpression": "ent_complemento",
+			"strField": "ent_complemento",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_complemento",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent. Compl."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_bairro",
+			"sqlExpression": "ent_bairro",
+			"strField": "ent_bairro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_bairro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent Bairro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_cidade",
+			"sqlExpression": "ent_cidade",
+			"strField": "ent_cidade",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_cidade",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent Cidade"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_cep",
+			"sqlExpression": "ent_cep",
+			"strField": "ent_cep",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_cep",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent Cep"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "ent_uf",
+			"sqlExpression": "ent_uf",
+			"strField": "ent_uf",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ent_uf",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ent Uf"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "des_cobranca",
+			"sqlExpression": "des_cobranca",
+			"strField": "des_cobranca",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "des_cobranca",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cobrança"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "status",
+			"sqlExpression": "status",
+			"strField": "status",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "status",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Status"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "grupo",
+			"sqlExpression": "grupo",
+			"strField": "grupo",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "grupo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Grupo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_estim_area_const_vistoria"
+		}
+	],
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "print",
+			"code": "window.print();\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "cdc",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "chave_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "des_identificacao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "area_terr",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "qtd_construcoes",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "area_original_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "area_estimada_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "var_abs_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "var_pc_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "fx_abs",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "fx_pc",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "nome_prop",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "cod_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "loc_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "loc_numero",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "loc_complemento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "loc_bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "loc_cep",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "ent_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "ent_numero",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "ent_complemento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "ent_bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "ent_cidade",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "ent_cep",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "ent_uf",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "des_cobranca",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "status",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "grupo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"edit_view": {
+					"type": "edit_view"
+				},
+				"integrated_edit_field": {
+					"field": "cdc",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "chave_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "des_identificacao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "area_terr",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "qtd_construcoes",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "area_original_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "area_estimada_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "var_abs_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "var_pc_lote",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "fx_abs",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "fx_pc",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "nome_prop",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "cod_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "loc_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "loc_numero",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "loc_complemento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "loc_bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "loc_cep",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "ent_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "ent_numero",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "ent_complemento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "ent_bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "ent_cidade",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "ent_cep",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "ent_uf",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "des_cobranca",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "status",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "grupo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field23",
+								"export_field24",
+								"export_field25",
+								"export_field26",
+								"export_field27"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"export_field": {
+					"field": "cdc",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "chave_lote",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "des_identificacao",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "area_terr",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "qtd_construcoes",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "area_original_lote",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "area_estimada_lote",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "var_abs_lote",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "var_pc_lote",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "fx_abs",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "fx_pc",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "nome_prop",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "cod_logradouro",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "loc_logradouro",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "loc_numero",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "loc_complemento",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "loc_bairro",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "loc_cep",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "ent_logradouro",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "ent_numero",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "ent_complemento",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "ent_bairro",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "ent_cidade",
+					"type": "export_field"
+				},
+				"export_field23": {
+					"field": "ent_cep",
+					"type": "export_field"
+				},
+				"export_field24": {
+					"field": "ent_uf",
+					"type": "export_field"
+				},
+				"export_field25": {
+					"field": "des_cobranca",
+					"type": "export_field"
+				},
+				"export_field26": {
+					"field": "status",
+					"type": "export_field"
+				},
+				"export_field27": {
+					"field": "grupo",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ";",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19",
+								"import_field20",
+								"import_field21",
+								"import_field22",
+								"import_field23",
+								"import_field24",
+								"import_field25",
+								"import_field26",
+								"import_field27",
+								"import_field28"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "cdc",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "chave_lote",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "des_identificacao",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "area_terr",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "qtd_construcoes",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "area_original_lote",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "area_estimada_lote",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "var_abs_lote",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "var_pc_lote",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "fx_abs",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "fx_pc",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "nome_prop",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "cod_logradouro",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "loc_logradouro",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "loc_numero",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "loc_complemento",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "loc_bairro",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "loc_cep",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "ent_logradouro",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "ent_numero",
+					"type": "import_field"
+				},
+				"import_field20": {
+					"field": "ent_complemento",
+					"type": "import_field"
+				},
+				"import_field21": {
+					"field": "ent_bairro",
+					"type": "import_field"
+				},
+				"import_field22": {
+					"field": "ent_cidade",
+					"type": "import_field"
+				},
+				"import_field23": {
+					"field": "ent_cep",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "ent_uf",
+					"type": "import_field"
+				},
+				"import_field25": {
+					"field": "des_cobranca",
+					"type": "import_field"
+				},
+				"import_field26": {
+					"field": "status",
+					"type": "import_field"
+				},
+				"import_field27": {
+					"field": "grupo",
+					"type": "import_field"
+				},
+				"import_field28": {
+					"field": "uid",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button1",
+								"custom_button3",
+								"custom_button2"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"search_panel"
+							],
+							"align": "left"
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"show_search_panel",
+								"hide_search_panel"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_checkbox1"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								},
+								{
+									"cell": "headcell_field7"
+								},
+								{
+									"cell": "headcell_field8"
+								},
+								{
+									"cell": "headcell_field9"
+								},
+								{
+									"cell": "headcell_field10"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "headcell_checkbox2"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_field8"
+								},
+								{
+									"cell": "cell_field9"
+								},
+								{
+									"cell": "cell_field10"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "headcell_checkbox3"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field6"
+								},
+								{
+									"cell": "footcell_field7"
+								},
+								{
+									"cell": "footcell_field8"
+								},
+								{
+									"cell": "footcell_field9"
+								},
+								{
+									"cell": "footcell_field10"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "cdc",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "cdc",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cdc",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "des_identificacao",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2",
+								"grid_field"
+							],
+							"field": "des_identificacao",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "des_identificacao",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "area_terr",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "area_terr",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "area_terr",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "area_original_lote",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "area_original_lote",
+							"columnName": "field"
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "area_original_lote",
+							"columnName": "field"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "area_estimada_lote",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "area_estimada_lote",
+							"columnName": "field"
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "area_estimada_lote",
+							"columnName": "field"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field15"
+							],
+							"field": "var_abs_lote",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "var_abs_lote",
+							"columnName": "field"
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "var_abs_lote",
+							"columnName": "field"
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field17"
+							],
+							"field": "var_pc_lote",
+							"columnName": "field"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "var_pc_lote",
+							"columnName": "field"
+						},
+						"footcell_field6": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "var_pc_lote",
+							"columnName": "field"
+						},
+						"headcell_field7": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field18"
+							],
+							"field": "nome_prop",
+							"columnName": "field"
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field11"
+							],
+							"field": "nome_prop",
+							"columnName": "field"
+						},
+						"footcell_field7": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "nome_prop",
+							"columnName": "field"
+						},
+						"headcell_field8": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field19"
+							],
+							"field": "loc_logradouro",
+							"columnName": "field"
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field13"
+							],
+							"field": "loc_logradouro",
+							"columnName": "field"
+						},
+						"footcell_field8": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "loc_logradouro",
+							"columnName": "field"
+						},
+						"headcell_field9": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field20"
+							],
+							"field": "loc_numero",
+							"columnName": "field"
+						},
+						"cell_field9": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field14"
+							],
+							"field": "loc_numero",
+							"columnName": "field"
+						},
+						"footcell_field9": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "loc_numero",
+							"columnName": "field"
+						},
+						"headcell_field10": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field21"
+							],
+							"field": "loc_bairro",
+							"columnName": "field"
+						},
+						"cell_field10": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "loc_bairro",
+							"columnName": "field"
+						},
+						"footcell_field10": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "loc_bairro",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_checkbox1": {
+							"model": "headcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"headcell_checkbox2": {
+							"model": "cell_checkbox",
+							"items": [
+								"custom_button"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"headcell_checkbox3": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Vistorias"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"simple_grid_field16": {
+					"field": "loc_bairro",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field14": {
+					"field": "loc_numero",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field13": {
+					"field": "loc_logradouro",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"field": "nome_prop",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"field": "var_pc_lote",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "var_abs_lote",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field6": {
+					"field": "area_estimada_lote",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field5": {
+					"field": "area_original_lote",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "area_terr",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"field": "des_identificacao",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field": {
+					"field": "cdc",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"-": {
+					"type": "-"
+				},
+				"simple_grid_field1": {
+					"type": "grid_field_label",
+					"field": "cdc",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field4": {
+					"type": "grid_field_label",
+					"field": "des_identificacao",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field9": {
+					"type": "grid_field_label",
+					"field": "area_terr",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field10": {
+					"type": "grid_field_label",
+					"field": "area_original_lote",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field12": {
+					"type": "grid_field_label",
+					"field": "area_estimada_lote",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field15": {
+					"type": "grid_field_label",
+					"field": "var_abs_lote",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field17": {
+					"type": "grid_field_label",
+					"field": "var_pc_lote",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field18": {
+					"type": "grid_field_label",
+					"field": "nome_prop",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field19": {
+					"type": "grid_field_label",
+					"field": "loc_logradouro",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field20": {
+					"type": "grid_field_label",
+					"field": "loc_numero",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field21": {
+					"type": "grid_field_label",
+					"field": "loc_bairro",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"custom_button": {
+					"eventId": "marcar_mapa_vist",
+					"label": {
+						"text": "",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "map-marker"
+					},
+					"width": "22px",
+					"buttonSize": "xtra-small",
+					"buttonStyle": "default",
+					"tooltip": {
+						"text": "Marcar no mapa",
+						"type": 0
+					},
+					"eventGid": 3157118863
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field8",
+						"search_panel_field3",
+						"search_panel_field",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"search_panel_field1": {
+					"field": "fx_abs",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field2": {
+					"field": "fx_pc",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field4": {
+					"field": "loc_logradouro",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field5": {
+					"field": "loc_numero",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field6": {
+					"field": "loc_bairro",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field7": {
+					"field": "des_cobranca",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field8": {
+					"field": "grupo",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"show_search_panel": {
+					"type": "show_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Pesquisa avançada"
+					}
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Fechar pesquisa"
+					}
+				},
+				"search_panel_field": {
+					"field": "des_identificacao",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field3": {
+					"field": "nome_prop",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"grid_field": {
+					"field": "chave_lote",
+					"type": "grid_field",
+					"font-size": "0px"
+				},
+				"custom_button1": {
+					"type": "custom_button",
+					"eventId": "conf_style",
+					"label": {
+						"type": 0,
+						"text": "Configurar"
+					},
+					"icon": {
+						"fa": "gear"
+					},
+					"eventGid": 1362731821
+				},
+				"custom_button2": {
+					"eventId": "salvar_mapa_vistoria",
+					"label": {
+						"type": 0,
+						"text": "Salvar Mapa"
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "save"
+					},
+					"eventGid": 2072316973
+				},
+				"custom_button3": {
+					"eventId": "localizar_selecao_vistoria",
+					"label": {
+						"type": 0,
+						"text": "Aplicar"
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "map"
+					},
+					"eventGid": 1255264969
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"image",
+								"text"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "vertical-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_top",
+									"colspan": 6
+								}
+							],
+							"section": "head"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field8",
+									"colspan": 6
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field89"
+								},
+								{
+									"cell": "cell_field59"
+								},
+								{
+									"cell": "cell_field29"
+								},
+								{
+									"cell": "cell_field119"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label1"
+								},
+								{
+									"cell": "cell_field1",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_field30"
+								},
+								{
+									"cell": "cell_field58"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label2"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field91"
+								},
+								{
+									"cell": "cell_field61"
+								},
+								{
+									"cell": "cell_field31"
+								},
+								{
+									"cell": "cell_field121"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label3"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field92"
+								},
+								{
+									"cell": "cell_field62"
+								},
+								{
+									"cell": "cell_field32"
+								},
+								{
+									"cell": "cell_field122"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field88"
+								},
+								{
+									"cell": "cell_field90"
+								},
+								{
+									"cell": "cell_field118"
+								},
+								{
+									"cell": "cell_field120"
+								},
+								{
+									"cell": "cell_field148"
+								},
+								{
+									"cell": "cell_field149"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label4"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field93"
+								},
+								{
+									"cell": "cell_field63"
+								},
+								{
+									"cell": "cell_field33"
+								},
+								{
+									"cell": "cell_field123"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label5"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field94"
+								},
+								{
+									"cell": "cell_field64"
+								},
+								{
+									"cell": "cell_field34"
+								},
+								{
+									"cell": "cell_field124"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label6"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_field65"
+								},
+								{
+									"cell": "cell_field35"
+								},
+								{
+									"cell": "cell_field36"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_dpreview",
+									"colspan": 2
+								},
+								{
+									"cell": "cell_field117",
+									"colspan": 2
+								},
+								{
+									"cell": "cell_field57",
+									"colspan": 2
+								}
+							],
+							"section": "foot"
+						}
+					],
+					"cells": {
+						"cell_top": {
+							"model": "cell_top",
+							"items": [
+								"text1"
+							]
+						},
+						"cell_dpreview": {
+							"model": "cell_dpreview",
+							"items": []
+						},
+						"cell_label": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field28"
+							],
+							"field": "cdc"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "cdc"
+						},
+						"cell_label1": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field39"
+							],
+							"field": "chave_lote"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field11"
+							],
+							"field": "chave_lote"
+						},
+						"cell_label2": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field40"
+							],
+							"field": "des_identificacao"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "des_identificacao"
+						},
+						"cell_label3": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field43"
+							],
+							"field": "area_terr"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field15"
+							],
+							"field": "area_terr"
+						},
+						"cell_label4": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field32"
+							],
+							"field": "qtd_construcoes"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "qtd_construcoes"
+						},
+						"cell_label5": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field31"
+							],
+							"field": "area_original_lote"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "area_original_lote"
+						},
+						"cell_label6": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field37"
+							],
+							"field": "area_estimada_lote"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "area_estimada_lote"
+						},
+						"cell_field29": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field30"
+							],
+							"align": "right"
+						},
+						"cell_field30": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field53"
+							],
+							"field": "chave_lote",
+							"align": "right"
+						},
+						"cell_field31": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field42"
+							],
+							"align": "right"
+						},
+						"cell_field32": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field45"
+							],
+							"align": "right"
+						},
+						"cell_field33": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field34"
+							],
+							"align": "right"
+						},
+						"cell_field34": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field36"
+							],
+							"align": "right"
+						},
+						"cell_field35": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field38"
+							],
+							"align": "right"
+						},
+						"cell_field57": {
+							"model": "cell_dpreview",
+							"items": []
+						},
+						"cell_field58": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field25"
+							],
+							"field": "chave_lote"
+						},
+						"cell_field59": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							]
+						},
+						"cell_field61": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field13"
+							]
+						},
+						"cell_field62": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field16"
+							]
+						},
+						"cell_field63": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							]
+						},
+						"cell_field64": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							]
+						},
+						"cell_field65": {
+							"model": "cell_field",
+							"items": [],
+							"align": "right"
+						},
+						"cell_field88": {
+							"model": "cell_label",
+							"items": [],
+							"field": "qtd_construcoes"
+						},
+						"cell_field89": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field29"
+							],
+							"align": "right"
+						},
+						"cell_field90": {
+							"model": "cell_field",
+							"items": [],
+							"field": "qtd_construcoes"
+						},
+						"cell_field91": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field41"
+							],
+							"align": "right"
+						},
+						"cell_field92": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field44"
+							],
+							"align": "right"
+						},
+						"cell_field93": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field33"
+							],
+							"align": "right"
+						},
+						"cell_field94": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field35"
+							],
+							"align": "right"
+						},
+						"cell_field117": {
+							"model": "cell_dpreview",
+							"items": []
+						},
+						"cell_field118": {
+							"model": "cell_field",
+							"items": []
+						},
+						"cell_field119": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							]
+						},
+						"cell_field120": {
+							"model": "cell_field",
+							"items": []
+						},
+						"cell_field121": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field14"
+							]
+						},
+						"cell_field122": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field17"
+							]
+						},
+						"cell_field123": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field6"
+							]
+						},
+						"cell_field124": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field8"
+							]
+						},
+						"cell_field148": {
+							"model": "cell_field",
+							"items": []
+						},
+						"cell_field149": {
+							"model": "cell_field",
+							"items": []
+						},
+						"cell_field36": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field10"
+							]
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [],
+							"field": "area_estimada_lote"
+						},
+						"cell_field8": {
+							"model": "cell_label",
+							"items": [
+								"text2"
+							],
+							"field": "cdc",
+							"align": "left",
+							"background": "#e1e1e1"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"simple_grid_field": {
+					"field": "cdc",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field1": {
+					"field": "chave_lote",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"field": "des_identificacao",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "area_terr",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "qtd_construcoes",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field5": {
+					"field": "area_original_lote",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field6": {
+					"field": "area_estimada_lote",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "var_abs_lote",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"field": "var_pc_lote",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field9": {
+					"field": "fx_abs",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"field": "fx_pc",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"field": "nome_prop",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field12": {
+					"field": "cod_logradouro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field13": {
+					"field": "loc_logradouro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field14": {
+					"field": "loc_numero",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field15": {
+					"field": "loc_complemento",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field16": {
+					"field": "loc_bairro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field17": {
+					"field": "loc_cep",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field25": {
+					"field": "des_cobranca",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field28": {
+					"type": "grid_field_label",
+					"field": "cdc"
+				},
+				"simple_grid_field29": {
+					"type": "grid_field_label",
+					"field": "chave_lote"
+				},
+				"simple_grid_field30": {
+					"type": "grid_field_label",
+					"field": "des_identificacao"
+				},
+				"simple_grid_field31": {
+					"type": "grid_field_label",
+					"field": "area_terr"
+				},
+				"simple_grid_field32": {
+					"type": "grid_field_label",
+					"field": "qtd_construcoes"
+				},
+				"simple_grid_field33": {
+					"type": "grid_field_label",
+					"field": "area_original_lote"
+				},
+				"simple_grid_field34": {
+					"type": "grid_field_label",
+					"field": "area_estimada_lote"
+				},
+				"simple_grid_field35": {
+					"type": "grid_field_label",
+					"field": "var_abs_lote"
+				},
+				"simple_grid_field36": {
+					"type": "grid_field_label",
+					"field": "var_pc_lote"
+				},
+				"simple_grid_field37": {
+					"type": "grid_field_label",
+					"field": "fx_abs"
+				},
+				"simple_grid_field38": {
+					"type": "grid_field_label",
+					"field": "fx_pc"
+				},
+				"simple_grid_field39": {
+					"type": "grid_field_label",
+					"field": "nome_prop"
+				},
+				"simple_grid_field40": {
+					"type": "grid_field_label",
+					"field": "cod_logradouro"
+				},
+				"simple_grid_field41": {
+					"type": "grid_field_label",
+					"field": "loc_logradouro"
+				},
+				"simple_grid_field42": {
+					"type": "grid_field_label",
+					"field": "loc_numero"
+				},
+				"simple_grid_field43": {
+					"type": "grid_field_label",
+					"field": "loc_complemento"
+				},
+				"simple_grid_field44": {
+					"type": "grid_field_label",
+					"field": "loc_bairro"
+				},
+				"simple_grid_field45": {
+					"type": "grid_field_label",
+					"field": "loc_cep"
+				},
+				"simple_grid_field53": {
+					"type": "grid_field_label",
+					"field": "des_cobranca"
+				},
+				"image": {
+					"type": "image",
+					"width": "69px",
+					"height": "63px",
+					"image": {
+						"image": "Machado.png",
+						"source": 2
+					}
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "PREFEITURA DE MACHADO"
+					},
+					"editedByRte": false,
+					"nowrap": true,
+					"bold": true,
+					"font-size": "20px",
+					"padding": {
+						"padding": "20px"
+					}
+				},
+				"text1": {
+					"type": "text",
+					"label": {
+						"text": "NOTIFICADO PARA VISTORIA",
+						"type": 0
+					},
+					"editedByRte": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"text2": {
+					"type": "text",
+					"label": {
+						"text": "IDENTIFICAÇÃO",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px"
+				}
+			},
+			"version": 14,
+			"pageWidth": "compact",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "cdc",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "qtd_construcoes",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field2": {
+					"field": "uid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field3": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"prev",
+								"next"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"tabs"
+							],
+							"field": null
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": true
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								},
+								{
+									"cell": "c12"
+								},
+								{
+									"cell": "c13"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c8"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c15"
+								},
+								{
+									"cell": "c16"
+								},
+								{
+									"cell": "c17"
+								},
+								{
+									"cell": "c18"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c5": {
+							"model": "c3",
+							"items": [
+								"edit_field_label13",
+								"integrated_edit_field3"
+							]
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"edit_field_label14",
+								"integrated_edit_field4"
+							]
+						},
+						"c7": {
+							"model": "c3",
+							"items": [
+								"edit_field_label15",
+								"integrated_edit_field7"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"edit_field_label16",
+								"integrated_edit_field9"
+							]
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"edit_field_label8",
+								"integrated_edit_field"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"edit_field_label19",
+								"integrated_edit_field1"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"edit_field_label18",
+								"integrated_edit_field2"
+							]
+						},
+						"c13": {
+							"model": "c3",
+							"items": [
+								"edit_field_label17",
+								"integrated_edit_field26"
+							]
+						},
+						"c15": {
+							"model": "c3",
+							"items": [
+								"edit_field_label12",
+								"integrated_edit_field5"
+							]
+						},
+						"c16": {
+							"model": "c3",
+							"items": [
+								"edit_field_label11",
+								"integrated_edit_field6"
+							]
+						},
+						"c17": {
+							"model": "c3",
+							"items": [
+								"edit_field_label10",
+								"integrated_edit_field8"
+							]
+						},
+						"c18": {
+							"model": "c3",
+							"items": [
+								"edit_field_label9",
+								"integrated_edit_field10"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section1": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c12",
+									"colspan": 3
+								},
+								{
+									"cell": "c15"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								},
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c": {
+							"model": "c3",
+							"items": [
+								"edit_field_label4",
+								"integrated_edit_field14"
+							]
+						},
+						"c5": {
+							"model": "c3",
+							"items": [
+								"edit_field_label3",
+								"integrated_edit_field15"
+							]
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"edit_field_label2",
+								"integrated_edit_field16"
+							]
+						},
+						"c7": {
+							"model": "c3",
+							"items": [
+								"edit_field_label1",
+								"integrated_edit_field17"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"edit_field_label5",
+								"integrated_edit_field12"
+							]
+						},
+						"c9": {
+							"model": "c3",
+							"items": [
+								"edit_field_label6",
+								"integrated_edit_field13"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"edit_field_label",
+								"integrated_edit_field11"
+							]
+						},
+						"c15": {
+							"model": "c3",
+							"items": [
+								"edit_field_label7",
+								"integrated_edit_field25"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section2": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section3": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview2"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"view_close": {
+					"type": "view_close",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"integrated_edit_field": {
+					"field": "cdc",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field1": {
+					"field": "chave_lote",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field2": {
+					"field": "des_identificacao",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field3": {
+					"field": "area_terr",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field4": {
+					"field": "qtd_construcoes",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field5": {
+					"field": "area_original_lote",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field6": {
+					"field": "area_estimada_lote",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field7": {
+					"field": "var_abs_lote",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field8": {
+					"field": "var_pc_lote",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field9": {
+					"field": "fx_abs",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field10": {
+					"field": "fx_pc",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field11": {
+					"field": "nome_prop",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field12": {
+					"field": "cod_logradouro",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field13": {
+					"field": "loc_logradouro",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field14": {
+					"field": "loc_numero",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field15": {
+					"field": "loc_complemento",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field16": {
+					"field": "loc_bairro",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field17": {
+					"field": "loc_cep",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field25": {
+					"field": "des_cobranca",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field26": {
+					"field": "status",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Dados",
+							"type": 0
+						},
+						{
+							"text": "Estimativa",
+							"type": 0
+						},
+						{
+							"text": "Fotos",
+							"type": 0
+						},
+						{
+							"type": 0,
+							"text": "Croquis"
+						}
+					],
+					"locations": [
+						"section1",
+						"section",
+						"section2",
+						"section3"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"next": {
+					"type": "next",
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"prev": {
+					"type": "prev",
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"details_preview1": {
+					"type": "details_preview",
+					"table": 772557685,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview2": {
+					"type": "details_preview",
+					"table": 3450134899,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"edit_field_label": {
+					"type": "edit_field_label",
+					"field": "nome_prop",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label1": {
+					"type": "edit_field_label",
+					"field": "loc_cep",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label2": {
+					"type": "edit_field_label",
+					"field": "loc_bairro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label3": {
+					"type": "edit_field_label",
+					"field": "loc_complemento",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label4": {
+					"type": "edit_field_label",
+					"field": "loc_numero",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label5": {
+					"type": "edit_field_label",
+					"field": "cod_logradouro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label6": {
+					"type": "edit_field_label",
+					"field": "loc_logradouro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label7": {
+					"type": "edit_field_label",
+					"field": "des_cobranca",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label8": {
+					"type": "edit_field_label",
+					"field": "cdc",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label9": {
+					"type": "edit_field_label",
+					"field": "fx_pc",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label10": {
+					"type": "edit_field_label",
+					"field": "var_pc_lote",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label11": {
+					"type": "edit_field_label",
+					"field": "area_estimada_lote",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label12": {
+					"type": "edit_field_label",
+					"field": "area_original_lote",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label13": {
+					"type": "edit_field_label",
+					"field": "area_terr",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label14": {
+					"type": "edit_field_label",
+					"field": "qtd_construcoes",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label15": {
+					"type": "edit_field_label",
+					"field": "var_abs_lote",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label16": {
+					"type": "edit_field_label",
+					"field": "fx_abs",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label17": {
+					"type": "edit_field_label",
+					"field": "status",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label18": {
+					"type": "edit_field_label",
+					"field": "des_identificacao",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"edit_field_label19": {
+					"type": "edit_field_label",
+					"field": "chave_lote",
+					"separated": true,
+					"bold": false,
+					"nowrap": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Vistorias"
+	}
+}

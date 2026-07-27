@@ -1,0 +1,3465 @@
+{
+	"orderInfo": [
+		{
+			"index": 3,
+			"asc": true,
+			"field": "name_pack"
+		},
+		{
+			"index": 13,
+			"asc": true,
+			"field": "title"
+		}
+	],
+	"sql": "SELECT\n\"uid\",\nfuid_pack,\nname_pack,\nds_enable,\nds_name,\nds_type,\nws_name,\n\"type\",\nsrs,\nprojection_policy,\nenabled,\nname,\ntitle,\nnative_name,\nprefixed_name,\nabstract,\nordem_layer,\nmd_add,\nmd_alt,\nmd_usr,\nmd_usr_last,\nfuid\nFROM app.t_pack_layer\nORDER BY name_pack, title\n",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_pack_layer",
+	"name": "app.t_pack_layer",
+	"shortTableName": "t_pack_layer",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"pageSizeRecords": 5,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"25",
+		"50",
+		"100"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"masterTables": [
+		{
+			"table": 2192867662,
+			"detailsKeys": [
+				"fuid_pack"
+			],
+			"masterKeys": [
+				"uid"
+			]
+		},
+		{
+			"table": 2756856416,
+			"detailsKeys": [
+				"prefixed_name"
+			],
+			"masterKeys": [
+				"prefixed_name"
+			]
+		}
+	],
+	"detailsBadgeColor": "daa520",
+	"fields": [
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "fuid_pack",
+			"sqlExpression": "fuid_pack",
+			"strField": "fuid_pack",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_pack",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "id. pacote"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "name_pack",
+			"sqlExpression": "name_pack",
+			"strField": "name_pack",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_pack",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "pack",
+					"lookupDisplayField": "pack",
+					"lookupOrderBy": "pack",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_pack",
+							"lookupField": "uid"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "name_pack",
+			"label": {
+				"Portuguese(Brazil)": "Pacote"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "ds_enable",
+			"sqlExpression": "ds_enable",
+			"strField": "ds_enable",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ds_enable",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ds Enable"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "ds_name",
+			"sqlExpression": "ds_name",
+			"strField": "ds_name",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ds_name",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ds Name"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "ds_type",
+			"sqlExpression": "ds_type",
+			"strField": "ds_type",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ds_type",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ds Type"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "ws_name",
+			"sqlExpression": "ws_name",
+			"strField": "ws_name",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ws_name",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ws Name"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "type",
+			"sqlExpression": "\"type\"",
+			"strField": "type",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "type",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Type"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "srs",
+			"sqlExpression": "srs",
+			"strField": "srs",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "srs",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Srs"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "projection_policy",
+			"sqlExpression": "projection_policy",
+			"strField": "projection_policy",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "projection_policy",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Projection Policy"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "enabled",
+			"sqlExpression": "enabled",
+			"strField": "enabled",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "enabled",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Enabled"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "name",
+			"sqlExpression": "name",
+			"strField": "name",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "name",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Name"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "title",
+			"sqlExpression": "title",
+			"strField": "title",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "public.layer_group_access",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "title",
+					"lookupDisplayField": "title",
+					"lookupOrderBy": "title",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "ds_enable",
+							"lookupField": "ds_enable"
+						},
+						{
+							"masterField": "ds_name",
+							"lookupField": "ds_name"
+						},
+						{
+							"masterField": "ds_type",
+							"lookupField": "ds_type"
+						},
+						{
+							"masterField": "ws_name",
+							"lookupField": "ws_name"
+						},
+						{
+							"masterField": "type",
+							"lookupField": "type"
+						},
+						{
+							"masterField": "srs",
+							"lookupField": "srs"
+						},
+						{
+							"masterField": "projection_policy",
+							"lookupField": "projection_policy"
+						},
+						{
+							"masterField": "enabled",
+							"lookupField": "enabled"
+						},
+						{
+							"masterField": "name",
+							"lookupField": "name"
+						},
+						{
+							"masterField": "native_name",
+							"lookupField": "native_name"
+						},
+						{
+							"masterField": "prefixed_name",
+							"lookupField": "prefixed_name"
+						},
+						{
+							"masterField": "abstract",
+							"lookupField": "abstract"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "title",
+			"label": {
+				"Portuguese(Brazil)": "Camada"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "native_name",
+			"sqlExpression": "native_name",
+			"strField": "native_name",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "native_name",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Native Name"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "prefixed_name",
+			"sqlExpression": "prefixed_name",
+			"strField": "prefixed_name",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "prefixed_name",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Camada"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "abstract",
+			"sqlExpression": "abstract",
+			"strField": "abstract",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "abstract",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "ordem_layer",
+			"sqlExpression": "ordem_layer",
+			"strField": "ordem_layer",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ordem_layer",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ordem Layer"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_pack_layer"
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_BEFOREADD",
+			"pageType": "add",
+			"code": "global $conn;\n\n$strSQLSelect = \"SELECT\n\tlayer_group_access.ds_enable, \n\tlayer_group_access.ds_name, \n\tlayer_group_access.ds_type, \n\tlayer_group_access.ws_name, \n\tlayer_group_access.\\\"type\\\", \n\tlayer_group_access.srs, \n\tlayer_group_access.projection_policy, \n\tlayer_group_access.enabled, \n\tlayer_group_access.\\\"name\\\", \n\tlayer_group_access.title, \n\tlayer_group_access.native_name, \n\tlayer_group_access.prefixed_name, \n\tlayer_group_access.abstract\nFROM\n\tpublic.layer_group_access\nwhere layer_group_access.prefixed_name = '\".$values[\"prefixed_name\"].\"'\";\n\n$rsExists = db_query($strSQLSelect,$conn);\n$data = db_fetch_array($rsExists);\n\nif($data)\n{\n\t$values[\"ds_enable\"] = $data[\"ds_enable\"];\n\t$values[\"ds_name\"] = $data[\"ds_name\"];\n\t$values[\"ds_type\"] = $data[\"ds_type\"];\n\t$values[\"ws_name\"] = $data[\"ws_name\"];\n\t$values[\"type\"] = $data[\"type\"];\n\t$values[\"srs\"] = $data[\"srs\"];\n\t$values[\"projection_policy\"] = $data[\"projection_policy\"];\n\t$values[\"enabled\"] = $data[\"enabled\"];\n\t$values[\"name\"] = $data[\"name\"];\n\t$values[\"title\"] = $data[\"title\"];\n\t$values[\"native_name\"] = $data[\"native_name\"];\n\t$values[\"abstract\"] = $data[\"abstract\"];\n\n}\nelse\n{\n\n};\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_BEFOREEDIT",
+			"pageType": "edit",
+			"code": "global $conn;\n\n$strSQLSelect = \"SELECT\n\tlayer_group_access.ds_enable, \n\tlayer_group_access.ds_name, \n\tlayer_group_access.ds_type, \n\tlayer_group_access.ws_name, \n\tlayer_group_access.\\\"type\\\", \n\tlayer_group_access.srs, \n\tlayer_group_access.projection_policy, \n\tlayer_group_access.enabled, \n\tlayer_group_access.\\\"name\\\", \n\tlayer_group_access.title, \n\tlayer_group_access.native_name, \n\tlayer_group_access.prefixed_name, \n\tlayer_group_access.abstract\nFROM\n\tpublic.layer_group_access\nwhere layer_group_access.prefixed_name = '\".$values[\"prefixed_name\"].\"'\";\n\n$rsExists = db_query($strSQLSelect,$conn);\n$data = db_fetch_array($rsExists);\n\nif($data)\n{\n\t$values[\"ds_enable\"] = $data[\"ds_enable\"];\n\t$values[\"ds_name\"] = $data[\"ds_name\"];\n\t$values[\"ds_type\"] = $data[\"ds_type\"];\n\t$values[\"ws_name\"] = $data[\"ws_name\"];\n\t$values[\"type\"] = $data[\"type\"];\n\t$values[\"srs\"] = $data[\"srs\"];\n\t$values[\"projection_policy\"] = $data[\"projection_policy\"];\n\t$values[\"enabled\"] = $data[\"enabled\"];\n\t$values[\"name\"] = $data[\"name\"];\n\t$values[\"title\"] = $data[\"title\"];\n\t$values[\"native_name\"] = $data[\"native_name\"];\n\t$values[\"abstract\"] = $data[\"abstract\"];\n\n}\nelse\n{\n\n};\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "list",
+			"code": "window.t_pack_layer = pageObj;\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_BEFOREQUERY_LIST",
+			"pageType": "list",
+			"code": "if (isset($_GET[\"fuid_pack\"])) {\n    $fuid_pack = (int)$_GET[\"fuid_pack\"];\n    $strWhereClause .= \" fuid_pack = \" . $fuid_pack;\n}\n\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field5",
+								"integrated_edit_field15",
+								"integrated_edit_field2"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field1",
+								"integrated_edit_field"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 2,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header",
+					"title": {
+						"page": "add",
+						"table": "app.t_pack_layer",
+						"type": 7
+					}
+				},
+				"add_cancel": {
+					"type": "add_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field5": {
+					"field": "name_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field15": {
+					"field": "title",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field": {
+					"field": "prefixed_name",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field1": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field2": {
+					"field": "abstract",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Incluir Camada x Pacote"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_reset"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field5",
+								"integrated_edit_field15",
+								"integrated_edit_field2"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 2,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header",
+					"title": {
+						"page": "edit",
+						"table": "app.t_pack_layer",
+						"type": 7
+					}
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					}
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"integrated_edit_field5": {
+					"field": "name_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field15": {
+					"field": "title",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "fuid_pack",
+						"table": "app.t_pack_layer",
+						"type": 3
+					},
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field1": {
+					"field": "prefixed_name",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"label": {
+						"field": "prefixed_name",
+						"table": "app.t_pack_layer",
+						"type": 3
+					},
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field2": {
+					"field": "abstract",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Editar Camada x Pacote"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "uid",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "fuid_pack",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "name_pack",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "ds_enable",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "ds_name",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "ds_type",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "ws_name",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "type",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "srs",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "projection_policy",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "enabled",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "name",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "title",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "native_name",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "prefixed_name",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "abstract",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "uid",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "fuid_pack",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "name_pack",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "ds_enable",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "ds_name",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "ds_type",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "ws_name",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "type",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "srs",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "projection_policy",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "enabled",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "name",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "title",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "native_name",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "prefixed_name",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "abstract",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 1,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button_container",
+								"custom_button2",
+								"add",
+								"custom_button",
+								"delete",
+								"custom_button1"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field17"
+							],
+							"field": "title",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "title",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "title",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field20"
+							],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field19"
+							],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [
+								"grid_edit"
+							],
+							"columnName": "edit",
+							"field": ""
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "pacote_camada"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add",
+					"popup": true,
+					"label": {
+						"type": 0,
+						"text": "Incluir"
+					}
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"popup": true
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"delete": {
+					"type": "delete",
+					"label": {
+						"type": 0,
+						"text": "Excluir"
+					}
+				},
+				"simple_grid_field5": {
+					"field": "fuid_pack",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field6": {
+					"field": "name_pack",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field16": {
+					"field": "title",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field19": {
+					"field": "abstract",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"-3": {
+					"type": "-"
+				},
+				"simple_grid_field7": {
+					"type": "grid_field_label",
+					"field": "fuid_pack",
+					"clickSort": false
+				},
+				"simple_grid_field8": {
+					"type": "grid_field_label",
+					"field": "name_pack",
+					"clickSort": false
+				},
+				"simple_grid_field17": {
+					"type": "grid_field_label",
+					"field": "title",
+					"clickSort": false
+				},
+				"simple_grid_field20": {
+					"type": "grid_field_label",
+					"field": "abstract",
+					"clickSort": false
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"delete_selected"
+					]
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"custom_button": {
+					"eventId": "t_pack_layer_multi_add",
+					"label": {
+						"text": "Incluir +",
+						"type": 0
+					},
+					"type": "custom_button",
+					"eventGid": 4151662613
+				},
+				"custom_button1": {
+					"type": "custom_button",
+					"eventId": "refresh_geo",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"width": "30px",
+					"icon": {
+						"fa": "repeat"
+					},
+					"eventGid": 3707828978
+				},
+				"custom_button2": {
+					"type": "custom_button",
+					"eventId": "New_Button6",
+					"label": {
+						"type": 0,
+						"text": "Ordenar"
+					},
+					"eventGid": 443099348
+				},
+				"custom_button_container": {
+					"type": "custom_button_container",
+					"items": [
+						"custom_button3",
+						"custom_button4",
+						"custom_button5"
+					],
+					"label": {
+						"type": 0,
+						"text": "Exibir..."
+					}
+				},
+				"custom_button3": {
+					"type": "custom_button",
+					"eventId": "set_exhibit_20",
+					"label": {
+						"type": 0,
+						"text": "20"
+					},
+					"eventGid": 1627162698
+				},
+				"custom_button4": {
+					"type": "custom_button",
+					"eventId": "set_exhibit_50",
+					"label": {
+						"type": 0,
+						"text": "50"
+					},
+					"eventGid": 800923277
+				},
+				"custom_button5": {
+					"type": "custom_button",
+					"eventId": "set_exhibit_all",
+					"label": {
+						"type": 0,
+						"text": "Todos"
+					},
+					"eventGid": 2023429193
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": true,
+			"reorderRowsField": "ordem_layer",
+			"addToBottom": true,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list_show_more",
+			"type": "list",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "list-vbar",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field12"
+								},
+								{
+									"cell": "headcell_field"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field12"
+								},
+								{
+									"cell": "cell_field"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field12"
+								},
+								{
+									"cell": "footcell_field"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field23"
+							],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "fuid_pack",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field24"
+							],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "name_pack",
+							"columnName": "field"
+						},
+						"headcell_field12": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field34"
+							],
+							"field": "title",
+							"columnName": "field"
+						},
+						"cell_field12": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "title",
+							"columnName": "field"
+						},
+						"footcell_field12": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "title",
+							"columnName": "field"
+						},
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label"
+							],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"grid_field"
+							],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "abstract",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field1": {
+					"field": "fuid_pack",
+					"type": "grid_field",
+					"clickSort": true,
+					"showFilter": false,
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field2": {
+					"field": "name_pack",
+					"type": "grid_field",
+					"clickSort": true,
+					"showFilter": false,
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field12": {
+					"field": "title",
+					"type": "grid_field",
+					"clickSort": true,
+					"showFilter": false,
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"grid_field_label": {
+					"type": "grid_field_label",
+					"field": "abstract"
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "name_pack",
+					"clickSort": false,
+					"showFilter": false
+				},
+				"grid_field": {
+					"field": "abstract",
+					"type": "grid_field"
+				},
+				"simple_grid_field34": {
+					"type": "grid_field_label",
+					"field": "title",
+					"clickSort": false,
+					"showFilter": false
+				},
+				"-": {
+					"type": "-"
+				},
+				"simple_grid_field23": {
+					"type": "grid_field_label",
+					"field": "fuid_pack",
+					"clickSort": false,
+					"showFilter": false
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": true,
+			"reorderRowsField": "ordem_layer",
+			"addToBottom": true,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field16",
+								"simple_grid_field19"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field5": {
+					"field": "fuid_pack",
+					"type": "simple_grid_field",
+					"totals": ""
+				},
+				"simple_grid_field6": {
+					"field": "name_pack",
+					"type": "simple_grid_field",
+					"totals": ""
+				},
+				"simple_grid_field16": {
+					"field": "title",
+					"type": "simple_grid_field",
+					"totals": ""
+				},
+				"simple_grid_field19": {
+					"field": "abstract",
+					"type": "simple_grid_field",
+					"totals": ""
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				},
+				"integrated_edit_field": {
+					"field": "uid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "fuid_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "name_pack",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "ds_enable",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "ds_name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "ds_type",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "ws_name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "type",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "srs",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "projection_policy",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "enabled",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "title",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "native_name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "prefixed_name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "abstract",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Pacote x Camada"
+	}
+}

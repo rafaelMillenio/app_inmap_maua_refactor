@@ -1,0 +1,2040 @@
+{
+	"sql": "SELECT\n\t\"uid\",\n\tfuid_group,\n\tname_group,\n\tfuid_depart_cadastro,\n\tfuid_depart,\n\tdepart,\n\tfuid_cadastro,\n\tcadastro,\n\tmd_add,\n\tmd_alt,\n\tmd_usr,\n\tmd_usr_last,\n\tfuid,\n\tlink,\n\tlink_view,\n\tlink_print\nFROM app.t_depart_cadastro_grupo ",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_depart_cadastro_grupo",
+	"name": "app.t_depart_cadastro_grupo",
+	"shortTableName": "t_depart_cadastro_grupo",
+	"caseSensitiveSearch": "",
+	"pageSizeRecords": 10,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"20",
+		"30",
+		"50",
+		"100"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"masterTables": [
+		{
+			"table": 911406773,
+			"detailsKeys": [
+				"name_group"
+			],
+			"masterKeys": [
+				"name"
+			]
+		}
+	],
+	"detailsBadgeColor": "5f9ea0",
+	"fields": [
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "fuid_group",
+			"sqlExpression": "fuid_group",
+			"strField": "fuid_group",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_group",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid Group"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "name_group",
+			"sqlExpression": "name_group",
+			"strField": "name_group",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_groups",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "name",
+					"lookupDisplayField": "name",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_group",
+							"lookupField": "uid"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "name_group",
+			"label": {
+				"Portuguese(Brazil)": "Grupo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "fuid_depart_cadastro",
+			"sqlExpression": "fuid_depart_cadastro",
+			"strField": "fuid_depart_cadastro",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_depart_cadastro",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupAutofillEdit": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_depart_cadastro",
+			"label": {
+				"Portuguese(Brazil)": "Setor_Cadastro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "fuid_depart",
+			"sqlExpression": "fuid_depart",
+			"strField": "fuid_depart",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_depart",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "uid",
+					"lookupDisplayField": "uid",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_depart",
+			"label": {
+				"Portuguese(Brazil)": "Fuid Depart"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "depart",
+			"sqlExpression": "depart",
+			"strField": "depart",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_depart",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "depart",
+					"lookupDisplayField": "depart",
+					"lookupAutofillEdit": true,
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_depart",
+							"lookupField": "uid"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "depart",
+			"label": {
+				"Portuguese(Brazil)": "Tipo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "fuid_cadastro",
+			"sqlExpression": "fuid_cadastro",
+			"strField": "fuid_cadastro",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid_cadastro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid Cadastro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "cadastro",
+			"sqlExpression": "cadastro",
+			"strField": "cadastro",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_depart_cadastro",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "cadastro",
+					"lookupDisplayField": "cadastro",
+					"lookupUnique": true,
+					"lookupDependent": true,
+					"lookupDependentFields": [
+						{
+							"masterField": "depart",
+							"lookupField": "depart"
+						}
+					],
+					"lookupAutofillFields": [
+						{
+							"masterField": "fuid_cadastro",
+							"lookupField": "fuid_cad"
+						}
+					],
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cadastro",
+			"label": {
+				"Portuguese(Brazil)": "Cadastro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "link",
+			"sqlExpression": "link",
+			"strField": "link",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"required": true,
+					"textHTML5Input": "0",
+					"lookupType": 2,
+					"lookupTable": "app.t_depart_tabela",
+					"lookupTableConnection": "inmap_franco_at_192_168_100_20",
+					"lookupLinkField": "cadastro",
+					"lookupDisplayField": "cadastro",
+					"lookupDependent": true,
+					"lookupDependentFields": [
+						{
+							"masterField": "cadastro",
+							"lookupField": "descricao"
+						}
+					],
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1,
+					"fieldEvents": [
+						{
+							"event": "change",
+							"handlerId": 2484426361
+						}
+					]
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "link",
+			"label": {
+				"Portuguese(Brazil)": "Link"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "link_view",
+			"sqlExpression": "link_view",
+			"strField": "link_view",
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"required": true,
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1,
+					"fieldEvents": [
+						{
+							"event": "change",
+							"handlerId": 235367745
+						}
+					]
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "link_view",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Link View"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		},
+		{
+			"name": "link_print",
+			"sqlExpression": "link_print",
+			"strField": "link_print",
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "link_print",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Link Print"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_depart_cadastro_grupo"
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_BEFOREADD",
+			"pageType": "add",
+			"code": "// Concatenando o nome da tabela com o sufixo da página\nif ($values[\"link\"]) {\n    $values[\"link\"] = $values[\"link\"] . \"_list.php\";\n}\nif ($values[\"link_view\"]) {\n    $values[\"link_view\"] = $values[\"link_view\"] . \"_view.php\";\n}\nif ($values[\"link_print\"]) {\n    $values[\"link_print\"] = $values[\"link_print\"] . \"_print.php\";\n}\n\n// * Lógica para salvar o campo uid do depart cadastro no campo fuid_depart_cadastro\n$cadastro = $values[\"cadastro\"]; \n\n$sqlBusca = \"SELECT uid FROM app.t_depart_cadastro WHERE cadastro = '\".$cadastro.\"'\";\n\n$rs = DB::Query($sqlBusca);\n$data = $rs->fetchAssoc();\n\nif($data) {\n  $values[\"fuid_depart_cadastro\"] = $data['uid'];\n}\n\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_BEFOREEDIT",
+			"pageType": "edit",
+			"code": "\n// Concatenando o nome da tabela com o sufixo da página\nif ($values[\"link\"]) {\n    $values[\"link\"] = $values[\"link\"] . \"_list.php\";\n}\nif ($values[\"link_view\"]) {\n    $values[\"link_view\"] = $values[\"link_view\"] . \"_view.php\";\n}\nif ($values[\"link_print\"]) {\n    $values[\"link_print\"] = $values[\"link_print\"] . \"_print.php\";\n}\n\n// * Lógica para salvar o campo uid do depart cadastro no campo fuid_depart_cadastro\n$cadastro = $values[\"cadastro\"]; \n\n$sqlBusca = \"SELECT uid FROM app.t_depart_cadastro WHERE cadastro = '\".$cadastro.\"'\";\n\n$rs = DB::Query($sqlBusca);\n$data = $rs->fetchAssoc();\n\nif($data) {\n  $values[\"fuid_depart_cadastro\"] = $data['uid'];\n}\n\n\nreturn true;"
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field",
+								"integrated_edit_field9"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header",
+					"title": {
+						"page": "add",
+						"table": "app.t_depart_cadastro_grupo",
+						"type": 7
+					}
+				},
+				"add_cancel": {
+					"type": "add_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field1": {
+					"field": "fuid_group",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field2": {
+					"field": "name_group",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "fuid_depart_cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field4": {
+					"field": "fuid_depart",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field5": {
+					"field": "depart",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field6": {
+					"field": "fuid_cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field7": {
+					"field": "cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field8": {
+					"field": "link",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field": {
+					"field": "link_view",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field9": {
+					"field": "link_print",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Cadastro x Grupo"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_reset"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header",
+					"title": {
+						"page": "edit",
+						"table": "app.t_depart_cadastro_grupo",
+						"type": 7
+					}
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"integrated_edit_field": {
+					"field": "uid",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field1": {
+					"field": "fuid_group",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field2": {
+					"field": "name_group",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "fuid_depart_cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"updateOnEdit": false
+				},
+				"integrated_edit_field4": {
+					"field": "fuid_depart",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"updateOnEdit": false
+				},
+				"integrated_edit_field5": {
+					"field": "depart",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field6": {
+					"field": "fuid_cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field7": {
+					"field": "cadastro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field8": {
+					"field": "link",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field9": {
+					"field": "link_view",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"integrated_edit_field10": {
+					"field": "link_print",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Cadastro x Grupo [{%uid}]"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field6"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "uid",
+							"columnName": "field",
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "uid",
+							"columnName": "field",
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "uid",
+							"columnName": "field",
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "name_group",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "name_group",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "name_group",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "depart",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "depart",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "depart",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "cadastro",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "cadastro",
+							"columnName": "field"
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cadastro",
+							"columnName": "field"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "link",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "link",
+							"columnName": "field"
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "link",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [
+								"grid_edit"
+							],
+							"columnName": "edit",
+							"field": ""
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label"
+							],
+							"field": "link_view",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"grid_field"
+							],
+							"field": "link_view",
+							"columnName": "field"
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "link_view",
+							"columnName": "field"
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label1"
+							],
+							"field": "link_print",
+							"columnName": "field"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"grid_field1"
+							],
+							"field": "link_print",
+							"columnName": "field"
+						},
+						"footcell_field6": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "link_print",
+							"columnName": "field"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"delete_selected",
+						"-",
+						"advsearch_link"
+					]
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add",
+					"popup": true,
+					"label": {
+						"type": 0,
+						"text": "Incluir"
+					}
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"popup": true
+				},
+				"delete": {
+					"type": "delete",
+					"label": {
+						"type": 0,
+						"text": "Excluir"
+					}
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				},
+				"simple_grid_field": {
+					"field": "uid",
+					"type": "grid_field",
+					"clickSort": true,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"simple_grid_field2": {
+					"field": "name_group",
+					"type": "grid_field",
+					"clickSort": true,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true
+				},
+				"simple_grid_field5": {
+					"field": "depart",
+					"type": "grid_field",
+					"clickSort": true,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true,
+					"label": {
+						"field": "depart",
+						"table": "app.t_depart_cadastro_grupo",
+						"type": 3
+					}
+				},
+				"simple_grid_field7": {
+					"field": "cadastro",
+					"type": "grid_field",
+					"clickSort": true,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true
+				},
+				"advsearch_link": {
+					"type": "advsearch_link"
+				},
+				"-": {
+					"type": "-"
+				},
+				"simple_grid_field1": {
+					"field": "link",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true
+				},
+				"simple_grid_field3": {
+					"type": "grid_field_label",
+					"field": "uid",
+					"clickSort": true,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n"
+				},
+				"simple_grid_field4": {
+					"type": "grid_field_label",
+					"field": "name_group",
+					"clickSort": true
+				},
+				"simple_grid_field6": {
+					"type": "grid_field_label",
+					"field": "depart",
+					"clickSort": true
+				},
+				"simple_grid_field8": {
+					"type": "grid_field_label",
+					"field": "cadastro",
+					"clickSort": true
+				},
+				"simple_grid_field9": {
+					"type": "grid_field_label",
+					"field": "link"
+				},
+				"grid_field": {
+					"field": "link_view",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true
+				},
+				"grid_field_label": {
+					"type": "grid_field_label",
+					"field": "link_view"
+				},
+				"grid_field1": {
+					"field": "link_print",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"bold": true
+				},
+				"grid_field_label1": {
+					"type": "grid_field_label",
+					"field": "link_print"
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Grupo x Cadastro"
+	}
+}

@@ -1,0 +1,1811 @@
+{
+	"type": 4,
+	"name": "admin_camadas",
+	"shortTableName": "admin_camadas",
+	"caseSensitiveSearch": "",
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"30",
+		"50",
+		"100",
+		"500",
+		"-1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"detailsBadgeColor": "DAA520",
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"dashSearchFields": [
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_tema_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "tema"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tema"
+			},
+			"field": "app_t_tema_tema",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "descricao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"field": "app_t_tema_descricao",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "ordem_tema"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem Tema"
+			},
+			"field": "app_t_tema_ordem_tema",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_tema_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_tema_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_tema_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_tema_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_tema_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_pack_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"field": "app_t_pack_pack",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "descricao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"field": "app_t_pack_descricao",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "ordem_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem Pack"
+			},
+			"field": "app_t_pack_ordem_pack",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_pack_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_pack_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_pack_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_pack_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_pack_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id"
+			},
+			"field": "app_t_tema_pack_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Pacote"
+			},
+			"field": "app_t_tema_pack_pack",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "fuid_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id. Pacote"
+			},
+			"field": "app_t_tema_pack_fuid_pack",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "tema"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tema"
+			},
+			"field": "app_t_tema_pack_tema",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "fuid_tema"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id. Tema"
+			},
+			"field": "app_t_tema_pack_fuid_tema",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_tema_pack_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_tema_pack_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_tema_pack_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_tema_pack_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_tema_pack",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_tema_pack_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_pack_layer_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "fuid_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id"
+			},
+			"field": "app_t_pack_layer_fuid_pack",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "name_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Pacote"
+			},
+			"field": "app_t_pack_layer_name_pack",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "ds_enable"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Enable"
+			},
+			"field": "app_t_pack_layer_ds_enable",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "ds_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Name"
+			},
+			"field": "app_t_pack_layer_ds_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "ds_type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Type"
+			},
+			"field": "app_t_pack_layer_ds_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "ws_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ws Name"
+			},
+			"field": "app_t_pack_layer_ws_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Type"
+			},
+			"field": "app_t_pack_layer_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "srs"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Srs"
+			},
+			"field": "app_t_pack_layer_srs",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "projection_policy"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Projection Policy"
+			},
+			"field": "app_t_pack_layer_projection_policy",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "enabled"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Enabled"
+			},
+			"field": "app_t_pack_layer_enabled",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name"
+			},
+			"field": "app_t_pack_layer_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "title"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Camada"
+			},
+			"field": "app_t_pack_layer_title",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "native_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Native Name"
+			},
+			"field": "app_t_pack_layer_native_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "prefixed_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Prefixed Name"
+			},
+			"field": "app_t_pack_layer_prefixed_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "abstract"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"field": "app_t_pack_layer_abstract",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "ordem_layer"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem Layer"
+			},
+			"field": "app_t_pack_layer_ordem_layer",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_pack_layer_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_pack_layer_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_pack_layer_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_pack_layer_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_pack_layer_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "ds_enable"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Enable"
+			},
+			"field": "public_layer_group_access_ds_enable",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "ds_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Name"
+			},
+			"field": "public_layer_group_access_ds_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "ds_type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fonte"
+			},
+			"field": "public_layer_group_access_ds_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "ws_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ws Name"
+			},
+			"field": "public_layer_group_access_ws_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tipo"
+			},
+			"field": "public_layer_group_access_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "srs"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "SRC"
+			},
+			"field": "public_layer_group_access_srs",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "projection_policy"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Projection Policy"
+			},
+			"field": "public_layer_group_access_projection_policy",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "enabled"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Enabled"
+			},
+			"field": "public_layer_group_access_enabled",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name"
+			},
+			"field": "public_layer_group_access_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "title"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"field": "public_layer_group_access_title",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "native_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Native Name"
+			},
+			"field": "public_layer_group_access_native_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "prefixed_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Layer"
+			},
+			"field": "public_layer_group_access_prefixed_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "public.layer_group_access",
+					"field": "abstract"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"field": "public_layer_group_access_abstract",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_groups_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"field": "app_t_groups_name",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "jbrules"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Regras"
+			},
+			"field": "app_t_groups_jbrules",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_groups_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_groups_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_groups_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_groups_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_groups_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "modulo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Módulo"
+			},
+			"field": "app_t_groups_modulo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "permissao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Permissão"
+			},
+			"field": "app_t_groups_permissao",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_pack_layer_grupo_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "fuid_user"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid User"
+			},
+			"field": "app_t_pack_layer_grupo_fuid_user",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "name_user"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name User"
+			},
+			"field": "app_t_pack_layer_grupo_name_user",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "fuid_group"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id. grupo"
+			},
+			"field": "app_t_pack_layer_grupo_fuid_group",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "name_group"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Grupo"
+			},
+			"field": "app_t_pack_layer_grupo_name_group",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "fuid_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id. pacote"
+			},
+			"field": "app_t_pack_layer_grupo_fuid_pack",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "name_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Pacote"
+			},
+			"field": "app_t_pack_layer_grupo_name_pack",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "ds_enable"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Enable"
+			},
+			"field": "app_t_pack_layer_grupo_ds_enable",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "ds_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Name"
+			},
+			"field": "app_t_pack_layer_grupo_ds_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "ds_type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ds Type"
+			},
+			"field": "app_t_pack_layer_grupo_ds_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "ws_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ws Name"
+			},
+			"field": "app_t_pack_layer_grupo_ws_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Type"
+			},
+			"field": "app_t_pack_layer_grupo_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "srs"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Srs"
+			},
+			"field": "app_t_pack_layer_grupo_srs",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "projection_policy"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Projection Policy"
+			},
+			"field": "app_t_pack_layer_grupo_projection_policy",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "enabled"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Enabled"
+			},
+			"field": "app_t_pack_layer_grupo_enabled",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name"
+			},
+			"field": "app_t_pack_layer_grupo_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "title"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Title"
+			},
+			"field": "app_t_pack_layer_grupo_title",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "native_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Native Name"
+			},
+			"field": "app_t_pack_layer_grupo_native_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "prefixed_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Prefixed Name"
+			},
+			"field": "app_t_pack_layer_grupo_prefixed_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "abstract"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Abstract"
+			},
+			"field": "app_t_pack_layer_grupo_abstract",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "name_tema"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tema"
+			},
+			"field": "app_t_pack_layer_grupo_name_tema",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "fuid_tema_pack"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "id. tema pacote"
+			},
+			"field": "app_t_pack_layer_grupo_fuid_tema_pack",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "ordem"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem"
+			},
+			"field": "app_t_pack_layer_grupo_ordem",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_pack_layer_grupo_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_pack_layer_grupo_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_pack_layer_grupo_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_pack_layer_grupo_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_pack_layer_grupo",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_pack_layer_grupo_fuid",
+			"allFieldsSearch": false
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "dashboard",
+			"type": "dashboard",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "topbar-dashboard",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "dashboard-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "dashboard-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_0_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_0_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_1_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_1_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_2_0",
+									"colspan": 2,
+									"rowspan": 1
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_3_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_3_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						}
+					],
+					"cells": {
+						"cell_0_0": {
+							"model": "c1",
+							"items": [
+								"app_t_tema1_list"
+							],
+							"width": ""
+						},
+						"cell_0_1": {
+							"model": "c1",
+							"items": [
+								"t_pack_list"
+							],
+							"width": ""
+						},
+						"cell_1_0": {
+							"model": "c1",
+							"items": [
+								"app_t_tema_pack1_list"
+							],
+							"width": ""
+						},
+						"cell_1_1": {
+							"model": "c1",
+							"items": [
+								"t_pack_layer_list"
+							],
+							"width": ""
+						},
+						"cell_2_0": {
+							"model": "c1",
+							"items": [
+								"layer_group_access_list"
+							],
+							"width": ""
+						},
+						"cell_3_0": {
+							"model": "c1",
+							"items": [
+								"t_groups_list"
+							],
+							"width": ""
+						},
+						"cell_3_1": {
+							"model": "c1",
+							"items": [
+								"t_pack_layer_grupo_list"
+							],
+							"width": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1,
+					"dashGap": "16px"
+				}
+			},
+			"items": {
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "admin_camadas",
+					"background": "transparent"
+				},
+				"app_t_tema1_list": {
+					"type": "dashboard-item",
+					"table": 1955166805,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"dashName": "app_t_tema1_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "camera"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"t_pack_list": {
+					"type": "dashboard-item",
+					"table": 2192867662,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"dashName": "t_pack_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "leaf"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"app_t_tema_pack1_list": {
+					"type": "dashboard-item",
+					"table": 2604511878,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_tema",
+					"dashName": "app_t_tema_pack1_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "fire"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"t_pack_layer_list": {
+					"type": "dashboard-item",
+					"table": 2811636123,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_pack",
+					"dashName": "t_pack_layer_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "star-empty"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"layer_group_access_list": {
+					"type": "dashboard-item",
+					"table": 2756856416,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"dashName": "layer_group_access_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "star"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": false,
+					"editRecord": false,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": false,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"t_groups_list": {
+					"type": "dashboard-item",
+					"table": 911406773,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"dashName": "t_groups_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "calendar"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": false,
+					"editRecord": false,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": false,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"t_pack_layer_grupo_list": {
+					"type": "dashboard-item",
+					"table": 4183435559,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_groups",
+					"dashName": "t_pack_layer_grupo_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "flag"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "300px",
+					"headerControls": true
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"custom_button": {
+					"type": "custom_button",
+					"eventId": "Voltar",
+					"label": {
+						"text": "",
+						"type": 0
+					},
+					"icon": {
+						"fa": "arrow-left"
+					},
+					"width": "30px",
+					"eventGid": 2425514004
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Administração Camadas"
+	}
+}

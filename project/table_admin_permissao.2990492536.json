@@ -1,0 +1,731 @@
+{
+	"type": 4,
+	"name": "admin_permissao",
+	"shortTableName": "admin_permissao",
+	"caseSensitiveSearch": "",
+	"pageSizeRecords": 5,
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"30",
+		"50",
+		"100",
+		"500",
+		"-1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"detailsBadgeColor": "E67349",
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"dashSearchFields": [
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_groups_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name"
+			},
+			"field": "app_t_groups_name1",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "jbrules"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Regras"
+			},
+			"field": "app_t_groups_jbrules",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_groups_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_groups_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_groups_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_groups_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_groups_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "modulo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Módulo"
+			},
+			"field": "app_t_groups_modulo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "permissao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Permissão"
+			},
+			"field": "app_t_groups_permissao",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_users_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "fuid_groups"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Grupo base"
+			},
+			"field": "app_t_users_fuid_groups",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Usuário"
+			},
+			"field": "app_t_users_name",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "alias_name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"field": "app_t_users_alias_name",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "pass"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Senha"
+			},
+			"field": "app_t_users_pass",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "token"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Token"
+			},
+			"field": "app_t_users_token",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_users_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_users_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_users_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_users_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "email"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "email"
+			},
+			"field": "app_t_users_email",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "ativo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ativo"
+			},
+			"field": "app_t_users_ativo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_users_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "apikey"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Apikey"
+			},
+			"field": "app_t_users_apikey",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "reset_token"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Reset Token"
+			},
+			"field": "app_t_users_reset_token",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "reset_date"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Reset Date"
+			},
+			"field": "app_t_users_reset_date",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users",
+					"field": "user_type"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tipo"
+			},
+			"field": "app_t_users_user_type",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users_groups",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_users_groups_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users_groups",
+					"field": "fuid_users"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Id Usuário"
+			},
+			"field": "app_t_users_groups_fuid_users",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users_groups",
+					"field": "fuid_groups"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Id Grupo"
+			},
+			"field": "app_t_users_groups_fuid_groups",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users_groups",
+					"field": "name_groups"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome Grupo"
+			},
+			"field": "app_t_users_groups_name_groups",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_users_groups",
+					"field": "name_users"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Usuário"
+			},
+			"field": "app_t_users_groups_name_users",
+			"allFieldsSearch": true
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "dashboard",
+			"type": "dashboard",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "topbar-dashboard",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "dashboard-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "dashboard-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_0_0",
+									"colspan": 1,
+									"rowspan": 1
+								},
+								{
+									"cell": "cell_0_1",
+									"colspan": 1,
+									"rowspan": 1
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_1_0",
+									"colspan": 2,
+									"rowspan": 1
+								}
+							]
+						}
+					],
+					"cells": {
+						"cell_0_0": {
+							"model": "c1",
+							"items": [
+								"t_groups_list"
+							],
+							"width": ""
+						},
+						"cell_0_1": {
+							"model": "c1",
+							"items": [
+								"t_users_groups_list"
+							],
+							"width": ""
+						},
+						"cell_1_0": {
+							"model": "c1",
+							"items": [
+								"t_users_list"
+							],
+							"width": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1,
+					"dashGap": "16px"
+				}
+			},
+			"items": {
+				"menu": {
+					"type": "menu",
+					"menuId": "admin_permissao"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"t_groups_list": {
+					"type": "dashboard-item",
+					"table": 911406773,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"dashName": "t_groups_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "flash"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "430px",
+					"headerControls": true
+				},
+				"t_users_list": {
+					"type": "dashboard-item",
+					"table": 664130259,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "app.t_groups",
+					"dashName": "t_users_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "hand-right"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "430px",
+					"headerControls": true
+				},
+				"t_users_groups_list": {
+					"type": "dashboard-item",
+					"table": 3900720616,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_groups",
+					"dashName": "t_users_groups_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "bell"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "430px",
+					"headerControls": true
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"custom_button": {
+					"eventId": "Voltar",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"type": "custom_button",
+					"width": "30px",
+					"icon": {
+						"fa": "arrow-left"
+					},
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  border-radius: 10px;\n}\n",
+					"eventGid": 2425514004
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Administração Permissões"
+	}
+}

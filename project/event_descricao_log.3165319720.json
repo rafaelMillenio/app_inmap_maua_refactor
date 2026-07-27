@@ -1,0 +1,4 @@
+{
+	"name": "descricao_log",
+	"serverCode": "\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets.\n\n// Put your code here.\necho \"descricao log\";"
+}

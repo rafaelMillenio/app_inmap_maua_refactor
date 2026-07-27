@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "usuario_info",
+	"afterJsCode": "var message = \"userinfo.php\";\n\nvar win = Runner.displayPopup( {\n url: message,\n width: 600,\n height: 350,\n header: 'Usuário'\n});"
+}

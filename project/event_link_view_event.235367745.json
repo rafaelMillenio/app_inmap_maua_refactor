@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_FIELD",
+	"name": "link_view_event",
+	"serverCode": "\n// Sample:\n$result[\"upper\"] = strtoupper( $params[\"value\"] );\n",
+	"beforeJsCode": "\nvar tabela = proxy.link_view;\n\nif (tabela) {\n    pageObj.getControl('link_view').setValue(tabela + '_view.php');\n    pageObj.getControl('link_print').setValue(tabela + '_print.php');\n}",
+	"afterJsCode": "\n\n// Smaple:\nctrl.setValue( result[\"upper\"] );\n"
+}

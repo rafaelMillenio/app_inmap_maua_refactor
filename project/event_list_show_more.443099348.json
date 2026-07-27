@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "list_show_more",
+	"beforeJsCode": "// Leonardo 16/12/2025\n// Função abaixo está em CustomFunctions, retorna o nome atual da página. \n\n// O funcionamento desse botão depende intrínscicamente da definição do PageObject com \n// o nome IDÊNTICO ao retorno da função, atentar-se a isso ao implementar em outros locais.\n\n\nconst aditionalParamsNeeded = (param, table) => {\n\t\t\t\treturn `&${param}=` + window[table].findItem( 'simple_grid_field', window[table].selectedId)['0'].innerText\n}\n\nconst table = verifyCurrentPage(pageObj.tName)\nconst additionalParams = (table == 't_pack_layer')? aditionalParamsNeeded('fuid_pack', 't_pack') : ''\n\nconsole.log(table)\nconst popup = Runner.displayPopup({\n\turl:(table) +  '_list.php?page=list_show_more' + additionalParams, \n\twidth: 800,\n\theight: 800,\n\tafterClose: () => {\n\t\twindow[table].reload()\n\t},\n});\n"
+}

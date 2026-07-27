@@ -1,0 +1,2282 @@
+{
+	"sql": "SELECT\n\tcmc,\n\tnum_serv,\n\tservicos,\n\tds_servicos,\n\tstatus,\n\t\"uid\",\n\tmd_add,\n\tmd_alt,\n\tmd_usr,\n\tmd_usr_last,\n\tfuid\nFROM app.t_mobiliario_servicos ",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_mobiliario_servicos",
+	"name": "app.t_mobiliario_servicos",
+	"shortTableName": "t_mobiliario_servicos",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"listAjax": true,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": null
+			},
+			"openData": {
+				"how": "popup",
+				"page": "view",
+				"table": null,
+				"url": ""
+			}
+		},
+		"fields": {
+			"cmc": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ds_servicos": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"num_serv": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"servicos": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"status": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 5,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"25",
+		"50",
+		"100",
+		"200"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"cmc",
+		"num_serv"
+	],
+	"masterTables": [
+		{
+			"table": 3651175144,
+			"detailsKeys": [
+				"cmc"
+			],
+			"masterKeys": [
+				"cinscmobiliarianew"
+			]
+		}
+	],
+	"detailsBadgeColor": "cd853f",
+	"fields": [
+		{
+			"name": "cmc",
+			"sqlExpression": "cmc",
+			"strField": "cmc",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cmc",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "CMC"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "num_serv",
+			"sqlExpression": "num_serv",
+			"strField": "num_serv",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_serv",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Num. Serviço"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "servicos",
+			"sqlExpression": "servicos",
+			"strField": "servicos",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "servicos",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Atividades - Serviços"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "ds_servicos",
+			"sqlExpression": "ds_servicos",
+			"strField": "ds_servicos",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ds_servicos",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Descrição Serviço"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "status",
+			"sqlExpression": "status",
+			"strField": "status",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 30,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "status",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Situação"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"type": 20,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_servicos"
+		}
+	],
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"export_field": {
+					"field": "cmc",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "num_serv",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "servicos",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "ds_servicos",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "status",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "md_add",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "md_alt",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "md_usr",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "md_usr_last",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "fuid",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ";",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "cmc",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "num_serv",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "servicos",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "ds_servicos",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "status",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								},
+								{
+									"cell": "headcell_field7"
+								},
+								{
+									"cell": "headcell_field8"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_field8"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field6"
+								},
+								{
+									"cell": "footcell_field7"
+								},
+								{
+									"cell": "footcell_field8"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "cmc",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "cmc",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cmc",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "servicos",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "servicos",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "servicos",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "ds_servicos",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "ds_servicos",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "ds_servicos",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "status",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "status",
+							"columnName": "field"
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "status",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label"
+							],
+							"field": "md_add",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"grid_field"
+							],
+							"field": "md_add",
+							"columnName": "field"
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "md_add",
+							"columnName": "field"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label1"
+							],
+							"field": "md_alt",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"grid_field1"
+							],
+							"field": "md_alt",
+							"columnName": "field"
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "md_alt",
+							"columnName": "field"
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label2"
+							],
+							"field": "md_usr",
+							"columnName": "field"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"grid_field2"
+							],
+							"field": "md_usr",
+							"columnName": "field"
+						},
+						"footcell_field6": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "md_usr",
+							"columnName": "field"
+						},
+						"headcell_field7": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label3"
+							],
+							"field": "md_usr_last",
+							"columnName": "field"
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"grid_field3"
+							],
+							"field": "md_usr_last",
+							"columnName": "field"
+						},
+						"footcell_field7": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "md_usr_last",
+							"columnName": "field"
+						},
+						"headcell_field8": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label4"
+							],
+							"field": "fuid",
+							"columnName": "field"
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": [
+								"grid_field4"
+							],
+							"field": "fuid",
+							"columnName": "field"
+						},
+						"footcell_field8": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "fuid",
+							"columnName": "field"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Mobiliario"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"simple_grid_field": {
+					"field": "cmc",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field1": {
+					"type": "grid_field_label",
+					"field": "cmc",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field2": {
+					"field": "servicos",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "ds_servicos",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "status",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field5": {
+					"type": "grid_field_label",
+					"field": "servicos",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "servicos",
+						"table": "app.t_mobiliario_servicos",
+						"type": 3
+					}
+				},
+				"simple_grid_field6": {
+					"type": "grid_field_label",
+					"field": "ds_servicos",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field7": {
+					"type": "grid_field_label",
+					"field": "status",
+					"clickSort": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "status",
+						"table": "app.t_mobiliario_servicos",
+						"type": 3
+					}
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"grid_field": {
+					"field": "md_add",
+					"type": "grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"grid_field_label": {
+					"type": "grid_field_label",
+					"field": "md_add"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					]
+				},
+				"search_panel_field": {
+					"field": "md_add",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"advsearch_link"
+					]
+				},
+				"advsearch_link": {
+					"type": "advsearch_link"
+				},
+				"grid_field1": {
+					"field": "md_alt",
+					"type": "grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"grid_field_label1": {
+					"type": "grid_field_label",
+					"field": "md_alt"
+				},
+				"search_panel_field1": {
+					"field": "md_alt",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"grid_field2": {
+					"field": "md_usr",
+					"type": "grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"grid_field_label2": {
+					"type": "grid_field_label",
+					"field": "md_usr"
+				},
+				"search_panel_field2": {
+					"field": "md_usr",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"grid_field3": {
+					"field": "md_usr_last",
+					"type": "grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"grid_field_label3": {
+					"type": "grid_field_label",
+					"field": "md_usr_last"
+				},
+				"search_panel_field3": {
+					"field": "md_usr_last",
+					"type": "search_panel_field",
+					"required": false
+				},
+				"grid_field4": {
+					"field": "fuid",
+					"type": "grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"grid_field_label4": {
+					"type": "grid_field_label",
+					"field": "fuid"
+				},
+				"search_panel_field4": {
+					"field": "fuid",
+					"type": "search_panel_field",
+					"required": false,
+					"alwaysOnPanel": false
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Atividades - Serviços"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						},
+						"c4": {
+							"model": "c4",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header",
+					"title": {
+						"page": "print",
+						"table": "app.t_mobiliario_servicos",
+						"type": 7
+					}
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "cmc",
+					"type": "simple_grid_field",
+					"bold": true
+				},
+				"simple_grid_field1": {
+					"field": "num_serv",
+					"type": "simple_grid_field",
+					"bold": true
+				},
+				"simple_grid_field2": {
+					"field": "servicos",
+					"type": "simple_grid_field",
+					"bold": true
+				},
+				"simple_grid_field3": {
+					"field": "ds_servicos",
+					"type": "simple_grid_field",
+					"bold": true
+				},
+				"simple_grid_field4": {
+					"field": "status",
+					"type": "simple_grid_field",
+					"bold": true
+				},
+				"simple_grid_field5": {
+					"field": "md_add",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "md_alt",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "md_usr",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "md_usr_last",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "fuid",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Atividades - Serviços"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3",
+								"integrated_search_field4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "md_add",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "md_alt",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field2": {
+					"field": "md_usr",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field3": {
+					"field": "md_usr_last",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field4": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c5",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2",
+									"colspan": 1
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9",
+									"colspan": 1
+								}
+							]
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field"
+							]
+						},
+						"c5": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field1"
+							]
+						},
+						"c1": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field2"
+							]
+						},
+						"c2": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field3"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field4",
+								"integrated_edit_field6",
+								"integrated_edit_field8"
+							]
+						},
+						"c9": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field5",
+								"integrated_edit_field7",
+								"integrated_edit_field9"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header",
+					"title": {
+						"page": "view",
+						"table": "app.t_mobiliario_servicos",
+						"type": 7
+					}
+				},
+				"view_back_list": {
+					"type": "view_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"view_close": {
+					"type": "view_close",
+					"buttonSize": "normal",
+					"buttonStyle": "primary",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					}
+				},
+				"integrated_edit_field": {
+					"field": "cmc",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field1": {
+					"field": "num_serv",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"label": {
+						"field": "num_serv",
+						"table": "app.t_mobiliario_servicos",
+						"type": 3
+					}
+				},
+				"integrated_edit_field2": {
+					"field": "servicos",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "servicos",
+						"table": "app.t_mobiliario_servicos",
+						"type": 3
+					},
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "ds_servicos",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "ds_servicos",
+						"table": "app.t_mobiliario_servicos",
+						"type": 3
+					},
+					"bold": true
+				},
+				"integrated_edit_field4": {
+					"field": "status",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field5": {
+					"field": "md_add",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "md_alt",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "md_usr",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "md_usr_last",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "fuid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Mobiliario Serviços {%cmc}, {%num_serv}"
+			},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Mobiliário Serviços"
+	}
+}

@@ -1,0 +1,8411 @@
+{
+	"app": "PHPRunner",
+	"programVersion": 4,
+	"versionName": "11.3",
+	"build": 41974,
+	"appUser": "PHPRunner 10.9",
+	"name": "app_inmap_maua_v7_02",
+	"mainDiagram": {
+		"tables": [
+			{
+				"x": 987,
+				"y": 156,
+				"width": 167,
+				"height": 154,
+				"gid": 3962830549
+			},
+			{
+				"x": 1165,
+				"y": 160,
+				"width": 162,
+				"height": 173,
+				"gid": 950726006
+			},
+			{
+				"x": 30,
+				"y": 1853,
+				"width": 142,
+				"height": 59,
+				"gid": 2302811781
+			},
+			{
+				"x": 812,
+				"y": 87,
+				"width": 172,
+				"height": 97,
+				"gid": 2990492536
+			},
+			{
+				"x": 902,
+				"y": 406,
+				"width": 222,
+				"height": 55,
+				"gid": 2466565795
+			},
+			{
+				"x": 589,
+				"y": 290,
+				"width": 201,
+				"height": 54,
+				"gid": 789695499
+			},
+			{
+				"x": 855,
+				"y": 233,
+				"width": 220,
+				"height": 51,
+				"gid": 140501681
+			},
+			{
+				"x": 589,
+				"y": 161,
+				"width": 200,
+				"height": 64,
+				"gid": 3450134899
+			},
+			{
+				"x": 589,
+				"y": 93,
+				"width": 184,
+				"height": 55,
+				"gid": 772557685
+			},
+			{
+				"x": 605,
+				"y": 227,
+				"width": 220,
+				"height": 61,
+				"gid": 2381953139
+			},
+			{
+				"x": 608,
+				"y": 366,
+				"width": 201,
+				"height": 58,
+				"gid": 3226964094
+			},
+			{
+				"x": 288,
+				"y": 659,
+				"width": 262,
+				"height": 54,
+				"gid": 4215704177
+			},
+			{
+				"x": 588,
+				"y": 650,
+				"width": 230,
+				"height": 78,
+				"gid": 2139430623
+			},
+			{
+				"x": 589,
+				"y": 565,
+				"width": 271,
+				"height": 61,
+				"gid": 4035830626
+			},
+			{
+				"x": 180,
+				"y": 1853,
+				"width": 190,
+				"height": 97,
+				"gid": 2984312713
+			},
+			{
+				"x": 1409,
+				"y": 183,
+				"width": 215,
+				"height": 66,
+				"gid": 3707860173
+			},
+			{
+				"x": 1683,
+				"y": 191,
+				"width": 200,
+				"height": 200,
+				"gid": 2353249986
+			},
+			{
+				"x": 1410,
+				"y": 255,
+				"width": 245,
+				"height": 200,
+				"gid": 2490330034
+			},
+			{
+				"x": 1667,
+				"y": 339,
+				"width": 206,
+				"height": 59,
+				"gid": 2335993296
+			},
+			{
+				"x": 1406,
+				"y": 337,
+				"width": 215,
+				"height": 73,
+				"gid": 2230971716
+			},
+			{
+				"x": 400,
+				"y": 1853,
+				"width": 176,
+				"height": 97,
+				"gid": 2096693571
+			},
+			{
+				"x": 280,
+				"y": 474,
+				"width": 268,
+				"height": 56,
+				"gid": 3325328395
+			},
+			{
+				"x": 288,
+				"y": 535,
+				"width": 261,
+				"height": 57,
+				"gid": 1648577372
+			},
+			{
+				"x": 20,
+				"y": 10,
+				"gid": 911406773,
+				"width": 150.734375,
+				"height": 348
+			},
+			{
+				"x": 1142,
+				"y": 294,
+				"width": 217,
+				"height": 59,
+				"gid": 1205301737
+			},
+			{
+				"x": 6,
+				"y": 93,
+				"width": 290,
+				"height": 61,
+				"gid": 3461188759
+			},
+			{
+				"x": 71,
+				"y": 162,
+				"width": 224,
+				"height": 60,
+				"gid": 1953559910
+			},
+			{
+				"x": 18,
+				"y": 231,
+				"width": 224,
+				"height": 60,
+				"gid": 58181104
+			},
+			{
+				"x": 8,
+				"y": 553,
+				"width": 258,
+				"height": 75,
+				"gid": 1471048326
+			},
+			{
+				"x": 813,
+				"y": 497,
+				"width": 173,
+				"height": 63,
+				"gid": 4289038863
+			},
+			{
+				"x": 286,
+				"y": 596,
+				"width": 264,
+				"height": 57,
+				"gid": 2995722285
+			},
+			{
+				"x": 1132,
+				"y": 14,
+				"width": 230,
+				"height": 69,
+				"gid": 1168886547
+			},
+			{
+				"x": 325,
+				"y": 10,
+				"gid": 3651175144,
+				"width": 230.09375,
+				"height": 400
+			},
+			{
+				"x": 23,
+				"y": 380,
+				"width": 233,
+				"height": 54,
+				"gid": 3034412229
+			},
+			{
+				"x": 589,
+				"y": 427,
+				"width": 272,
+				"height": 64,
+				"gid": 1275479429
+			},
+			{
+				"x": 1657,
+				"y": 106,
+				"width": 243,
+				"height": 70,
+				"gid": 2192867662
+			},
+			{
+				"x": 1403,
+				"y": 103,
+				"width": 214,
+				"height": 74,
+				"gid": 2811636123
+			},
+			{
+				"x": 902,
+				"y": 15,
+				"width": 222,
+				"height": 69,
+				"gid": 4183435559
+			},
+			{
+				"x": 802,
+				"y": 1004,
+				"width": 249,
+				"height": 200,
+				"gid": 2841000359
+			},
+			{
+				"x": 30,
+				"y": 1393,
+				"width": 204,
+				"height": 200,
+				"gid": 3236741964
+			},
+			{
+				"x": 901,
+				"y": 599,
+				"width": 222,
+				"height": 54,
+				"gid": 3249267883
+			},
+			{
+				"x": 902,
+				"y": 658,
+				"width": 222,
+				"height": 53,
+				"gid": 7778798
+			},
+			{
+				"x": 902,
+				"y": 351,
+				"width": 223,
+				"height": 50,
+				"gid": 3689385229
+			},
+			{
+				"x": 859,
+				"y": 304,
+				"width": 223,
+				"height": 55,
+				"gid": 1951817697
+			},
+			{
+				"x": 1657,
+				"y": 30,
+				"width": 127,
+				"height": 200,
+				"gid": 1955166805
+			},
+			{
+				"x": 1403,
+				"y": 16,
+				"width": 213,
+				"height": 79,
+				"gid": 2604511878
+			},
+			{
+				"x": 1150,
+				"y": 370,
+				"gid": 664130259,
+				"width": 142.171875,
+				"height": 400
+			},
+			{
+				"x": 477,
+				"y": 26,
+				"width": 185,
+				"height": 146,
+				"gid": 3900720616
+			},
+			{
+				"x": 30,
+				"y": 758,
+				"width": 188,
+				"height": 78,
+				"gid": 2268225947
+			},
+			{
+				"x": 30,
+				"y": 1036,
+				"width": 265,
+				"height": 97,
+				"gid": 3999173074
+			},
+			{
+				"x": 1135,
+				"y": 352,
+				"width": 230,
+				"height": 48,
+				"gid": 2186832506
+			},
+			{
+				"x": 1658,
+				"y": 407,
+				"width": 246,
+				"height": 46,
+				"gid": 3847333988
+			},
+			{
+				"x": 1404,
+				"y": 408,
+				"width": 215,
+				"height": 50,
+				"gid": 2239524781
+			},
+			{
+				"x": 1658,
+				"y": 524,
+				"width": 245,
+				"height": 54,
+				"gid": 2089288454
+			},
+			{
+				"x": 1135,
+				"y": 469,
+				"width": 231,
+				"height": 54,
+				"gid": 2889264387
+			},
+			{
+				"x": 1658,
+				"y": 466,
+				"width": 249,
+				"height": 54,
+				"gid": 973190828
+			},
+			{
+				"x": 1403,
+				"y": 528,
+				"width": 215,
+				"height": 50,
+				"gid": 552504060
+			},
+			{
+				"x": 290,
+				"y": 719,
+				"width": 259,
+				"height": 57,
+				"gid": 4114914135
+			},
+			{
+				"x": 588,
+				"y": 718,
+				"width": 271,
+				"height": 56,
+				"gid": 126486630
+			},
+			{
+				"x": 899,
+				"y": 715,
+				"width": 225,
+				"height": 58,
+				"gid": 2584645064
+			},
+			{
+				"x": 1135,
+				"y": 408,
+				"width": 231,
+				"height": 54,
+				"gid": 3717383252
+			},
+			{
+				"x": 1406,
+				"y": 467,
+				"width": 214,
+				"height": 53,
+				"gid": 673037975
+			},
+			{
+				"x": 1135,
+				"y": 527,
+				"width": 231,
+				"height": 52,
+				"gid": 1438159911
+			},
+			{
+				"x": 1661,
+				"y": 711,
+				"width": 248,
+				"height": 57,
+				"gid": 1803178437
+			},
+			{
+				"x": 1321,
+				"y": 585,
+				"width": 153,
+				"height": 52,
+				"gid": 59602864
+			},
+			{
+				"x": 1140,
+				"y": 589,
+				"width": 172,
+				"height": 50,
+				"gid": 3563196129
+			},
+			{
+				"x": 1139,
+				"y": 712,
+				"width": 173,
+				"height": 59,
+				"gid": 401053346
+			},
+			{
+				"x": 1481,
+				"y": 645,
+				"width": 156,
+				"height": 57,
+				"gid": 3036340137
+			},
+			{
+				"x": 1140,
+				"y": 646,
+				"width": 173,
+				"height": 59,
+				"gid": 3841796962
+			},
+			{
+				"x": 1660,
+				"y": 581,
+				"width": 248,
+				"height": 56,
+				"gid": 2144154871
+			},
+			{
+				"x": 1661,
+				"y": 648,
+				"width": 248,
+				"height": 56,
+				"gid": 1864863114
+			},
+			{
+				"x": 1133,
+				"y": 91,
+				"width": 230,
+				"height": 69,
+				"gid": 2756856416
+			},
+			{
+				"x": 1482,
+				"y": 583,
+				"width": 156,
+				"height": 54,
+				"gid": 1507851576
+			},
+			{
+				"x": 30,
+				"y": 1623,
+				"width": 159,
+				"height": 200,
+				"gid": 4088812688
+			},
+			{
+				"x": 1321,
+				"y": 714,
+				"width": 154,
+				"height": 55,
+				"gid": 301794400
+			},
+			{
+				"x": 1321,
+				"y": 646,
+				"width": 153,
+				"height": 55,
+				"gid": 122457555
+			},
+			{
+				"x": 1481,
+				"y": 713,
+				"width": 156,
+				"height": 56,
+				"gid": 3325907250
+			}
+		]
+	},
+	"securitySettings": {
+		"projectName": "app_inmap_maua_v6_2",
+		"loginDataSource": "app.t_users",
+		"loginForm": 0,
+		"dpTablePrefix": "public.app_mill_",
+		"dpTableConnId": "inmap_franco_at_192_168_100_20",
+		"providers": [
+			{
+				"active": false,
+				"code": "00",
+				"label": {
+					"text": "Hardcoded",
+					"type": 0
+				},
+				"name": "hardcoded",
+				"password": "",
+				"type": "%hardcoded",
+				"username": ""
+			},
+			{
+				"type": "%db",
+				"activationField": "ativo",
+				"active": true,
+				"code": "01",
+				"codeField": "",
+				"emailField": "email",
+				"extUserIdField": "",
+				"fullnameField": "alias_name",
+				"label": {
+					"text": "Database",
+					"type": 0
+				},
+				"name": "db",
+				"passwordField": "pass",
+				"phoneField": "",
+				"resetDateField": "reset_date",
+				"resetTokenField": "reset_token",
+				"table": {
+					"connId": "inmap_franco_at_192_168_100_20",
+					"table": "app.t_users"
+				},
+				"twoFactorField": "",
+				"userGroupField": "user_type",
+				"usernameField": "name",
+				"userpicField": null
+			},
+			{
+				"useAdGroups": true,
+				"active": false,
+				"baseDN": "DC=pmo1,DC=osasco,DC=sp,DC=gov,DC=br",
+				"code": "ad",
+				"domain": "pmo1.osasco.sp.gov.br",
+				"label": {
+					"text": "Active Directory",
+					"type": 0
+				},
+				"name": "ad",
+				"password": "Pmo@2024!@",
+				"type": "%ad",
+				"url": "172.19.1.5",
+				"username": "service.ozmundi"
+			}
+		],
+		"sessionControl": {
+			"lifeTime": 360,
+			"sessionName": "0owrYfeS24dK0NiIW7In",
+			"JWTSecret": "LLtTtbtzqJJBVXdAHUow",
+			"forceExpire": true,
+			"keepAlive": false,
+			"warnExpire": true
+		},
+		"registration": {
+			"remindMethod": 1,
+			"hashAlgorithm": 1,
+			"adminEmail": "admin@millenio.com.br",
+			"caseInsensitiveLogin": false,
+			"changePasswordPage": true,
+			"changePwdPage": true,
+			"hashPassword": true,
+			"notifyAdmin": true,
+			"notifyUser": true,
+			"registerPage": true,
+			"remindPage": true,
+			"remindPasswordPage": true,
+			"sendActivationLink": true,
+			"passwordValidation": {
+				"strong": true,
+				"minimumLength": 6,
+				"uniqueCharacters": 4,
+				"digitsAndSymbols": 2,
+				"upperAndLowerCase": false
+			}
+		},
+		"captchaSettings": {
+			"captchaType": 0,
+			"siteKey": "",
+			"secretKey": "",
+			"passesCount": 5
+		},
+		"emailSettings": {
+			"fromEmail": "noreply@millenio.com.br",
+			"usePHPDefinedSMTP": false,
+			"useBuiltInMailer": false,
+			"SMTPServer": "mail.millenio.com.br",
+			"SMTPPort": 587,
+			"SMTPUser": "noreply@millenio.com.br",
+			"SMTPPassword": "ijnbhu####2021",
+			"securityProtocol": 0,
+			"provider": 0,
+			"oauthUserEmail": "",
+			"oauthSettingsJson": "",
+			"oauthClientId": "",
+			"oauthClientSecret": "",
+			"oauthTenantId": ""
+		},
+		"advancedSecurity": {
+			"allowGuestLogin": false,
+			"tables": {
+				"admin_cadastros": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"admin_camadas": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"admin_members": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"admin_permissao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"admin_rights": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"admin_users": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.geo_decreto_Lei": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.geo_eixo_de_logradouro": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.geo_lote_31983": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.geo_loteamento": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_alvara": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_anexos": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_croqui": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_foto": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_matricula": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_arquivos_outros": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_cius_consulta": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_cius_status_certidao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_cius_uso_geral": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_depart": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_depart_cadastro": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_depart_cadastro_grupo": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_depart_link_docs": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_depart_tabela": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_estim_area_const": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_estim_area_const_vistoria": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_face_quadra": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_groups": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_groups_permissao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_imobiliario_default": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_imobiliario_default2": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_imobiliario_default3": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_imobiliario_recad": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_logradouros": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_memo_registro": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_metadados_print": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_mobiliario_empresa": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_mobiliario_empresa2": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_mobiliario_servicos": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_pack": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_pack_layer": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_pack_layer_grupo": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_renum_logradouros": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_renum_planilha": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_sistema_bool": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_sistema_demanda": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_tema": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_tema_pack": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_users": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.t_users_groups": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.tbl_pesq_rapida": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.tbl_pesq_rapida_permissao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.tbl_users": {
+					"mainOwnerIDField": "uid",
+					"securityOption": 0,
+					"userOwnerIDField": "uid"
+				},
+				"app.view_benfeitorias": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_categ_propriedade": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_cobranca": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_conservacao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_ocupacao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_padrao_const": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_situacao": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_tabela_atrib_alfa": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_tabela_atrib_geom": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_tabelas_alfa": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_tipo_const": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_topografia": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"app.view_uso_terreno": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.cius": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.cloud": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.core": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.diagnostico": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.forum": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.geoserver": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.geostyler": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.interop": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.layer_group_access": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.learn": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.pgadmin": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.pgrest": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				},
+				"public.portainer": {
+					"mainOwnerIDField": "",
+					"securityOption": 0,
+					"userOwnerIDField": ""
+				}
+			}
+		},
+		"auditAndLocking": {
+			"loggingMode": 1,
+			"loggingTable": {
+				"connId": "inmap_franco_at_192_168_100_20",
+				"table": "app.acesso_audit"
+			},
+			"loggingFile": "audit.log",
+			"logSecurityActions": true,
+			"lockAfterUnsuccessfulLogin": false,
+			"enableLocking": false,
+			"lockingTable": {
+				"connId": "inmap_franco_at_192_168_100_20",
+				"table": "˂Create new˃"
+			},
+			"tables": {
+				"7778798": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"59602864": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"122457555": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"126486630": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"140501681": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"301794400": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"401053346": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"552504060": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"664130259": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"673037975": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"772557685": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"789695499": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"911406773": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"973190828": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1168886547": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1205301737": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1275479429": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1438159911": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1471048326": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1507851576": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1648577372": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1803178437": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1864863114": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1951817697": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"1955166805": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2089288454": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2139430623": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2144154871": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2186832506": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2192867662": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2230971716": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2239524781": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2268225947": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2335993296": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2353249986": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2381953139": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2466565795": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2490330034": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2584645064": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2604511878": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2756856416": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2811636123": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2889264387": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"2995722285": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3036340137": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3226964094": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3249267883": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3325328395": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3325907250": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3450134899": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3461188759": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3563196129": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3651175144": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3689385229": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3707860173": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3717383252": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3841796962": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3847333988": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3900720616": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"3999173074": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"4035830626": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"4114914135": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"4183435559": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"4215704177": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"4289038863": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				},
+				"null": {
+					"logFieldValues": true,
+					"logModifications": true,
+					"recordLocking": false
+				}
+			}
+		},
+		"twoFactorSettings": {
+			"available": false,
+			"required": false,
+			"enable": true,
+			"remember": true,
+			"types": {
+				"totp": true
+			},
+			"twoFactorField": "",
+			"emailField": "",
+			"phoneField": "",
+			"codeField": "",
+			"projectName": "app_inmap_osasco_app_16_v10.4"
+		},
+		"staticPermissions": {
+			"groups": {
+				"<Default>": {
+					"permissions": {
+						"<global>": {
+							"mask": "S",
+							"table": "<global>",
+							"restrictedPages": {}
+						},
+						"admin_cadastros": {
+							"mask": "S",
+							"table": "admin_cadastros",
+							"restrictedPages": {}
+						},
+						"admin_camadas": {
+							"mask": "S",
+							"table": "admin_camadas",
+							"restrictedPages": {}
+						},
+						"admin_permissao": {
+							"mask": "S",
+							"table": "admin_permissao",
+							"restrictedPages": {}
+						},
+						"app.geo_lote_31983": {
+							"mask": "",
+							"table": "app.geo_lote_31983",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_alvara": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_alvara",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_anexos": {
+							"mask": "",
+							"table": "app.t_arquivos_anexos",
+							"restrictedPages": {
+								"add": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_arquivos_croqui": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_croqui",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_foto": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_foto",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_matricula": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_matricula",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_outros": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_outros",
+							"restrictedPages": {}
+						},
+						"app.t_cius_consulta": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_consulta",
+							"restrictedPages": {}
+						},
+						"app.t_cius_status_certidao": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_status_certidao",
+							"restrictedPages": {}
+						},
+						"app.t_cius_uso_geral": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_uso_geral",
+							"restrictedPages": {}
+						},
+						"app.t_depart": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_depart_link_docs": {
+							"mask": "",
+							"table": "app.t_depart_link_docs",
+							"restrictedPages": {}
+						},
+						"app.t_depart_tabela": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_tabela",
+							"restrictedPages": {}
+						},
+						"app.t_estim_area_const_vistoria": {
+							"mask": "AEDSPI",
+							"table": "app.t_estim_area_const_vistoria",
+							"restrictedPages": {}
+						},
+						"app.t_face_quadra": {
+							"mask": "ESPIAD",
+							"table": "app.t_face_quadra",
+							"restrictedPages": {}
+						},
+						"app.t_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_groups",
+							"restrictedPages": {}
+						},
+						"app.t_groups_permissao": {
+							"mask": "",
+							"table": "app.t_groups_permissao",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_imobiliario_default": {
+							"mask": "SPIAED",
+							"table": "app.t_imobiliario_default",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default2": {
+							"mask": "",
+							"table": "app.t_imobiliario_default2",
+							"restrictedPages": {
+								"export": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_imobiliario_default3": {
+							"mask": "SPI",
+							"table": "app.t_imobiliario_default3",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_recad": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_recad",
+							"restrictedPages": {}
+						},
+						"app.t_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_memo_registro": {
+							"mask": "AEDSPI",
+							"table": "app.t_memo_registro",
+							"restrictedPages": {}
+						},
+						"app.t_metadados_print": {
+							"mask": "SE",
+							"table": "app.t_metadados_print",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_mobiliario_empresa": {
+							"mask": "SPIAED",
+							"table": "app.t_mobiliario_empresa",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_empresa2": {
+							"mask": "SPI",
+							"table": "app.t_mobiliario_empresa2",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_servicos": {
+							"mask": "SPIAED",
+							"table": "app.t_mobiliario_servicos",
+							"restrictedPages": {}
+						},
+						"app.t_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo_view": {
+							"mask": "ADESPI",
+							"table": "app.t_pack_layer_grupo_view",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_view": {
+							"mask": "ADESPI",
+							"table": "app.t_pack_layer_view",
+							"restrictedPages": {}
+						},
+						"app.t_renum_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_renum_planilha": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_planilha",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_bool": {
+							"mask": "AEDSPI",
+							"table": "app.t_sistema_bool",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_demanda": {
+							"mask": "AEDSPI",
+							"table": "app.t_sistema_demanda",
+							"restrictedPages": {}
+						},
+						"app.t_tema": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema",
+							"restrictedPages": {}
+						},
+						"app.t_tema_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema_pack",
+							"restrictedPages": {}
+						},
+						"app.t_users": {
+							"mask": "AEDSPI",
+							"table": "app.t_users",
+							"restrictedPages": {}
+						},
+						"app.t_users_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_users_groups",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida": {
+							"mask": "ADESPI",
+							"table": "app.tbl_pesq_rapida",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida_permissao": {
+							"mask": "ADESPI",
+							"table": "app.tbl_pesq_rapida_permissao",
+							"restrictedPages": {}
+						},
+						"app.view_benfeitorias": {
+							"mask": "",
+							"table": "app.view_benfeitorias",
+							"restrictedPages": {}
+						},
+						"app.view_categ_propriedade": {
+							"mask": "",
+							"table": "app.view_categ_propriedade",
+							"restrictedPages": {}
+						},
+						"app.view_cobranca": {
+							"mask": "",
+							"table": "app.view_cobranca",
+							"restrictedPages": {}
+						},
+						"app.view_conservacao": {
+							"mask": "",
+							"table": "app.view_conservacao",
+							"restrictedPages": {}
+						},
+						"app.view_ocupacao": {
+							"mask": "",
+							"table": "app.view_ocupacao",
+							"restrictedPages": {}
+						},
+						"app.view_padrao_const": {
+							"mask": "",
+							"table": "app.view_padrao_const",
+							"restrictedPages": {}
+						},
+						"app.view_situacao": {
+							"mask": "",
+							"table": "app.view_situacao",
+							"restrictedPages": {}
+						},
+						"app.view_tabela_atrib_alfa": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabela_atrib_geom": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_geom",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabelas_alfa": {
+							"mask": "",
+							"table": "app.view_tabelas_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tipo_const": {
+							"mask": "",
+							"table": "app.view_tipo_const",
+							"restrictedPages": {}
+						},
+						"app.view_topografia": {
+							"mask": "",
+							"table": "app.view_topografia",
+							"restrictedPages": {}
+						},
+						"app.view_uso_terreno": {
+							"mask": "",
+							"table": "app.view_uso_terreno",
+							"restrictedPages": {}
+						},
+						"public.cius": {
+							"mask": "S",
+							"table": "public.cius",
+							"restrictedPages": {}
+						},
+						"public.cloud": {
+							"mask": "S",
+							"table": "public.cloud",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"public.core": {
+							"mask": "S",
+							"table": "public.core",
+							"restrictedPages": {}
+						},
+						"public.diagnostico": {
+							"mask": "S",
+							"table": "public.diagnostico",
+							"restrictedPages": {}
+						},
+						"public.forum": {
+							"mask": "S",
+							"table": "public.forum",
+							"restrictedPages": {}
+						},
+						"public.geoserver": {
+							"mask": "S",
+							"table": "public.geoserver",
+							"restrictedPages": {}
+						},
+						"public.geostyler": {
+							"mask": "S",
+							"table": "public.geostyler",
+							"restrictedPages": {}
+						},
+						"public.interop": {
+							"mask": "S",
+							"table": "public.interop",
+							"restrictedPages": {}
+						},
+						"public.layer_group_access": {
+							"mask": "S",
+							"table": "public.layer_group_access",
+							"restrictedPages": {}
+						},
+						"public.learn": {
+							"mask": "S",
+							"table": "public.learn",
+							"restrictedPages": {}
+						},
+						"public.mapstore": {
+							"mask": "",
+							"table": "public.mapstore",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"public.pgadmin": {
+							"mask": "S",
+							"table": "public.pgadmin",
+							"restrictedPages": {}
+						},
+						"public.pgrest": {
+							"mask": "S",
+							"table": "public.pgrest",
+							"restrictedPages": {}
+						},
+						"public.portainer": {
+							"mask": "S",
+							"table": "public.portainer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"admin_config": {
+							"mask": "S",
+							"table": "admin_config",
+							"restrictedPages": {}
+						},
+						"app.t_config_system": {
+							"mask": "ADESPI",
+							"table": "app.t_config_system",
+							"restrictedPages": {}
+						},
+						"app.t_end_storage": {
+							"mask": "ADESPI",
+							"table": "app.t_end_storage",
+							"restrictedPages": {}
+						}
+					},
+					"username": "<Default>",
+					"admin": false,
+					"wrAdmin": false
+				},
+				"admin": {
+					"permissions": {
+						"<global>": {
+							"mask": "S",
+							"table": "<global>",
+							"restrictedPages": {}
+						},
+						"admin_cadastros": {
+							"mask": "S",
+							"table": "admin_cadastros",
+							"restrictedPages": {}
+						},
+						"admin_camadas": {
+							"mask": "S",
+							"table": "admin_camadas",
+							"restrictedPages": {}
+						},
+						"admin_permissao": {
+							"mask": "S",
+							"table": "admin_permissao",
+							"restrictedPages": {}
+						},
+						"app.geo_lote_31983": {
+							"mask": "",
+							"table": "app.geo_lote_31983",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_arquivos_alvara": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_alvara",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_anexos": {
+							"mask": "",
+							"table": "app.t_arquivos_anexos",
+							"restrictedPages": {
+								"add": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_arquivos_croqui": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_croqui",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_foto": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_foto",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_matricula": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_matricula",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_outros": {
+							"mask": "AEDSPI",
+							"table": "app.t_arquivos_outros",
+							"restrictedPages": {}
+						},
+						"app.t_cius_consulta": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_consulta",
+							"restrictedPages": {}
+						},
+						"app.t_cius_status_certidao": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_status_certidao",
+							"restrictedPages": {}
+						},
+						"app.t_cius_uso_geral": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_uso_geral",
+							"restrictedPages": {}
+						},
+						"app.t_depart": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_depart_link_docs": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_link_docs",
+							"restrictedPages": {}
+						},
+						"app.t_depart_tabela": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_tabela",
+							"restrictedPages": {}
+						},
+						"app.t_estim_area_const_vistoria": {
+							"mask": "AEDSPI",
+							"table": "app.t_estim_area_const_vistoria",
+							"restrictedPages": {}
+						},
+						"app.t_face_quadra": {
+							"mask": "ESPDAI",
+							"table": "app.t_face_quadra",
+							"restrictedPages": {}
+						},
+						"app.t_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_groups",
+							"restrictedPages": {}
+						},
+						"app.t_groups_permissao": {
+							"mask": "AEDSPI",
+							"table": "app.t_groups_permissao",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default": {
+							"mask": "SPAEDI",
+							"table": "app.t_imobiliario_default",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default2": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_default2",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default3": {
+							"mask": "SPAEDI",
+							"table": "app.t_imobiliario_default3",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_recad": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_recad",
+							"restrictedPages": {}
+						},
+						"app.t_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_memo_registro": {
+							"mask": "AEDSPI",
+							"table": "app.t_memo_registro",
+							"restrictedPages": {}
+						},
+						"app.t_metadados_print": {
+							"mask": "E",
+							"table": "app.t_metadados_print",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_mobiliario_empresa": {
+							"mask": "SEADPI",
+							"table": "app.t_mobiliario_empresa",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_empresa2": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_empresa2",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_servicos": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_servicos",
+							"restrictedPages": {}
+						},
+						"app.t_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo_view": {
+							"mask": "ADESPI",
+							"table": "app.t_pack_layer_grupo_view",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_view": {
+							"mask": "ADESPI",
+							"table": "app.t_pack_layer_view",
+							"restrictedPages": {}
+						},
+						"app.t_renum_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_renum_planilha": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_planilha",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_bool": {
+							"mask": "AEDSPI",
+							"table": "app.t_sistema_bool",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_demanda": {
+							"mask": "AEDSPI",
+							"table": "app.t_sistema_demanda",
+							"restrictedPages": {}
+						},
+						"app.t_tema": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema",
+							"restrictedPages": {}
+						},
+						"app.t_tema_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema_pack",
+							"restrictedPages": {}
+						},
+						"app.t_users": {
+							"mask": "AEDSPI",
+							"table": "app.t_users",
+							"restrictedPages": {}
+						},
+						"app.t_users_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_users_groups",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida": {
+							"mask": "ADESPI",
+							"table": "app.tbl_pesq_rapida",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida_permissao": {
+							"mask": "ADESPI",
+							"table": "app.tbl_pesq_rapida_permissao",
+							"restrictedPages": {}
+						},
+						"app.view_benfeitorias": {
+							"mask": "",
+							"table": "app.view_benfeitorias",
+							"restrictedPages": {}
+						},
+						"app.view_categ_propriedade": {
+							"mask": "",
+							"table": "app.view_categ_propriedade",
+							"restrictedPages": {}
+						},
+						"app.view_cobranca": {
+							"mask": "",
+							"table": "app.view_cobranca",
+							"restrictedPages": {}
+						},
+						"app.view_conservacao": {
+							"mask": "",
+							"table": "app.view_conservacao",
+							"restrictedPages": {}
+						},
+						"app.view_ocupacao": {
+							"mask": "",
+							"table": "app.view_ocupacao",
+							"restrictedPages": {}
+						},
+						"app.view_padrao_const": {
+							"mask": "",
+							"table": "app.view_padrao_const",
+							"restrictedPages": {}
+						},
+						"app.view_situacao": {
+							"mask": "",
+							"table": "app.view_situacao",
+							"restrictedPages": {}
+						},
+						"app.view_tabela_atrib_alfa": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabela_atrib_geom": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_geom",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabelas_alfa": {
+							"mask": "",
+							"table": "app.view_tabelas_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tipo_const": {
+							"mask": "",
+							"table": "app.view_tipo_const",
+							"restrictedPages": {}
+						},
+						"app.view_topografia": {
+							"mask": "",
+							"table": "app.view_topografia",
+							"restrictedPages": {}
+						},
+						"app.view_uso_terreno": {
+							"mask": "",
+							"table": "app.view_uso_terreno",
+							"restrictedPages": {}
+						},
+						"public.cius": {
+							"mask": "S",
+							"table": "public.cius",
+							"restrictedPages": {}
+						},
+						"public.cloud": {
+							"mask": "S",
+							"table": "public.cloud",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"public.core": {
+							"mask": "S",
+							"table": "public.core",
+							"restrictedPages": {}
+						},
+						"public.diagnostico": {
+							"mask": "S",
+							"table": "public.diagnostico",
+							"restrictedPages": {}
+						},
+						"public.forum": {
+							"mask": "S",
+							"table": "public.forum",
+							"restrictedPages": {}
+						},
+						"public.geoserver": {
+							"mask": "S",
+							"table": "public.geoserver",
+							"restrictedPages": {}
+						},
+						"public.geostyler": {
+							"mask": "S",
+							"table": "public.geostyler",
+							"restrictedPages": {}
+						},
+						"public.interop": {
+							"mask": "S",
+							"table": "public.interop",
+							"restrictedPages": {}
+						},
+						"public.layer_group_access": {
+							"mask": "S",
+							"table": "public.layer_group_access",
+							"restrictedPages": {}
+						},
+						"public.learn": {
+							"mask": "S",
+							"table": "public.learn",
+							"restrictedPages": {}
+						},
+						"public.mapstore": {
+							"mask": "S",
+							"table": "public.mapstore",
+							"restrictedPages": {}
+						},
+						"public.pgadmin": {
+							"mask": "S",
+							"table": "public.pgadmin",
+							"restrictedPages": {}
+						},
+						"public.pgrest": {
+							"mask": "S",
+							"table": "public.pgrest",
+							"restrictedPages": {}
+						},
+						"public.portainer": {
+							"mask": "S",
+							"table": "public.portainer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"admin_config": {
+							"mask": "S",
+							"table": "admin_config",
+							"restrictedPages": {}
+						},
+						"app.t_config_system": {
+							"mask": "ADESPI",
+							"table": "app.t_config_system",
+							"restrictedPages": {}
+						},
+						"app.t_end_storage": {
+							"mask": "ADESPI",
+							"table": "app.t_end_storage",
+							"restrictedPages": {}
+						}
+					},
+					"username": "admin",
+					"admin": false,
+					"wrAdmin": false
+				},
+				"interno_admin": {
+					"permissions": {
+						"<global>": {
+							"mask": "S",
+							"table": "<global>",
+							"restrictedPages": {}
+						},
+						"admin_cadastros": {
+							"mask": "S",
+							"table": "admin_cadastros",
+							"restrictedPages": {}
+						},
+						"admin_camadas": {
+							"mask": "S",
+							"table": "admin_camadas",
+							"restrictedPages": {}
+						},
+						"admin_permissao": {
+							"mask": "S",
+							"table": "admin_permissao",
+							"restrictedPages": {}
+						},
+						"app.geo_lote_31983": {
+							"mask": "",
+							"table": "app.geo_lote_31983",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_arquivos_alvara": {
+							"mask": "ADESPI",
+							"table": "app.t_arquivos_alvara",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_anexos": {
+							"mask": "",
+							"table": "app.t_arquivos_anexos",
+							"restrictedPages": {
+								"add": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_arquivos_croqui": {
+							"mask": "AEDSPI",
+							"table": "app.t_arquivos_croqui",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_foto": {
+							"mask": "AEDSPI",
+							"table": "app.t_arquivos_foto",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_matricula": {
+							"mask": "AEDSPI",
+							"table": "app.t_arquivos_matricula",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_outros": {
+							"mask": "AEDSPI",
+							"table": "app.t_arquivos_outros",
+							"restrictedPages": {}
+						},
+						"app.t_cius_consulta": {
+							"mask": "AEDSPI",
+							"table": "app.t_cius_consulta",
+							"restrictedPages": {}
+						},
+						"app.t_cius_status_certidao": {
+							"mask": "",
+							"table": "app.t_cius_status_certidao",
+							"restrictedPages": {}
+						},
+						"app.t_cius_uso_geral": {
+							"mask": "",
+							"table": "app.t_cius_uso_geral",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_depart": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro",
+							"restrictedPages": {}
+						},
+						"app.t_depart_cadastro_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_cadastro_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_depart_link_docs": {
+							"mask": "",
+							"table": "app.t_depart_link_docs",
+							"restrictedPages": {}
+						},
+						"app.t_depart_tabela": {
+							"mask": "AEDSPI",
+							"table": "app.t_depart_tabela",
+							"restrictedPages": {}
+						},
+						"app.t_estim_area_const_vistoria": {
+							"mask": "AEDSPI",
+							"table": "app.t_estim_area_const_vistoria",
+							"restrictedPages": {}
+						},
+						"app.t_face_quadra": {
+							"mask": "ESPADI",
+							"table": "app.t_face_quadra",
+							"restrictedPages": {}
+						},
+						"app.t_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_groups",
+							"restrictedPages": {}
+						},
+						"app.t_groups_permissao": {
+							"mask": "",
+							"table": "app.t_groups_permissao",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_imobiliario_default": {
+							"mask": "SPAEDI",
+							"table": "app.t_imobiliario_default",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default2": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_default2",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default3": {
+							"mask": "DESPAI",
+							"table": "app.t_imobiliario_default3",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_recad": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_recad",
+							"restrictedPages": {}
+						},
+						"app.t_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_memo_registro": {
+							"mask": "AEDSPI",
+							"table": "app.t_memo_registro",
+							"restrictedPages": {}
+						},
+						"app.t_metadados_print": {
+							"mask": "E",
+							"table": "app.t_metadados_print",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_mobiliario_empresa": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_empresa",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_empresa2": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_empresa2",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_servicos": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_servicos",
+							"restrictedPages": {}
+						},
+						"app.t_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo": {
+							"mask": "AEDSPI",
+							"table": "app.t_pack_layer_grupo",
+							"restrictedPages": {}
+						},
+						"app.t_pack_layer_grupo_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_grupo_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_renum_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_renum_planilha": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_planilha",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_bool": {
+							"mask": "",
+							"table": "app.t_sistema_bool",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_demanda": {
+							"mask": "AEDSPI",
+							"table": "app.t_sistema_demanda",
+							"restrictedPages": {}
+						},
+						"app.t_tema": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema",
+							"restrictedPages": {}
+						},
+						"app.t_tema_pack": {
+							"mask": "AEDSPI",
+							"table": "app.t_tema_pack",
+							"restrictedPages": {}
+						},
+						"app.t_users": {
+							"mask": "AEDSPI",
+							"table": "app.t_users",
+							"restrictedPages": {}
+						},
+						"app.t_users_groups": {
+							"mask": "AEDSPI",
+							"table": "app.t_users_groups",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida_permissao": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida_permissao",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.view_benfeitorias": {
+							"mask": "",
+							"table": "app.view_benfeitorias",
+							"restrictedPages": {}
+						},
+						"app.view_categ_propriedade": {
+							"mask": "",
+							"table": "app.view_categ_propriedade",
+							"restrictedPages": {}
+						},
+						"app.view_cobranca": {
+							"mask": "",
+							"table": "app.view_cobranca",
+							"restrictedPages": {}
+						},
+						"app.view_conservacao": {
+							"mask": "",
+							"table": "app.view_conservacao",
+							"restrictedPages": {}
+						},
+						"app.view_ocupacao": {
+							"mask": "",
+							"table": "app.view_ocupacao",
+							"restrictedPages": {}
+						},
+						"app.view_padrao_const": {
+							"mask": "",
+							"table": "app.view_padrao_const",
+							"restrictedPages": {}
+						},
+						"app.view_situacao": {
+							"mask": "",
+							"table": "app.view_situacao",
+							"restrictedPages": {}
+						},
+						"app.view_tabela_atrib_alfa": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabela_atrib_geom": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_geom",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabelas_alfa": {
+							"mask": "",
+							"table": "app.view_tabelas_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tipo_const": {
+							"mask": "",
+							"table": "app.view_tipo_const",
+							"restrictedPages": {}
+						},
+						"app.view_topografia": {
+							"mask": "",
+							"table": "app.view_topografia",
+							"restrictedPages": {}
+						},
+						"app.view_uso_terreno": {
+							"mask": "",
+							"table": "app.view_uso_terreno",
+							"restrictedPages": {}
+						},
+						"public.cius": {
+							"mask": "S",
+							"table": "public.cius",
+							"restrictedPages": {}
+						},
+						"public.cloud": {
+							"mask": "S",
+							"table": "public.cloud",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"public.core": {
+							"mask": "",
+							"table": "public.core",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.diagnostico": {
+							"mask": "",
+							"table": "public.diagnostico",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.forum": {
+							"mask": "S",
+							"table": "public.forum",
+							"restrictedPages": {}
+						},
+						"public.geoserver": {
+							"mask": "S",
+							"table": "public.geoserver",
+							"restrictedPages": {}
+						},
+						"public.geostyler": {
+							"mask": "S",
+							"table": "public.geostyler",
+							"restrictedPages": {}
+						},
+						"public.interop": {
+							"mask": "",
+							"table": "public.interop",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.layer_group_access": {
+							"mask": "S",
+							"table": "public.layer_group_access",
+							"restrictedPages": {}
+						},
+						"public.learn": {
+							"mask": "S",
+							"table": "public.learn",
+							"restrictedPages": {}
+						},
+						"public.mapstore": {
+							"mask": "",
+							"table": "public.mapstore",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"public.pgadmin": {
+							"mask": "",
+							"table": "public.pgadmin",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.pgrest": {
+							"mask": "",
+							"table": "public.pgrest",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.portainer": {
+							"mask": "",
+							"table": "public.portainer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"admin_config": {
+							"mask": "S",
+							"table": "admin_config",
+							"restrictedPages": {}
+						},
+						"app.t_config_system": {
+							"mask": "ADESPI",
+							"table": "app.t_config_system",
+							"restrictedPages": {}
+						},
+						"app.t_end_storage": {
+							"mask": "ADESPI",
+							"table": "app.t_end_storage",
+							"restrictedPages": {}
+						}
+					},
+					"username": "interno_admin",
+					"admin": false,
+					"wrAdmin": false
+				},
+				"interno_consulta": {
+					"permissions": {
+						"<global>": {
+							"mask": "S",
+							"table": "<global>",
+							"restrictedPages": {}
+						},
+						"admin_cadastros": {
+							"mask": "",
+							"table": "admin_cadastros",
+							"restrictedPages": {}
+						},
+						"admin_camadas": {
+							"mask": "",
+							"table": "admin_camadas",
+							"restrictedPages": {
+								"dashboard": true
+							}
+						},
+						"admin_permissao": {
+							"mask": "",
+							"table": "admin_permissao",
+							"restrictedPages": {
+								"dashboard": true,
+								"search": true
+							}
+						},
+						"app.geo_lote_31983": {
+							"mask": "",
+							"table": "app.geo_lote_31983",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_arquivos_alvara": {
+							"mask": "SPAEDI",
+							"table": "app.t_arquivos_alvara",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_anexos": {
+							"mask": "",
+							"table": "app.t_arquivos_anexos",
+							"restrictedPages": {
+								"add": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_arquivos_croqui": {
+							"mask": "SPAEDI",
+							"table": "app.t_arquivos_croqui",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_foto": {
+							"mask": "SPAEDI",
+							"table": "app.t_arquivos_foto",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_matricula": {
+							"mask": "SPAEDI",
+							"table": "app.t_arquivos_matricula",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_outros": {
+							"mask": "SPAEDI",
+							"table": "app.t_arquivos_outros",
+							"restrictedPages": {}
+						},
+						"app.t_cius_consulta": {
+							"mask": "",
+							"table": "app.t_cius_consulta",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"view": true
+							}
+						},
+						"app.t_cius_status_certidao": {
+							"mask": "",
+							"table": "app.t_cius_status_certidao",
+							"restrictedPages": {}
+						},
+						"app.t_cius_uso_geral": {
+							"mask": "",
+							"table": "app.t_cius_uso_geral",
+							"restrictedPages": {}
+						},
+						"app.t_depart": {
+							"mask": "",
+							"table": "app.t_depart",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true
+							}
+						},
+						"app.t_depart_cadastro": {
+							"mask": "",
+							"table": "app.t_depart_cadastro",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_depart_cadastro_grupo": {
+							"mask": "",
+							"table": "app.t_depart_cadastro_grupo",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true
+							}
+						},
+						"app.t_depart_link_docs": {
+							"mask": "",
+							"table": "app.t_depart_link_docs",
+							"restrictedPages": {}
+						},
+						"app.t_depart_tabela": {
+							"mask": "",
+							"table": "app.t_depart_tabela",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_estim_area_const_vistoria": {
+							"mask": "AEDSPI",
+							"table": "app.t_estim_area_const_vistoria",
+							"restrictedPages": {}
+						},
+						"app.t_face_quadra": {
+							"mask": "SPAEDI",
+							"table": "app.t_face_quadra",
+							"restrictedPages": {}
+						},
+						"app.t_groups": {
+							"mask": "",
+							"table": "app.t_groups",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_groups_permissao": {
+							"mask": "",
+							"table": "app.t_groups_permissao",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_imobiliario_default": {
+							"mask": "SPAEDI",
+							"table": "app.t_imobiliario_default",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default2": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_default2",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default3": {
+							"mask": "SPAEDI",
+							"table": "app.t_imobiliario_default3",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_recad": {
+							"mask": "AEDSPI",
+							"table": "app.t_imobiliario_recad",
+							"restrictedPages": {}
+						},
+						"app.t_logradouros": {
+							"mask": "SPAEDI",
+							"table": "app.t_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_memo_registro": {
+							"mask": "AEDSPI",
+							"table": "app.t_memo_registro",
+							"restrictedPages": {}
+						},
+						"app.t_metadados_print": {
+							"mask": "",
+							"table": "app.t_metadados_print",
+							"restrictedPages": {
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_mobiliario_empresa": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_empresa",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_empresa2": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_empresa2",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_servicos": {
+							"mask": "SPAEDI",
+							"table": "app.t_mobiliario_servicos",
+							"restrictedPages": {}
+						},
+						"app.t_pack": {
+							"mask": "",
+							"table": "app.t_pack",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer": {
+							"mask": "",
+							"table": "app.t_pack_layer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_pack_layer_grupo": {
+							"mask": "",
+							"table": "app.t_pack_layer_grupo",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer_grupo_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_grupo_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_renum_logradouros": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_renum_planilha": {
+							"mask": "AEDSPI",
+							"table": "app.t_renum_planilha",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_bool": {
+							"mask": "",
+							"table": "app.t_sistema_bool",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_demanda": {
+							"mask": "ES",
+							"table": "app.t_sistema_demanda",
+							"restrictedPages": {
+								"add": true,
+								"print": true
+							}
+						},
+						"app.t_tema": {
+							"mask": "",
+							"table": "app.t_tema",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_tema_pack": {
+							"mask": "",
+							"table": "app.t_tema_pack",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_users": {
+							"mask": "",
+							"table": "app.t_users",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_users_groups": {
+							"mask": "",
+							"table": "app.t_users_groups",
+							"restrictedPages": {
+								"list": true,
+								"print1": true,
+								"search": true
+							}
+						},
+						"app.tbl_pesq_rapida": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida_permissao": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida_permissao",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.view_benfeitorias": {
+							"mask": "",
+							"table": "app.view_benfeitorias",
+							"restrictedPages": {}
+						},
+						"app.view_categ_propriedade": {
+							"mask": "",
+							"table": "app.view_categ_propriedade",
+							"restrictedPages": {}
+						},
+						"app.view_cobranca": {
+							"mask": "",
+							"table": "app.view_cobranca",
+							"restrictedPages": {}
+						},
+						"app.view_conservacao": {
+							"mask": "",
+							"table": "app.view_conservacao",
+							"restrictedPages": {}
+						},
+						"app.view_ocupacao": {
+							"mask": "",
+							"table": "app.view_ocupacao",
+							"restrictedPages": {}
+						},
+						"app.view_padrao_const": {
+							"mask": "",
+							"table": "app.view_padrao_const",
+							"restrictedPages": {}
+						},
+						"app.view_situacao": {
+							"mask": "",
+							"table": "app.view_situacao",
+							"restrictedPages": {}
+						},
+						"app.view_tabela_atrib_alfa": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabela_atrib_geom": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_geom",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabelas_alfa": {
+							"mask": "",
+							"table": "app.view_tabelas_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tipo_const": {
+							"mask": "",
+							"table": "app.view_tipo_const",
+							"restrictedPages": {}
+						},
+						"app.view_topografia": {
+							"mask": "",
+							"table": "app.view_topografia",
+							"restrictedPages": {}
+						},
+						"app.view_uso_terreno": {
+							"mask": "",
+							"table": "app.view_uso_terreno",
+							"restrictedPages": {}
+						},
+						"public.cius": {
+							"mask": "S",
+							"table": "public.cius",
+							"restrictedPages": {}
+						},
+						"public.cloud": {
+							"mask": "S",
+							"table": "public.cloud",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"print": true
+							}
+						},
+						"public.core": {
+							"mask": "",
+							"table": "public.core",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.diagnostico": {
+							"mask": "",
+							"table": "public.diagnostico",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.forum": {
+							"mask": "S",
+							"table": "public.forum",
+							"restrictedPages": {}
+						},
+						"public.geoserver": {
+							"mask": "",
+							"table": "public.geoserver",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.geostyler": {
+							"mask": "",
+							"table": "public.geostyler",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.interop": {
+							"mask": "",
+							"table": "public.interop",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.layer_group_access": {
+							"mask": "",
+							"table": "public.layer_group_access",
+							"restrictedPages": {
+								"list": true
+							}
+						},
+						"public.learn": {
+							"mask": "S",
+							"table": "public.learn",
+							"restrictedPages": {}
+						},
+						"public.mapstore": {
+							"mask": "",
+							"table": "public.mapstore",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"public.pgadmin": {
+							"mask": "",
+							"table": "public.pgadmin",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.pgrest": {
+							"mask": "",
+							"table": "public.pgrest",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.portainer": {
+							"mask": "",
+							"table": "public.portainer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"admin_config": {
+							"mask": "S",
+							"table": "admin_config",
+							"restrictedPages": {}
+						},
+						"app.t_config_system": {
+							"mask": "ADESPI",
+							"table": "app.t_config_system",
+							"restrictedPages": {}
+						},
+						"app.t_end_storage": {
+							"mask": "ADESPI",
+							"table": "app.t_end_storage",
+							"restrictedPages": {}
+						}
+					},
+					"username": "interno_consulta",
+					"admin": false,
+					"wrAdmin": false
+				},
+				"publico": {
+					"permissions": {
+						"<global>": {
+							"mask": "",
+							"table": "<global>",
+							"restrictedPages": {}
+						},
+						"admin_cadastros": {
+							"mask": "",
+							"table": "admin_cadastros",
+							"restrictedPages": {}
+						},
+						"admin_camadas": {
+							"mask": "",
+							"table": "admin_camadas",
+							"restrictedPages": {
+								"dashboard": true
+							}
+						},
+						"admin_permissao": {
+							"mask": "",
+							"table": "admin_permissao",
+							"restrictedPages": {}
+						},
+						"app.geo_lote_31983": {
+							"mask": "",
+							"table": "app.geo_lote_31983",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_alvara": {
+							"mask": "",
+							"table": "app.t_arquivos_alvara",
+							"restrictedPages": {
+								"add": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_arquivos_anexos": {
+							"mask": "",
+							"table": "app.t_arquivos_anexos",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_croqui": {
+							"mask": "",
+							"table": "app.t_arquivos_croqui",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_foto": {
+							"mask": "",
+							"table": "app.t_arquivos_foto",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_matricula": {
+							"mask": "",
+							"table": "app.t_arquivos_matricula",
+							"restrictedPages": {}
+						},
+						"app.t_arquivos_outros": {
+							"mask": "",
+							"table": "app.t_arquivos_outros",
+							"restrictedPages": {}
+						},
+						"app.t_cius_consulta": {
+							"mask": "",
+							"table": "app.t_cius_consulta",
+							"restrictedPages": {}
+						},
+						"app.t_cius_status_certidao": {
+							"mask": "",
+							"table": "app.t_cius_status_certidao",
+							"restrictedPages": {}
+						},
+						"app.t_cius_uso_geral": {
+							"mask": "",
+							"table": "app.t_cius_uso_geral",
+							"restrictedPages": {}
+						},
+						"app.t_depart": {
+							"mask": "",
+							"table": "app.t_depart",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true
+							}
+						},
+						"app.t_depart_cadastro": {
+							"mask": "",
+							"table": "app.t_depart_cadastro",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_depart_cadastro_grupo": {
+							"mask": "",
+							"table": "app.t_depart_cadastro_grupo",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true
+							}
+						},
+						"app.t_depart_link_docs": {
+							"mask": "",
+							"table": "app.t_depart_link_docs",
+							"restrictedPages": {}
+						},
+						"app.t_depart_tabela": {
+							"mask": "",
+							"table": "app.t_depart_tabela",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_estim_area_const_vistoria": {
+							"mask": "",
+							"table": "app.t_estim_area_const_vistoria",
+							"restrictedPages": {}
+						},
+						"app.t_face_quadra": {
+							"mask": "",
+							"table": "app.t_face_quadra",
+							"restrictedPages": {}
+						},
+						"app.t_groups": {
+							"mask": "",
+							"table": "app.t_groups",
+							"restrictedPages": {}
+						},
+						"app.t_groups_permissao": {
+							"mask": "",
+							"table": "app.t_groups_permissao",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"app.t_imobiliario_default": {
+							"mask": "",
+							"table": "app.t_imobiliario_default",
+							"restrictedPages": {}
+						},
+						"app.t_imobiliario_default2": {
+							"mask": "",
+							"table": "app.t_imobiliario_default2",
+							"restrictedPages": {
+								"export": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_imobiliario_default3": {
+							"mask": "",
+							"table": "app.t_imobiliario_default3",
+							"restrictedPages": {
+								"export": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_imobiliario_recad": {
+							"mask": "",
+							"table": "app.t_imobiliario_recad",
+							"restrictedPages": {}
+						},
+						"app.t_logradouros": {
+							"mask": "",
+							"table": "app.t_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_memo_registro": {
+							"mask": "",
+							"table": "app.t_memo_registro",
+							"restrictedPages": {}
+						},
+						"app.t_metadados_print": {
+							"mask": "",
+							"table": "app.t_metadados_print",
+							"restrictedPages": {
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_mobiliario_empresa": {
+							"mask": "",
+							"table": "app.t_mobiliario_empresa",
+							"restrictedPages": {}
+						},
+						"app.t_mobiliario_empresa2": {
+							"mask": "",
+							"table": "app.t_mobiliario_empresa2",
+							"restrictedPages": {
+								"export": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_mobiliario_servicos": {
+							"mask": "",
+							"table": "app.t_mobiliario_servicos",
+							"restrictedPages": {}
+						},
+						"app.t_pack": {
+							"mask": "",
+							"table": "app.t_pack",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer": {
+							"mask": "",
+							"table": "app.t_pack_layer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"app.t_pack_layer_grupo": {
+							"mask": "",
+							"table": "app.t_pack_layer_grupo",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer_grupo_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_grupo_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_pack_layer_view": {
+							"mask": "",
+							"table": "app.t_pack_layer_view",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_renum_logradouros": {
+							"mask": "",
+							"table": "app.t_renum_logradouros",
+							"restrictedPages": {}
+						},
+						"app.t_renum_planilha": {
+							"mask": "",
+							"table": "app.t_renum_planilha",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_bool": {
+							"mask": "",
+							"table": "app.t_sistema_bool",
+							"restrictedPages": {}
+						},
+						"app.t_sistema_demanda": {
+							"mask": "",
+							"table": "app.t_sistema_demanda",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.t_tema": {
+							"mask": "",
+							"table": "app.t_tema",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_tema_pack": {
+							"mask": "",
+							"table": "app.t_tema_pack",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.t_users": {
+							"mask": "",
+							"table": "app.t_users",
+							"restrictedPages": {}
+						},
+						"app.t_users_groups": {
+							"mask": "",
+							"table": "app.t_users_groups",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida",
+							"restrictedPages": {}
+						},
+						"app.tbl_pesq_rapida_permissao": {
+							"mask": "",
+							"table": "app.tbl_pesq_rapida_permissao",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"list": true,
+								"search": true
+							}
+						},
+						"app.view_benfeitorias": {
+							"mask": "",
+							"table": "app.view_benfeitorias",
+							"restrictedPages": {}
+						},
+						"app.view_categ_propriedade": {
+							"mask": "",
+							"table": "app.view_categ_propriedade",
+							"restrictedPages": {}
+						},
+						"app.view_cobranca": {
+							"mask": "",
+							"table": "app.view_cobranca",
+							"restrictedPages": {}
+						},
+						"app.view_conservacao": {
+							"mask": "",
+							"table": "app.view_conservacao",
+							"restrictedPages": {}
+						},
+						"app.view_ocupacao": {
+							"mask": "",
+							"table": "app.view_ocupacao",
+							"restrictedPages": {}
+						},
+						"app.view_padrao_const": {
+							"mask": "",
+							"table": "app.view_padrao_const",
+							"restrictedPages": {}
+						},
+						"app.view_situacao": {
+							"mask": "",
+							"table": "app.view_situacao",
+							"restrictedPages": {}
+						},
+						"app.view_tabela_atrib_alfa": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabela_atrib_geom": {
+							"mask": "",
+							"table": "app.view_tabela_atrib_geom",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tabelas_alfa": {
+							"mask": "",
+							"table": "app.view_tabelas_alfa",
+							"restrictedPages": {
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true
+							}
+						},
+						"app.view_tipo_const": {
+							"mask": "",
+							"table": "app.view_tipo_const",
+							"restrictedPages": {}
+						},
+						"app.view_topografia": {
+							"mask": "",
+							"table": "app.view_topografia",
+							"restrictedPages": {}
+						},
+						"app.view_uso_terreno": {
+							"mask": "",
+							"table": "app.view_uso_terreno",
+							"restrictedPages": {}
+						},
+						"public.cius": {
+							"mask": "",
+							"table": "public.cius",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.cloud": {
+							"mask": "",
+							"table": "public.cloud",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"public.core": {
+							"mask": "",
+							"table": "public.core",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.diagnostico": {
+							"mask": "",
+							"table": "public.diagnostico",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.forum": {
+							"mask": "",
+							"table": "public.forum",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.geoserver": {
+							"mask": "",
+							"table": "public.geoserver",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.geostyler": {
+							"mask": "",
+							"table": "public.geostyler",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.interop": {
+							"mask": "",
+							"table": "public.interop",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.layer_group_access": {
+							"mask": "",
+							"table": "public.layer_group_access",
+							"restrictedPages": {
+								"list": true
+							}
+						},
+						"public.learn": {
+							"mask": "",
+							"table": "public.learn",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.mapstore": {
+							"mask": "",
+							"table": "public.mapstore",
+							"restrictedPages": {
+								"search": true
+							}
+						},
+						"public.pgadmin": {
+							"mask": "",
+							"table": "public.pgadmin",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.pgrest": {
+							"mask": "",
+							"table": "public.pgrest",
+							"restrictedPages": {
+								"list": true,
+								"search": true
+							}
+						},
+						"public.portainer": {
+							"mask": "",
+							"table": "public.portainer",
+							"restrictedPages": {
+								"add": true,
+								"edit": true,
+								"export": true,
+								"import": true,
+								"list": true,
+								"print": true,
+								"search": true,
+								"view": true
+							}
+						},
+						"admin_config": {
+							"mask": "S",
+							"table": "admin_config",
+							"restrictedPages": {}
+						},
+						"app.t_config_system": {
+							"mask": "ADESPI",
+							"table": "app.t_config_system",
+							"restrictedPages": {}
+						},
+						"app.t_end_storage": {
+							"mask": "ADESPI",
+							"table": "app.t_end_storage",
+							"restrictedPages": {}
+						}
+					},
+					"username": "publico",
+					"admin": false,
+					"wrAdmin": false
+				}
+			}
+		}
+	},
+	"encryption": {
+		"connEncryptInfo": {
+			"inmap_franco_at_192_168_100_20": {
+				"encryptAlgorithm": 128,
+				"connId": "inmap_franco_at_192_168_100_20"
+			}
+		}
+	},
+	"compressJs": false,
+	"visualStudioVersion": 10,
+	"targetFramework": "4.5.2",
+	"lcid": 1046,
+	"defaultLanguage": "Portuguese(Brazil)",
+	"languages": [
+		"Portuguese(Brazil)"
+	],
+	"emailTemplates": {
+		"Portuguese(Brazil)": {
+			"Message to admin after user's registration": {
+				"name": "Message to admin after user's registration",
+				"template": "Notificação sobre registro de usuário\n\nUsuário resgistrado em %url%\n\nUid: %uid_value%\nGrupo: %fuid_groups_value%\nUsuário: %name_value%\nNome: %alias_name_value%\nemail: %email_value%\nAtivo: %ativo_value%",
+				"useDefault": false,
+				"useHTML": false
+			},
+			"resetpassword": {
+				"name": "resetpassword",
+				"template": "Link para troca de senha\n%reseturl%\n",
+				"useDefault": false,
+				"useHTML": false
+			},
+			"userregister": {
+				"name": "userregister",
+				"template": "Registro Geoportal Osasco\n\nNotificação sobre seu registro\n\nClique neste link para confirmar a sua conta e concluir o seu registro:\n%activateurl%\nCaso não consiga clicar no link, copie e cole na janela de seu navegador\n\nLogin: %name_value%\nNome: %alias_name_value%\nemail: %email_value%",
+				"useDefault": false,
+				"useHTML": false
+			},
+			"twofactoremail": {
+				"name": "twofactoremail",
+				"template": "",
+				"useDefault": true,
+				"useHTML": false
+			},
+			"twofactorauth": {
+				"name": "twofactorauth",
+				"template": "",
+				"useDefault": true,
+				"useHTML": false
+			},
+			"remindpassword": {
+				"name": "remindpassword",
+				"template": "Lembrete de Login\n\nVocê solicitou seu nome de usuário:\nNome do Usuário: %username%\n",
+				"useDefault": false,
+				"useHTML": false
+			},
+			"adminregister": {
+				"name": "adminregister",
+				"template": "Notificação sobre seu registro\n\nUsuário resgistrado em %url%\n\nUid: %uid_value%\nGrupo base: %fuid_groups_value%\nLogin: %name_value%\nNome: %alias_name_value%\nemail: %email_value%\nAtivo: %ativo_value%\nTipo: %user_type_value%\n",
+				"useDefault": false,
+				"useHTML": false
+			}
+		}
+	},
+	"dbConnections": [
+		{
+			"id": "inmap_franco_at_192_168_100_20",
+			"name": "inmap_maua at 192.168.38.253",
+			"type": 4,
+			"connString": "postgre;192.168.38.253;postgres;millenio#1996;5433;inmap_maua;;1;{\"ssl\":false};0",
+			"buildParams": {
+				"customConnections": [
+					{
+						"name": "cnx_deploy",
+						"code": "$host=\"data.pgbouncer\";\n$user=\"postgres\";\n$password=\"millenio#1996\";\n$options=\" port=5433\";\n$dbname=\"inmap_maua\";"
+					}
+				]
+			}
+		}
+	],
+	"defaultConnID": "inmap_franco_at_192_168_100_20",
+	"enablePDF": false,
+	"landingSettings": {
+		"type": 0,
+		"table": "",
+		"pageId": "OzMundi_Gest_o",
+		"page": ""
+	},
+	"copyFieldSettings": {
+		"table": "app.t_users_groups",
+		"field": "uid",
+		"copyEditFormat": false,
+		"copyViewFormat": "",
+		"copyFilterFormat": false
+	},
+	"createAppSettings": {
+		"appVersion": "",
+		"appURL": "",
+		"iconFile": "C:\\Program Files\\PHPRunner10.5\\icons\\runner.ico"
+	},
+	"menus": [
+		{
+			"id": "main",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.tbl_pesq_rapida_permissao",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 3999173074
+						}
+					},
+					{
+						"id": "2",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_pack_layer_grupo_view",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2841000359
+						}
+					},
+					{
+						"id": "3",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_pack_layer_view",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 3236741964
+						}
+					},
+					{
+						"id": "4",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "public.mapstore",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "search",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "search",
+							"table": 4088812688
+						}
+					},
+					{
+						"id": "5",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "admin_config",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "dashboard",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "dashboard",
+							"table": 2302811781
+						}
+					},
+					{
+						"id": "6",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_config_system",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2984312713
+						}
+					},
+					{
+						"id": "7",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_end_storage",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2096693571
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Croquis",
+			"id": "Croquis",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_croqui",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-object-align-left",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3450134899
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Decreto_lei",
+			"id": "Decreto_lei"
+		},
+		{
+			"name": "Demandas",
+			"id": "Demandas",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Demandas Geoportal",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 1951817697
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Estimativa_area_const",
+			"id": "Estimativa_area_const"
+		},
+		{
+			"name": "Face_quadra",
+			"id": "Face_quadra",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_face_quadra",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-cube",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 1648577372
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Fotos",
+			"id": "Fotos",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_foto",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-photo",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 772557685
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Imobiliario",
+			"id": "Imobiliario",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Cad. Imobiliário 01",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-wpforms",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3461188759
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Imobiliario2",
+			"id": "Imobiliario2",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Cad. Imobiliário 2",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-wpforms",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 1953559910
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Imobiliario3",
+			"id": "Imobiliario3",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Cad. Imobiliário 3",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-wpforms",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 58181104
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Imobiliario_Recad",
+			"id": "Imobiliario_Recad",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Recad. Imobiliário",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-list-alt",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 1471048326
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Logradouros",
+			"id": "Logradouros",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_logradouros",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-map-signs",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 4289038863
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Loteamentos",
+			"id": "Loteamentos"
+		},
+		{
+			"name": "Memorial",
+			"id": "Memorial",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_memo_registro",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-object-ungroup",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 2995722285
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mobiliario",
+			"id": "Mobiliario",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Cad. Mobiliário 01",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-location-arrow",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3651175144
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Mobiliario2",
+			"id": "Mobiliario2",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Cad. Mobiliário 02",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-location-arrow",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3034412229
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Pesquisa_rapida",
+			"id": "Pesquisa_rapida"
+		},
+		{
+			"name": "Renumeracao",
+			"id": "Renumeracao",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"text": "Renumeração - Log.",
+								"type": 0
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-sound-7-1",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3249267883
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Vistorias",
+			"id": "Vistorias",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_estim_area_const_vistoria",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-check",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3325328395
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "admin_cadastros",
+			"id": "admin_cadastros",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "admin_cadastros",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "dashboard",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "dashboard",
+							"table": 3962830549
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "admin_camadas",
+			"id": "admin_camadas",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "admin_camadas",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "dashboard",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "dashboard",
+							"table": 950726006
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "admin_permissao",
+			"id": "admin_permissao",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "admin_permissao",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "dashboard",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-group",
+							"showIconType": 2,
+							"pageType": "dashboard",
+							"table": 2990492536
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "alvara",
+			"id": "alvara",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_alvara",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 789695499
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "anexos",
+			"id": "anexos",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_anexos",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 140501681
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "cius",
+			"id": "cius",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_cius_consulta",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-object-align-top",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 4215704177
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "eixo_logradouro",
+			"id": "eixo_logradouro"
+		},
+		{
+			"name": "grupo",
+			"id": "grupo",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_groups",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-group",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 911406773
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "grupo_user",
+			"id": "grupo_user",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_users_groups",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 3900720616
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "matricula",
+			"id": "matricula",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_matricula",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-check",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 2381953139
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "outros",
+			"id": "outros",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_arquivos_outros",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-link",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 3226964094
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "pacote",
+			"id": "pacote",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_pack",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2192867662
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "pacote_camada",
+			"id": "pacote_camada",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_pack_layer",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2811636123
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "pacote_camada_grupo",
+			"id": "pacote_camada_grupo",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_pack_layer_grupo",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 4183435559
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "secondary",
+			"id": "secondary"
+		},
+		{
+			"name": "tema",
+			"id": "tema",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_tema",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 1955166805
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "tema_pacote",
+			"id": "tema_pacote",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_tema_pack",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"pageType": "list",
+							"table": 2604511878
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "user",
+			"id": "user",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"parent": "0",
+						"data": {
+							"name": {
+								"table": "app.t_users",
+								"type": 6
+							},
+							"href": "mypage.htm",
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 3,
+							"iconName": "fa-user",
+							"showIconType": 2,
+							"pageType": "list",
+							"table": 664130259
+						}
+					}
+				]
+			}
+		}
+	],
+	"customPages": [
+		{
+			"table": 7778798,
+			"pageId": "print"
+		},
+		{
+			"table": 2995722285,
+			"pageId": "edit"
+		},
+		{
+			"table": 140501681,
+			"pageId": "add"
+		},
+		{
+			"table": 2381953139,
+			"pageId": "add"
+		},
+		{
+			"table": 3450134899,
+			"pageId": "add"
+		},
+		{
+			"table": 772557685,
+			"pageId": "add"
+		},
+		{
+			"table": 789695499,
+			"pageId": "add"
+		},
+		{
+			"table": 1168886547,
+			"pageId": "edit"
+		},
+		{
+			"table": null,
+			"pageId": "login"
+		}
+	],
+	"globalPages": [
+		{
+			"id": "admin_members_list",
+			"type": "admin_members_list",
+			"layoutId": "topbar",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "admin-members-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"members_save",
+								"members_reset"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"members_choose_columns",
+								"members_displaying_filter"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "admin-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "admin-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "admin-members-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "hcell_source"
+								},
+								{
+									"cell": "hcell_username"
+								},
+								{
+									"cell": "hcell_displayname"
+								},
+								{
+									"cell": "hcell_email"
+								},
+								{
+									"cell": "hcell_groupname"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "hcell_source1"
+								},
+								{
+									"cell": "hcell_search",
+									"colspan": 3
+								},
+								{
+									"cell": "hcell_all_checkbox"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_source"
+								},
+								{
+									"cell": "cell_u"
+								},
+								{
+									"cell": "cell_dn"
+								},
+								{
+									"cell": "cell_e"
+								},
+								{
+									"cell": "c_gn"
+								}
+							],
+							"section": "body"
+						}
+					],
+					"cells": {
+						"hcell_source": {
+							"model": "hcell_source",
+							"items": [
+								"members_source_label"
+							]
+						},
+						"hcell_username": {
+							"model": "hcell_username",
+							"items": [
+								"members_username_label"
+							]
+						},
+						"hcell_displayname": {
+							"model": "hcell_displayname",
+							"items": [
+								"members_displayname_label"
+							]
+						},
+						"hcell_email": {
+							"model": "hcell_email",
+							"items": [
+								"members_email_label"
+							]
+						},
+						"hcell_groupname": {
+							"model": "hcell_groupname",
+							"items": [
+								"members_groupname_label"
+							]
+						},
+						"hcell_source1": {
+							"model": "hcell_source1",
+							"items": [
+								"members_source_filter"
+							]
+						},
+						"hcell_search": {
+							"model": "hcell_search",
+							"items": [
+								"members_search"
+							]
+						},
+						"hcell_all_checkbox": {
+							"model": "hcell_all_checkbox",
+							"items": [
+								"members_all_users_checkbox"
+							]
+						},
+						"cell_source": {
+							"model": "cell_source",
+							"items": [
+								"members_source"
+							]
+						},
+						"cell_u": {
+							"model": "cell_u",
+							"items": [
+								"members_all_groups_checkbox",
+								"members_username"
+							]
+						},
+						"cell_dn": {
+							"model": "cell_dn",
+							"items": [
+								"members_displayname"
+							]
+						},
+						"cell_e": {
+							"model": "cell_e",
+							"items": [
+								"members_email"
+							]
+						},
+						"c_gn": {
+							"model": "c_gn",
+							"items": [
+								"members_group_checkbox"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"members_save": {
+					"type": "members_save"
+				},
+				"members_reset": {
+					"type": "members_reset"
+				},
+				"members_choose_columns": {
+					"type": "members_choose_columns"
+				},
+				"members_displaying_filter": {
+					"type": "members_displaying_filter"
+				},
+				"members_username_label": {
+					"type": "members_username_label"
+				},
+				"members_displayname_label": {
+					"type": "members_displayname_label"
+				},
+				"members_email_label": {
+					"type": "members_email_label"
+				},
+				"members_groupname_label": {
+					"type": "members_groupname_label"
+				},
+				"members_search": {
+					"type": "members_search"
+				},
+				"members_all_users_checkbox": {
+					"type": "members_all_users_checkbox"
+				},
+				"members_username": {
+					"type": "members_username"
+				},
+				"members_group_checkbox": {
+					"type": "members_group_checkbox"
+				},
+				"members_all_groups_checkbox": {
+					"type": "members_all_groups_checkbox"
+				},
+				"members_displayname": {
+					"type": "members_displayname"
+				},
+				"members_email": {
+					"type": "members_email"
+				},
+				"members_source_label": {
+					"type": "members_source_label"
+				},
+				"members_source_filter": {
+					"type": "members_source_filter"
+				},
+				"members_source": {
+					"type": "members_source"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link"
+					]
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "admin_rights_list",
+			"type": "admin_rights_list",
+			"layoutId": "topbar",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "admin-rights-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c4",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"rights_save",
+								"rights_reset"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"rights_displaying_tables",
+								"rights_ordering_tables"
+							]
+						},
+						"c4": {
+							"model": "c4",
+							"items": [
+								"rights_add_group",
+								"rights_del_group",
+								"rights_rename_group",
+								"rights_copy_permissions"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "admin-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "admin-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "admin-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "admin-rights-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "headcell_search"
+								},
+								{
+									"cell": "headcell_a"
+								},
+								{
+									"cell": "headcell_e"
+								},
+								{
+									"cell": "headcell_d"
+								},
+								{
+									"cell": "headcell_s"
+								},
+								{
+									"cell": "headcell_p"
+								},
+								{
+									"cell": "headcell_i"
+								},
+								{
+									"cell": "headcell_m"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "headcell_expand"
+								},
+								{
+									"cell": "headcell_all_a"
+								},
+								{
+									"cell": "headcell_all_e"
+								},
+								{
+									"cell": "headcell_all_d"
+								},
+								{
+									"cell": "headcell_all_s"
+								},
+								{
+									"cell": "headcell_all_p"
+								},
+								{
+									"cell": "headcell_all_i"
+								},
+								{
+									"cell": "headcell_all_m"
+								}
+							],
+							"section": "head"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_table"
+								},
+								{
+									"cell": "cell_a"
+								},
+								{
+									"cell": "cell_e"
+								},
+								{
+									"cell": "cell_d"
+								},
+								{
+									"cell": "cell_s"
+								},
+								{
+									"cell": "cell_p"
+								},
+								{
+									"cell": "cell_i"
+								},
+								{
+									"cell": "cell_m"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_page"
+								},
+								{
+									"cell": "cell_page_a"
+								},
+								{
+									"cell": "cell_page_e"
+								},
+								{
+									"cell": "cell_page_d"
+								},
+								{
+									"cell": "cell_page_s"
+								},
+								{
+									"cell": "cell_page_p"
+								},
+								{
+									"cell": "cell_page_i"
+								},
+								{
+									"cell": "cell_page_m"
+								}
+							],
+							"section": "page"
+						}
+					],
+					"cells": {
+						"headcell_search": {
+							"model": "headcell_search",
+							"items": [
+								"rights_search"
+							]
+						},
+						"headcell_a": {
+							"model": "headcell_a",
+							"items": [
+								"rights_name_a"
+							]
+						},
+						"headcell_e": {
+							"model": "headcell_e",
+							"items": [
+								"rights_name_e"
+							]
+						},
+						"headcell_d": {
+							"model": "headcell_d",
+							"items": [
+								"rights_name_d"
+							]
+						},
+						"headcell_s": {
+							"model": "headcell_s",
+							"items": [
+								"rights_name_s"
+							]
+						},
+						"headcell_p": {
+							"model": "headcell_p",
+							"items": [
+								"rights_name_p"
+							]
+						},
+						"headcell_i": {
+							"model": "headcell_i",
+							"items": [
+								"rights_name_i"
+							]
+						},
+						"headcell_m": {
+							"model": "headcell_m",
+							"items": [
+								"rights_name_m",
+								"rights_name_m1"
+							]
+						},
+						"cell_page": {
+							"model": "cell_page",
+							"items": [
+								"rights_checkbox_page",
+								"rights_page"
+							]
+						},
+						"cell_page_a": {
+							"model": "cell_page_a",
+							"items": [
+								"rights_checkbox_page_a"
+							]
+						},
+						"cell_page_e": {
+							"model": "cell_page_e",
+							"items": [
+								"rights_checkbox_page_e"
+							]
+						},
+						"cell_page_d": {
+							"model": "cell_page_d",
+							"items": [
+								"rights_checkbox_page_d"
+							]
+						},
+						"cell_page_s": {
+							"model": "cell_page_s",
+							"items": [
+								"rights_checkbox_page_s"
+							]
+						},
+						"cell_page_p": {
+							"model": "cell_page_p",
+							"items": [
+								"rights_checkbox_page_p"
+							]
+						},
+						"cell_page_i": {
+							"model": "cell_page_i",
+							"items": [
+								"rights_checkbox_page_i"
+							]
+						},
+						"cell_page_m": {
+							"model": "cell_page_m",
+							"items": []
+						},
+						"headcell_expand": {
+							"model": "headcell_expand",
+							"items": [
+								"rights_expand_all"
+							]
+						},
+						"headcell_all_a": {
+							"model": "headcell_all_a",
+							"items": [
+								"rights_checkbox_all_a"
+							]
+						},
+						"headcell_all_e": {
+							"model": "headcell_all_e",
+							"items": [
+								"rights_checkbox_all_e"
+							]
+						},
+						"headcell_all_d": {
+							"model": "headcell_all_d",
+							"items": [
+								"rights_checkbox_all_d"
+							]
+						},
+						"headcell_all_s": {
+							"model": "headcell_all_s",
+							"items": [
+								"rights_checkbox_all_s"
+							]
+						},
+						"headcell_all_p": {
+							"model": "headcell_all_p",
+							"items": [
+								"rights_checkbox_all_p"
+							]
+						},
+						"headcell_all_i": {
+							"model": "headcell_all_i",
+							"items": [
+								"rights_checkbox_all_i"
+							]
+						},
+						"headcell_all_m": {
+							"model": "headcell_all_m",
+							"items": [
+								"rights_checkbox_all_m"
+							]
+						},
+						"cell_table": {
+							"model": "cell_table",
+							"items": [
+								"rights_checkbox_table",
+								"rights_table",
+								"rights_show_pages",
+								"rights_hide_pages",
+								"rights_group_expander"
+							]
+						},
+						"cell_a": {
+							"model": "cell_a",
+							"items": [
+								"rights_checkbox_a"
+							]
+						},
+						"cell_e": {
+							"model": "cell_e",
+							"items": [
+								"rights_checkbox_e"
+							]
+						},
+						"cell_d": {
+							"model": "cell_d",
+							"items": [
+								"rights_checkbox_d"
+							]
+						},
+						"cell_s": {
+							"model": "cell_s",
+							"items": [
+								"rights_checkbox_s"
+							]
+						},
+						"cell_p": {
+							"model": "cell_p",
+							"items": [
+								"rights_checkbox_p"
+							]
+						},
+						"cell_i": {
+							"model": "cell_i",
+							"items": [
+								"rights_checkbox_i"
+							]
+						},
+						"cell_m": {
+							"model": "cell_m",
+							"items": [
+								"rights_checkbox_m"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"rights_save": {
+					"type": "rights_save"
+				},
+				"rights_reset": {
+					"type": "rights_reset"
+				},
+				"rights_add_group": {
+					"type": "rights_add_group"
+				},
+				"rights_del_group": {
+					"type": "rights_del_group"
+				},
+				"rights_rename_group": {
+					"type": "rights_rename_group"
+				},
+				"rights_copy_permissions": {
+					"type": "rights_copy_permissions"
+				},
+				"rights_displaying_tables": {
+					"type": "rights_displaying_tables"
+				},
+				"rights_ordering_tables": {
+					"type": "rights_ordering_tables"
+				},
+				"rights_search": {
+					"type": "rights_search"
+				},
+				"rights_name_a": {
+					"type": "rights_name_a"
+				},
+				"rights_name_e": {
+					"type": "rights_name_e"
+				},
+				"rights_name_d": {
+					"type": "rights_name_d"
+				},
+				"rights_name_s": {
+					"type": "rights_name_s"
+				},
+				"rights_name_p": {
+					"type": "rights_name_p"
+				},
+				"rights_name_i": {
+					"type": "rights_name_i"
+				},
+				"rights_name_m": {
+					"type": "rights_name_m"
+				},
+				"rights_name_m1": {
+					"type": "rights_name_m1"
+				},
+				"rights_checkbox_all_a": {
+					"type": "rights_checkbox_all_a"
+				},
+				"rights_checkbox_all_e": {
+					"type": "rights_checkbox_all_e"
+				},
+				"rights_checkbox_all_d": {
+					"type": "rights_checkbox_all_d"
+				},
+				"rights_checkbox_all_s": {
+					"type": "rights_checkbox_all_s"
+				},
+				"rights_checkbox_all_p": {
+					"type": "rights_checkbox_all_p"
+				},
+				"rights_checkbox_all_i": {
+					"type": "rights_checkbox_all_i"
+				},
+				"rights_checkbox_all_m": {
+					"type": "rights_checkbox_all_m"
+				},
+				"rights_checkbox_table": {
+					"type": "rights_checkbox_table"
+				},
+				"rights_table": {
+					"type": "rights_table"
+				},
+				"rights_checkbox_a": {
+					"type": "rights_checkbox_a"
+				},
+				"rights_checkbox_e": {
+					"type": "rights_checkbox_e"
+				},
+				"rights_checkbox_d": {
+					"type": "rights_checkbox_d"
+				},
+				"rights_checkbox_s": {
+					"type": "rights_checkbox_s"
+				},
+				"rights_checkbox_p": {
+					"type": "rights_checkbox_p"
+				},
+				"rights_checkbox_i": {
+					"type": "rights_checkbox_i"
+				},
+				"rights_checkbox_m": {
+					"type": "rights_checkbox_m"
+				},
+				"rights_page": {
+					"type": "rights_page"
+				},
+				"rights_checkbox_page_a": {
+					"type": "rights_checkbox_page_a"
+				},
+				"rights_checkbox_page_e": {
+					"type": "rights_checkbox_page_e"
+				},
+				"rights_checkbox_page_d": {
+					"type": "rights_checkbox_page_d"
+				},
+				"rights_checkbox_page_s": {
+					"type": "rights_checkbox_page_s"
+				},
+				"rights_checkbox_page_p": {
+					"type": "rights_checkbox_page_p"
+				},
+				"rights_checkbox_page_i": {
+					"type": "rights_checkbox_page_i"
+				},
+				"rights_show_pages": {
+					"type": "rights_show_pages"
+				},
+				"rights_hide_pages": {
+					"type": "rights_hide_pages"
+				},
+				"rights_checkbox_page": {
+					"type": "rights_checkbox_page"
+				},
+				"rights_group_expander": {
+					"type": "rights_group_expander"
+				},
+				"rights_expand_all": {
+					"type": "rights_expand_all"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link"
+					]
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "changepwd",
+			"type": "changepwd",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "changepwd-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_message"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "changepwd-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "changepwd-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"oldpass_label"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"oldpass"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"newpass_label"
+							]
+						},
+						"c4": {
+							"model": "c4",
+							"items": [
+								"newpass"
+							]
+						},
+						"c5": {
+							"model": "c5",
+							"items": [
+								"confirm_label"
+							]
+						},
+						"c6": {
+							"model": "c6",
+							"items": [
+								"confirm"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "changepwd-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"oldpass_label": {
+					"type": "oldpass_label"
+				},
+				"newpass_label": {
+					"type": "newpass_label"
+				},
+				"confirm_label": {
+					"type": "confirm_label"
+				},
+				"oldpass": {
+					"type": "oldpass"
+				},
+				"newpass": {
+					"type": "newpass"
+				},
+				"confirm": {
+					"type": "confirm"
+				},
+				"changepwd_message": {
+					"type": "changepwd_message"
+				},
+				"changepwd_button": {
+					"type": "changepwd_button",
+					"label": {
+						"type": 0,
+						"text": "Confirmar"
+					},
+					"buttonStyle": "primary"
+				},
+				"changepwd_header": {
+					"type": "changepwd_header",
+					"title": {
+						"page": "changepwd",
+						"table": "<global>",
+						"type": 7
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Alterar senha"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "changepwd_success",
+			"type": "changepwd_success",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "changepwd-success-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_success_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "changepwd-success-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"changepwd_success_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "changepwd-success-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"changepwd_success_message": {
+					"type": "changepwd_success_message",
+					"label": {
+						"type": 0,
+						"text": "Senha foi alterada"
+					}
+				},
+				"changepwd_success_header": {
+					"type": "changepwd_success_header",
+					"title": {
+						"page": "changepwd_success",
+						"table": "<global>",
+						"type": 7
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Alterar senha"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "login",
+			"type": "login",
+			"layoutId": "pretty1",
+			"disabled": 0,
+			"default": 10,
+			"forms": {
+				"above-grid": {
+					"modelId": "login-above-grid",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c3",
+									"colspan": 1
+								}
+							]
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c1",
+							"items": [
+								"login_message"
+							],
+							"align": "center",
+							"customCSS": ":host {\n  height: 70px;\n}\n"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "plogin-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"login-logo"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "plogin-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c2",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c3",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c13"
+								},
+								{
+									"cell": "c14",
+									"colspan": 1
+								},
+								{
+									"cell": "c17"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"username_label",
+								"username"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"password_label",
+								"password"
+							]
+						},
+						"c": {
+							"model": "c2",
+							"items": [
+								"text",
+								"busca_grupos_login"
+							]
+						},
+						"c13": {
+							"model": "c4",
+							"items": []
+						},
+						"c14": {
+							"model": "c4",
+							"items": [
+								"custom_button1"
+							],
+							"align": "center"
+						},
+						"c17": {
+							"model": "c4",
+							"items": [],
+							"align": "right"
+						},
+						"c5": {
+							"model": "c4",
+							"items": [
+								"login_button"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  \n\n}\n"
+						},
+						"c3": {
+							"model": "c2",
+							"items": []
+						},
+						"c6": {
+							"model": "c4",
+							"items": [
+								"cadastrar"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  \n\n}\n",
+							"align": "center"
+						},
+						"c7": {
+							"model": "c4",
+							"items": [
+								"visitante"
+							],
+							"align": "right",
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  \n\n}\n"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "plogin-footer",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 2
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c2",
+									"colspan": 1
+								},
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"snippet1"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-top: 2em;\n}\n"
+						},
+						"c3": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"superbottom": {
+					"modelId": "plogin-superbottom",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"login_message": {
+					"type": "login_message"
+				},
+				"login-logo": {
+					"type": "login-logo",
+					"font-size": "24px",
+					"color": "#454545",
+					"font-family": "Sanchez",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  font-size: 60px;\n  margin-bottom: -20px;\n}\n"
+				},
+				"username": {
+					"type": "username"
+				},
+				"password": {
+					"type": "password"
+				},
+				"username_label": {
+					"type": "username_label"
+				},
+				"password_label": {
+					"type": "password_label"
+				},
+				"login_button": {
+					"type": "login_button",
+					"width": "76px",
+					"buttonStyle": "primary",
+					"buttonSize": "normal",
+					"icon": {
+						"style": 0
+					}
+				},
+				"custom_button1": {
+					"type": "custom_button",
+					"eventId": "Esqueci",
+					"label": {
+						"text": "Esqueci a senha",
+						"type": 0
+					},
+					"buttonStyle": "default",
+					"bold": true,
+					"color": "#000000",
+					"eventGid": 2853735245,
+					"icon": {
+						"style": 0
+					},
+					"padding": {
+						"top": "40px"
+					}
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"text": "Perfil",
+						"type": 0
+					},
+					"editedByRte": false
+				},
+				"snippet1": {
+					"type": "snippet",
+					"eventId": "_global__snippet",
+					"label": {
+						"text": "_global__snippet",
+						"type": 0
+					},
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  position: absolute;\n  bottom: 25px;\n  right: 25px;\n}\n",
+					"eventGid": 1223285866
+				},
+				"cadastrar": {
+					"type": "custom_button",
+					"eventId": "Cadastrar",
+					"label": {
+						"text": "Cadastrar",
+						"type": 0
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary",
+					"width": "76px",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  border-radius: 25px;\n}\n",
+					"eventGid": 1857119324,
+					"icon": {
+						"style": 0
+					}
+				},
+				"visitante": {
+					"type": "custom_button",
+					"eventId": "visitante",
+					"label": {
+						"text": "Visitante",
+						"type": 0
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "info",
+					"width": "76px",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  border-radius: 25px;\n}\n",
+					"eventGid": 3815086115,
+					"icon": {
+						"style": 0
+					}
+				},
+				"busca_grupos_login": {
+					"eventId": "_global__snippet2",
+					"label": {
+						"text": "_global__snippet2",
+						"type": 0
+					},
+					"type": "snippet",
+					"eventGid": 3492149049
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image",
+				"shadow": false,
+				"image": {
+					"image": "_img-login-lateral.jpg",
+					"source": 2
+				},
+				"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  max-width: 100%;\n  height: auto;\n}\n",
+				"width": "100%",
+				"height": "100%",
+				"fullSize": true
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "left",
+			"pageCSS": "/* Put your custom CSS code here */\r\n\r\n#username {\r\n    border-radius: 25px!important;\r\n}\r\n\r\n#password {\r\n    border-radius: 25px!important;\r\n}\r\n\r\n#gruposLogin {\r\n    border-radius: 25px!important;\r\n}\r\n\r\n.alert{\r\n    border-radius: 25px;\r\n}\r\n\r\n#cadastrar {\r\n    border-radius: 25px!important;\r\n}\r\n\r\n#visitante {\r\n    border-radius: 25px!important;\r\n}\r\n\r\n.r-image {\r\n    object-fit: fill;\r\n    display: flex;\r\n    justify-content: center;\r\n}\r\n\r\nimg {\r\n    object-fit: fill;\r\n}\r\n\r\n.r-sideimage{\r\n    object-fit: cover;\r\n}\r\n\r\n/* COMPUTAÇÃO: Aplica a altura mínima apenas em telas grandes (Desktop) */\r\n@media (min-width: 769px) {\r\n    td {\r\n        min-height: 10em;\r\n    }\r\n}\r\n\r\n/* =======================================================\r\n   TRAVA RESPONSIVA PARA CELULAR (BLINDAGEM COMPLETA)\r\n   ======================================================= */\r\n@media (max-width: 768px) {\r\n    /* 1. Força a div da imagem lateral (Trevo) a SUMIR no celular */\r\n    .r-sideimage, \r\n    .r-pretty-login-page .r-sideimage,\r\n    [class*=\"sideimage\"] {\r\n        display: none !important;\r\n        height: 0 !important;\r\n        opacity: 0 !important;\r\n        visibility: hidden !important;\r\n    }\r\n\r\n    /* 2. Reseta a altura das células da tabela no celular para sumir com o buraco branco */\r\n    td, .mobile-login-table td {\r\n        min-height: 0 !important;\r\n        height: auto !important;\r\n    }\r\n}",
+			"listTotals": 1,
+			"customHtml": "",
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "menu",
+			"type": "menu",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 6,
+			"forms": {
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "menu-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"snippet",
+								"text"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "welcome",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"welcome_group"
+							]
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"welcome_group1"
+							]
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"welcome_group2"
+							]
+						},
+						"c3": {
+							"model": "c1",
+							"items": [
+								"welcome_group3"
+							]
+						},
+						"c4": {
+							"model": "c1",
+							"items": [
+								"welcome_group4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"welcome_group": {
+					"type": "welcome_group",
+					"linkText": {
+						"text": "Aplicações",
+						"type": 0
+					},
+					"items": [
+						"welcome_item38",
+						"welcome_item",
+						"welcome_item1",
+						"welcome_item2",
+						"welcome_item4"
+					],
+					"padding": {
+						"padding": "20px"
+					}
+				},
+				"welcome_item": {
+					"type": "welcome_item",
+					"linkUrl": "#",
+					"linkTable": "app.t_cius_consulta",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "CIUS - interno"
+					},
+					"linkIcon": {
+						"glyph": "object-align-top"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#43759f",
+					"linkType": 0
+				},
+				"welcome_item2": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_memo_registro",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Memorial"
+					},
+					"linkIcon": {
+						"fa": "object-ungroup"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#43759f",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_group1": {
+					"type": "welcome_group",
+					"linkText": {
+						"type": 0,
+						"text": "Cadastros"
+					},
+					"items": [
+						"welcome_item3",
+						"welcome_item8",
+						"welcome_item15",
+						"welcome_item6",
+						"welcome_item10"
+					],
+					"padding": {
+						"padding": "20px"
+					}
+				},
+				"welcome_item3": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_imobiliario_default",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Imobiliario"
+					},
+					"linkIcon": {
+						"fa": "wpforms"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item6": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_face_quadra",
+					"linkPage": "list",
+					"linkText": {
+						"table": "app.t_face_quadra",
+						"type": 6
+					},
+					"linkIcon": {
+						"fa": "object-group"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item8": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_mobiliario_empresa",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Mobiliario"
+					},
+					"linkIcon": {
+						"fa": "columns"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item10": {
+					"type": "welcome_item",
+					"linkUrl": "#",
+					"linkTable": "app.t_renum_logradouros",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Renumeração"
+					},
+					"linkIcon": {
+						"glyph": "sound-7-1"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_group2": {
+					"type": "welcome_group",
+					"linkText": {
+						"type": 0,
+						"text": "Anexos"
+					},
+					"items": [
+						"welcome_item17",
+						"welcome_item18",
+						"welcome_item20",
+						"welcome_item19",
+						"welcome_item13"
+					],
+					"padding": {
+						"padding": "20px"
+					}
+				},
+				"welcome_item17": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_arquivos_matricula",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Matrículas"
+					},
+					"linkIcon": {
+						"glyph": "ok"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item18": {
+					"type": "welcome_item",
+					"linkTable": "app.t_arquivos_alvara",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Alvarás"
+					},
+					"linkIcon": {
+						"fa": "check"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item19": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_arquivos_foto",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Fotos"
+					},
+					"linkIcon": {
+						"fa": "picture-o"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item20": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_arquivos_croqui",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Croquis"
+					},
+					"linkIcon": {
+						"glyph": "object-align-top"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item22": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.portainer",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.portainer",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "tasks"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"welcome_item23": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.pgadmin",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.pgadmin",
+						"type": 6
+					},
+					"linkIcon": {
+						"file": "dbs_postgresql.png"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"welcome_group4": {
+					"type": "welcome_group",
+					"linkText": {
+						"type": 0,
+						"text": "Sistema"
+					},
+					"items": [
+						"welcome_item35",
+						"welcome_item23",
+						"welcome_item22",
+						"welcome_item39",
+						"welcome_item5"
+					],
+					"padding": {
+						"padding": "20px"
+					}
+				},
+				"welcome_item28": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "admin_permissao",
+					"linkPage": "dashboard",
+					"linkText": {
+						"type": 0,
+						"text": "Permissões"
+					},
+					"linkIcon": {
+						"fa": "group"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item29": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "admin_camadas",
+					"linkPage": "dashboard",
+					"linkText": {
+						"type": 0,
+						"text": "GeoServer Config."
+					},
+					"linkIcon": {
+						"fa": "gears"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item30": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "admin_cadastros",
+					"linkPage": "dashboard",
+					"linkText": {
+						"type": 0,
+						"text": "Cadastros"
+					},
+					"linkIcon": {
+						"glyph": "th-list"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item31": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_metadados_print",
+					"linkPage": "edit",
+					"linkText": {
+						"table": "app.t_metadados_print",
+						"type": 6
+					},
+					"linkIcon": {
+						"fa": "print"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px"
+				},
+				"welcome_item35": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.core",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Sistema Files"
+					},
+					"linkIcon": {
+						"fa": "snowflake-o"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link"
+					]
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"welcome_item38": {
+					"type": "welcome_item",
+					"linkUrl": "https://webgis.maua.sp.gov.br/web/",
+					"linkTable": "app.t_memo_registro",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "WebGis"
+					},
+					"linkIcon": {
+						"fa": "globe"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#43759f",
+					"linkType": 1,
+					"font-size": "20px",
+					"linkAddAuth": true,
+					"linkNewTab": true
+				},
+				"welcome_item13": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "app.t_arquivos_outros",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Outros Documentos"
+					},
+					"linkIcon": {
+						"glyph": "link"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#6e94b3",
+					"linkType": 0,
+					"font-size": "20px",
+					"customCSS": "\n"
+				},
+				"welcome_item39": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "public.geoserver",
+					"linkPage": "list",
+					"linkText": {
+						"table": "public.geoserver",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "globe"
+					},
+					"background": "#008b8b",
+					"linkType": 0,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"welcome_item15": {
+					"type": "welcome_item",
+					"linkTable": "app.t_logradouros",
+					"linkPage": "list",
+					"linkText": {
+						"table": "app.t_logradouros",
+						"type": 6
+					},
+					"linkIcon": {
+						"fa": "map-signs"
+					},
+					"background": "#6e94b3",
+					"linkType": 0
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "Mauá - InMap"
+					},
+					"editedByRte": false,
+					"font-size": "18px"
+				},
+				"welcome_item1": {
+					"type": "welcome_item",
+					"linkUrl": "http://sp.maua.homo.millenio.com.br/cius/t_cius_consulta_add.php",
+					"linkTable": "app.t_cius_consulta",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "CIUS - Externo"
+					},
+					"linkIcon": {
+						"glyph": "object-align-top"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#43759f",
+					"linkType": 1,
+					"linkNewTab": true
+				},
+				"welcome_item4": {
+					"type": "welcome_item",
+					"linkUrl": "https://webgis.maua.sp.gov.br/manual_admin.pdf",
+					"linkTable": "app.t_memo_registro",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "Manual"
+					},
+					"linkIcon": {
+						"fa": "question"
+					},
+					"linkComments": {
+						"type": 0,
+						"text": ""
+					},
+					"background": "#43759f",
+					"linkType": 1,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"welcome_group3": {
+					"type": "welcome_group",
+					"linkText": {
+						"type": 0,
+						"text": "Configurações do Sistema"
+					},
+					"items": [
+						"welcome_item28",
+						"welcome_item30",
+						"welcome_item29",
+						"welcome_item31"
+					]
+				},
+				"welcome_item5": {
+					"type": "welcome_item",
+					"linkUrl": "https://webgis.maua.sp.gov.br/tileserver/index.html",
+					"linkTable": "public.geoserver",
+					"linkPage": "list",
+					"linkText": {
+						"type": 0,
+						"text": "TileServer"
+					},
+					"linkIcon": {
+						"fa": "map"
+					},
+					"background": "#008b8b",
+					"linkType": 1,
+					"font-size": "20px",
+					"linkNewTab": true
+				},
+				"snippet": {
+					"eventId": "logo_sistema",
+					"label": {
+						"text": "logo_sistema",
+						"type": 0
+					},
+					"type": "snippet",
+					"eventGid": 2783461649
+				}
+			},
+			"version": 14,
+			"pageAlign": "center",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"welcomePageStay": false,
+			"pageCSS": "/* Put  your custom CSS code here */\n\n",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"welcomeStyle": 0
+		},
+		{
+			"id": "register",
+			"type": "register",
+			"layoutId": "pretty1",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "register-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"register_message"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "register-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"register_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "register-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"register_save"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"back_to_login"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field3",
+								"integrated_edit_field2",
+								"integrated_edit_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"register_header": {
+					"type": "register_header",
+					"title": {
+						"page": "register",
+						"table": "<global>",
+						"type": 7
+					}
+				},
+				"register_message": {
+					"type": "register_message"
+				},
+				"integrated_edit_field2": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "email",
+						"table": "app.t_users",
+						"type": 3
+					}
+				},
+				"integrated_edit_field": {
+					"field": "name",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "name",
+						"table": "app.t_users",
+						"type": 3
+					}
+				},
+				"integrated_edit_field1": {
+					"field": "pass",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"register_save": {
+					"type": "register_save",
+					"label": {
+						"type": 0,
+						"text": "Confirmar"
+					}
+				},
+				"integrated_edit_field3": {
+					"field": "alias_name",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"back_to_login": {
+					"type": "back_to_login",
+					"label": {
+						"type": 0,
+						"text": "Voltar ao Login"
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image",
+				"shadow": false,
+				"fullSize": true,
+				"image": {
+					"image": "WhatsApp Image 2025-05-22 at 14.32.00.jpeg",
+					"source": 2
+				}
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "left",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Registre-se"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "register_success",
+			"type": "register_success",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "register_success-above",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"register_activate_message",
+								"register_activated_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "register_success-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"register_success_header"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "register_success-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"register_close"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "register_success-footer",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"register_success_header": {
+					"type": "register_success_header"
+				},
+				"register_close": {
+					"type": "register_close",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					},
+					"buttonStyle": "primary"
+				},
+				"register_activate_message": {
+					"type": "register_activate_message"
+				},
+				"register_activated_message": {
+					"type": "register_activated_message"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "remind",
+			"type": "remind",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "remind-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"message"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "remind-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"remind_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "remind-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"username_email_label"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"username_email"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "remind-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"remind_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"username_email_label": {
+					"type": "username_email_label",
+					"label": {
+						"type": 0,
+						"text": "Digite o email"
+					}
+				},
+				"username_email": {
+					"type": "username_email"
+				},
+				"message": {
+					"type": "message"
+				},
+				"remind_button": {
+					"type": "remind_button",
+					"label": {
+						"type": 0,
+						"text": "Enviar"
+					}
+				},
+				"remind_header": {
+					"type": "remind_header"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "remind_success",
+			"type": "remind_success",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "remind-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"remind_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "remind_success-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"remind_success_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "remind_success-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"remind_success_submit"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"remind_success_submit": {
+					"type": "remind_success_submit",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					}
+				},
+				"remind_header": {
+					"type": "remind_header",
+					"title": {
+						"page": "remind_success",
+						"table": "<global>",
+						"type": 7
+					}
+				},
+				"remind_success_message": {
+					"type": "remind_success_message",
+					"label": {
+						"type": 0,
+						"text": "O link para alterar a senha foi enviado para o email."
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Alterar Senha"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "session_expired",
+			"type": "session_expired",
+			"layoutId": "session_expired",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "session_expired-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"session_expired_message",
+								"session_expired_comment"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "session_expired-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expired_stay",
+								"expired_logout"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"session_expired_message": {
+					"type": "session_expired_message",
+					"color": "#55768e",
+					"font-size": "22px"
+				},
+				"session_expired_comment": {
+					"type": "session_expired_comment",
+					"text": {
+						"label": "SESSION_EXPIRED_COMMENT",
+						"type": 1
+					}
+				},
+				"expired_stay": {
+					"type": "expired_stay",
+					"label": {
+						"type": 0,
+						"text": "Continuar"
+					}
+				},
+				"expired_logout": {
+					"type": "expired_logout",
+					"label": {
+						"type": 0,
+						"text": "Sair"
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "userinfo",
+			"type": "userinfo",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "userinfo-header",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "userinfo-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "fields1",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "fields5",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "fields3",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"fields1": {
+							"model": "fields_message",
+							"items": [
+								"fields_message",
+								"custom_button"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-top: 10em;\n  width: 100%;\n}\n"
+						},
+						"fields3": {
+							"model": "buttons",
+							"items": [
+								"user_fields_reset",
+								"user_fields_save"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-top: 2em;\n  max-width: 60%;\n  justify-content: space-between;\n  display: flex;\n  gap: 20em;\n  \n}\n",
+							"orientation": "horizontal"
+						},
+						"fields5": {
+							"model": "fields",
+							"items": [
+								"changepassword_link",
+								"integrated_user_field",
+								"integrated_edit_field",
+								"integrated_user_field1"
+							],
+							"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-top: 2em;\n  max-width: 60%;\n  border: 1px solid black;\n  \n}\n",
+							"padding": {
+								"padding": "5px"
+							}
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"fields_message": {
+					"type": "fields_message"
+				},
+				"user_fields_reset": {
+					"type": "user_fields_reset",
+					"width": "120px",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-right: 2em;\n}\n"
+				},
+				"user_fields_save": {
+					"type": "user_fields_save",
+					"width": "120px",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  margin-right: 2em;\n}\n"
+				},
+				"integrated_user_field": {
+					"field": "name",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "name",
+						"table": "app.t_users",
+						"type": 3
+					},
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  max-width: 60%;\n}\n"
+				},
+				"integrated_user_field1": {
+					"field": "alias_name",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  max-width: 60%;\n}\n",
+					"label": {
+						"field": "alias_name",
+						"table": "app.t_users",
+						"type": 3
+					}
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"integrated_edit_field": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  color: red;\n  max-width: 60%;\n}\n",
+					"label": {
+						"field": "email",
+						"table": "app.t_users",
+						"type": 3
+					}
+				},
+				"custom_button": {
+					"type": "custom_button",
+					"eventId": "Voltar",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"width": "30px",
+					"icon": {
+						"fa": "arrow-left"
+					},
+					"eventGid": 2425514004
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_AFTERLOGOUT",
+			"pageType": "login",
+			"code": "\n\t\t$strCookiePath = \"/\";\n    $timeExpired = time()-3600;\n    $value = \"\";\n\n\t\tsetrawcookie(\"USERID\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERNAME\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERALIAS\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USEREMAIL\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERACTIVE\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUPNAME\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUP\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUPTIPO\", $value, $timeExpired, \"{$strCookiePath}\");\n// VINICIUS 18/10/2024\n\t\tsetrawcookie(\"TESTE\", $value, $timeExpired, \"{$strCookiePath}\");\n// VINICIUS 18/10/2024\n\n\t\tunset($_COOKIE[\"USERID\"]);\n\t\tunset($_COOKIE[\"USERNAME\"]);\n\t\tunset($_COOKIE[\"USERALIAS\"]);\n\t\tunset($_COOKIE[\"USEREMAIL\"]);\n\t\tunset($_COOKIE[\"USERACTIVE\"]);\n\t\tunset($_COOKIE[\"USERGROUPNAME\"]);\n\t\tunset($_COOKIE[\"USERGROUP\"]);\n\t\tunset($_COOKIE[\"USERGROUPTIPO\"]);\n// VINICIUS 18/10/2024\n\t\tunset($_COOKIE[\"TESTE\"]);\n// VINICIUS 18/10/2024\n\n\t\tsession_destroy();\n"
+		},
+		{
+			"eventId": "EVENT_JS_CUSTOM_FUNCTIONS",
+			"code": "\nfunction modal_alert(titulo, conteudo){\n\t$(\"#myModal\").remove();\n\tvar html_modal = \n\t\t\"<div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true'>\"+\n\t\t\"\t<div class='modal-dialog' role='document' style='width: 400px;'>\"+\n\t\t\"\t\t<div class='modal-content'>\"+\n\t\t\"     <div class='modal-header'>\"+\n\t\t\"        <h5 class='modal-title' id='exampleModalLabel'>\"+titulo+\"</h5>\"+\n\t\t\"        <button type='button' class='close' data-dismiss='modal' aria-label='Close'>\"+\n\t\t\"          <span aria-hidden='true'>&times;</span>\"+\n\t\t\"        </button>\"+\n\t\t\"      </div>\"+\n\t\t\"      <div class='modal-body'>\"+\n\t\t\t\t\tconteudo +\n\t\t\"      </div>\"+\n\t\t\"      <div class='modal-footer'>\"+\n\t\t\"        <button type='button' class='btn btn-primary' data-dismiss='modal'>Fechar</button>\"+\n\t\t\"      </div>\"+\n\t\t\"    </div>\"+\n\t\t\"  </div>\"+\n\t\t\"</div>\"+\n\t\t\";\";\n\t$(\"body\").append(html_modal);\n\t$('#myModal').modal('show');\n}\n\nfunction getInputValue(){\n\tvar inputValnome = document.getElementById(\"titulo_mapa\").value;\n\tvar inputValcor = document.getElementById(\"cor_mapa\").value;\n\tvar inputValOpac = document.getElementById(\"opac_mapa\").value;\n\tvar inputValEspess = document.getElementById(\"espess_borda\").value;\n\tvar inputValcorborda = document.getElementById(\"cor_borda\").value;\n\talert(inputValnome + \"-\" + inputValcor + \"-\" + inputValOpac + \"-\" + inputValEspess + \"-\" + inputValcorborda);\n};\n\nfunction onClickGetValue(){\n\tvar inputValnome = document.getElementById(\"titulo_mapa\").value;\n\tvar inputValcor = document.getElementById(\"cor_mapa\").value;\n\tvar inputValOpac = document.getElementById(\"opac_mapa\").value;\n\tvar inputValEspess = document.getElementById(\"espess_borda\").value;\n\tvar inputValcorborda = document.getElementById(\"cor_borda\").value;\n\t$(\"body\").attr(\"data-style-title\", inputValnome);\n\t$(\"body\").attr(\"data-style-color\", inputValcor);\n\t$(\"body\").attr(\"data-style-opac\", inputValOpac);\n\t$(\"body\").attr(\"data-style-espess\", inputValEspess);\n\t$(\"body\").attr(\"data-style-color2\", inputValcorborda);\n};\n\n\nwindow.setCookie = function (name, value, duration) {\n    var cookie = name + \"=\" + escape(value) +\n        ((duration) ? \"; duration=\" + duration.toGMTString() : \"\");\n    document.cookie = cookie;\n};\n\nwindow.getCookie = function (name) {\n    var cookies = document.cookie;\n    var prefix = name + \"=\";\n    var begin = cookies.indexOf(\"; \" + prefix);\n\tif (begin == -1) {\n\t\tbegin = cookies.indexOf(prefix);\n\t\tif (begin != 0) {\n\t\t\treturn null;\n\t\t}\n\t} else {\n\t\tbegin += 2;\n\t}\n\tvar end = cookies.indexOf(\";\", begin);\n\tif (end == -1) {\n\t\tend = cookies.length;\n\t}\n\treturn unescape(cookies.substring(begin + prefix.length, end));\n};\n\nwindow.deleteCookie = function (name) {\n    if (getCookie(name)) {\n        document.cookie = name + \"=\" + \"; expires=Thu, 01-Jan-70 00:00:01 GMT\";\n    }\n};\n\n\n\n\n// Leonardo 16/12/2025 \n// Verifica a página atual e retorna em formato app_exemplo_1. Recomendado dar um console.log no resultado antes de contar com o valor retornado.\nconst verifyCurrentPage = (verify) => {\n\tswitch(verify) {\n\t\tcase 'app.t_tema':\n\t\t\treturn 'app_t_tema1'\n\t\tcase 'app.t_pack' :\n\t\t\treturn 't_pack'\n        case 'app.t_pack_layer':\n            return 't_pack_layer'\n        default:\n            return verify.replace('.', '_')\n\t}\n}\n\n\n\n\n"
+		},
+		{
+			"eventId": "EVENT_AFTERSUCCESSFULREGISTRATION",
+			"pageType": "register",
+			"code": "\n//  Recupera UID do grupo publico\n$strSQLSelect = \"SELECT uid\nFROM app.t_groups\nwhere name = 'PÚBLICO'\";\n$rsExists = db_query($strSQLSelect,$conn);\n$data = db_fetch_array($rsExists);\n\n$update = \"UPDATE app.t_users SET fuid_groups = \".$data[\"uid\"].\" WHERE name = '\".$userdata[\"name\"].\"'\";\nCustomQuery($update);\n\n$update = \"UPDATE app.t_users SET user_type = 'publico' WHERE name = '\".$userdata[\"name\"].\"'\";\nCustomQuery($update);\n\n\n$sqlBusca = \"SELECT uid FROM app.t_users WHERE name = '\" . $userdata[\"name\"] . \"'\";\n$rsBusca = db_query($sqlBusca, $conn);\n\nif($rsBusca && $dataUser = db_fetch_array($rsBusca)) {\n    $id_do_usuario = $dataUser[\"uid\"];\n    $insert = \"INSERT INTO app.t_users_groups \n    (fuid_users, fuid_groups, name_groups, name_users) \n    VALUES (\" . $id_do_usuario . \", \" . $data[\"uid\"] . \", 'PÚBLICO', '\" . $userdata[\"name\"] . \"')\";\n    CustomQuery($insert);\n}\n\n//$insert = \"INSERT INTO app.t_users_groups \n//(fuid_users, fuid_groups, name_groups, name_users) \n//(\".$userdata[\"uid\"].\", \".$data[\"uid\"].\", 'PÚBLICO', \".$userdata[\"name\"].\")\";\n//CustomQuery($insert);\n\n\t//$userdata[\"fuid_groups\"] = 2;\n\t//$userdata[\"user_type\"] = \"publico\";\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_AFTERSUCCESSFULLLOGIN",
+			"pageType": "login",
+			"code": "// Se você está dando deploy em uma cidade nova, vale observar o campo \"acesso_tbl_link_acesso.link_acesso\", pois após o login se feito com sucesso, caso esse campo não exista, ou por algum outro motivo que impeça a execução da \n// consulta no banco, o código destruirá os cookies e retornará para a tela inicial, sem demosntrar nenhum erro aparente e impossibilitando logs devido ao redirecionamento do php\n\n$rs = DB::Query(\"SELECT app.t_groups.tipo, app.t_groups.\\\"name\\\", app.t_groups.uid FROM app.t_users INNER JOIN app.t_groups ON t_users.fuid_groups = app.t_groups.uid WHERE app.t_users.uid = \" . $data['uid']);\n\nif (!$rs) {\n    echo \"Erro na query: \" . DB::LastError();\n    exit;\n}\n\n$data1 = $rs->fetchAssoc();\n\nforeach($data1 as $field){\n\techo $field;\n}\n\t\n$_SESSION['USERID']=$data['uid'];\n$_SESSION['USERNAME']=$data['name'];\n$_SESSION['USERALIAS']=$data['alias_name'];\n$_SESSION['USEREMAIL']=$data['email'];\n$_SESSION['USERESTADO']=$data['ativo'];\n$_SESSION['USERGROUPNAME']=$data1[\"name\"];\n$_SESSION['USERGROUPID']=$data1['uid'];\n$_SESSION['USERGROUPTIPO']=$data1['tipo'];\n$_SESSION['UsuarioLogado']=\"\";\n\n$strCookiePath = \"/\";\n$strRedirecUrl = \"/web\";\n\nsetrawcookie(\"USERALIAS\", $_SESSION['USERALIAS'], 0, \"{$strCookiePath}\");\nsetrawcookie(\"USEREMAIL\", $_SESSION['USEREMAIL'], 0, \"{$strCookiePath}\");\nsetcookie(\"USERGROUPNAME\", rawurlencode($_SESSION['USERGROUPNAME']), 0, \"{$strCookiePath}\");\nsetrawcookie(\"USERGROUP\", $_SESSION['USERGROUPID'], 0, \"{$strCookiePath}\");\nsetrawcookie(\"USERID\", $_SESSION['USERID'], 0, \"{$strCookiePath}\");\nsetrawcookie(\"USERNAME\", $_SESSION['USERNAME'], 0, \"{$strCookiePath}\");\nsetrawcookie(\"USERACTIVE\", $_SESSION['USERESTADO'], 0, \"{$strCookiePath}\");\nsetrawcookie(\"USERGROUPTIPO\", $_SESSION['USERGROUPTIPO'], 0, \"{$strCookiePath}\");\n\n// VINICIUS 18/10/2024\nif (!$_COOKIE['TESTE']) {\n    setrawcookie('TESTE', true, 0, \"{$strCookiePath}\");\n}\n// VINICIUS 18/10/2024  \n\n\n//**********  Redirect to another page  ************\n\nif ($_POST[\"datagrupo\"] == 'PÚBLICO') {\n\theader(\"Location: menu.php\");\n\texit();\n} else {\n\t$rs = DB::Query(\"SELECT acesso_tbl_link_acesso.link_acesso FROM app.acesso_tbl_link_acesso WHERE acesso_tbl_link_acesso.descricao = 'admin'\");\n    $data2=$rs->fetchAssoc();\n\t\t\n\n\tif ($data2[\"link_acesso\"] == null) {\n\t\t$strCookiePath = \"/\";\n        $timeExpired = time()-3600;\n        $value = \"\";\n        \n\t\tsetrawcookie(\"USERALIAS\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USEREMAIL\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUPNAME\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUP\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERID\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERNAME\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERACTIVE\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"USERGROUPTIPO\", $value, $timeExpired, \"{$strCookiePath}\");\n\t\tsetrawcookie(\"TESTE\", $value, $timeExpired, \"{$strCookiePath}\");\n\n\t\tunset($_COOKIE[\"USERALIAS\"]);\n\t\tunset($_COOKIE[\"USEREMAIL\"]);\n\t\tunset($_COOKIE[\"USERGROUPNAME\"]);\n\t\tunset($_COOKIE[\"USERGROUP\"]);\n\t\tunset($_COOKIE[\"USERID\"]);\n\t\tunset($_COOKIE[\"USERNAME\"]);\n\t\tunset($_COOKIE[\"USERACTIVE\"]);\n\t\tunset($_COOKIE[\"USERGROUPTIPO\"]);\n\t\tunset($_COOKIE[\"TESTE\"]);\n\t\t\n\t\tsession_destroy();\n\t} else {\n\t\theader(\"Location: \".$data2[\"link_acesso\"]);\n\t\texit();\n\t}\n}\n\n"
+		},
+		{
+			"eventId": "EVENT_BEFORELOGIN",
+			"pageType": "login",
+			"code": "if ($_POST[\"gruposLogin\"] == null or $_POST[\"gruposLogin\"] == \"\") {\n\t$message = \"Selecione um perfil\";\n\treturn false;\n}\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_AFTERUNSUCCESSFULLOGIN",
+			"pageType": "login",
+			"code": "$message = 'Usuário ou Senha incorretos!<br> Tente novamente.'\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_INIT_APP",
+			"code": "function sanitizarNomeArquivo($nome) {   \n// ! matriz de entrada\n    $what = array( 'ä','ã','à','á','â','ê','ë','è','é','ï','ì','í','ö','õ','ò','ó','ô','ü','ù','ú','û','À','Á','Ã','Â','É','È','Ê','Í','Ì','Ó','Ò','Ô','Ú','Ù','Û','ñ','Ñ','ç','Ç',' ','-','(',')',',',';',':','|','!','\"','#','$','%','&','/','=','?','~','^','>','<','ª','º' );    \n// ! matriz de saída\n    $by   = array( 'a','a','a','a','a','e','e','e','e','i','i','i','o','o','o','o','o','u','u','u','u','a','a','a','a','e','e','e','i','i','o','o','o','u','u','u','n','n','c','c','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_','_' );\n    \n// Remove acentos e caracteres especiais\n    $limpo = str_replace($what, $by, $nome);\n      \n// Opcional: Garante que tudo fique em minúsculo para evitar problemas no Linux\n    return strtolower($limpo);\n\n}\n\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"projectStyle": {
+		"theme": "sandstone",
+		"size": "small",
+		"sidebarWidth": "250px",
+		"sidebarTheme": "legacy",
+		"menuStyle": "flat",
+		"sidebarCompact": true,
+		"topbarTheme": "legacy",
+		"logoTheme": "legacy",
+		"sidebarCustomThemeColor": "#98978B",
+		"topbarCustomThemeColor": "legacy",
+		"logoCustomThemeColor": "legacy",
+		"customCss": "/* ==========================================================================\r\n   BOTÕES ENTRAR, CADASTRAR E VISITANTE\r\n   ========================================================================== */\r\n\r\n/* Centraliza a linha dos botões */\r\ntr[data-row=\"grid_5\"] td,\r\n#form_grid_\\{$pageid\\} tbody tr:last-child td {\r\n    text-align: center !important;\r\n    vertical-align: middle !important;\r\n}\r\n\r\n/* Estilo geral dos botões de ação */\r\n#Cadastrar,\r\n#visitante,\r\na.btn[data-event=\"51017\"],\r\na.btn[data-event=\"51117\"],\r\na.btn[data-loginlink] {\r\n    min-width: 120px;\r\n    border-radius: 6px;\r\n    font-weight: 600;\r\n    letter-spacing: 0.5px;\r\n}\r\n\r\n/* Agrupa os três botões centralizados */\r\ntr td [data-itemid=\"login_button\"],\r\ntr td [data-itemid=\"cadastrar\"],\r\ntr td [data-itemid=\"visitante\"] {\r\n    display: inline-block;\r\n}\r\n\r\n/* Linha dos três botões — força centralização */\r\n[data-cellid=\"grid_c13\"],\r\n[data-cellid=\"grid_c14\"],\r\n[data-cellid=\"grid_c17\"] {\r\n    text-align: center !important;\r\n    vertical-align: middle !important;\r\n    padding: 4px 6px !important;\r\n}\r\n\r\n/* ==========================================================================\r\n   BOTÃO ESQUECI A SENHA\r\n   ========================================================================== */\r\n\r\n/* Remove bordas, fundos, espaçamentos e sombras que simulam o botão */\r\n.r-pretty-login-page [data-itemid=\"custom_button1\"] a.btn,\r\n.r-pretty-login-page [data-itemid=\"custom_button1\"] a[id=\"Esqueci\"],\r\n.r-pretty-login-page #Esqueci {\r\n    background: transparent !important;\r\n    background-color: transparent !important;\r\n    background-image: none !important;\r\n    border: none !important;\r\n    border-radius: 0 !important;\r\n    box-shadow: none !important;\r\n    text-shadow: none !important;\r\n    padding: 0 !important;\r\n    margin: 0 !important;\r\n    \r\n    /* Configuração estética: Texto simples e limpo */\r\n    color: #555555 !important; /* Cor cinza neutra de texto */\r\n    font-size: 14px !important;\r\n    font-weight: normal !important;\r\n    text-transform: none !important; /* Mantém escrita normal, sem letras maiúsculas forçadas */\r\n    display: inline-block !important;\r\n    \r\n    /* Remove a linha sublinhada (Underline) */\r\n    text-decoration: none !important; \r\n}\r\n\r\n/* Garante o mesmo comportamento idêntico ao interagir (Hover / Click / Foco) */\r\n.r-pretty-login-page [data-itemid=\"custom_button1\"] a.btn:hover,\r\n.r-pretty-login-page [data-itemid=\"custom_button1\"] a.btn:focus,\r\n.r-pretty-login-page [data-itemid=\"custom_button1\"] a.btn:active,\r\n.r-pretty-login-page #Esqueci:hover,\r\n.r-pretty-login-page #Esqueci:focus {\r\n    background: transparent !important;\r\n    background-color: transparent !important;\r\n    box-shadow: none !important;\r\n    border: none !important;\r\n    \r\n    /* Mantém SEM a linha sublinhada ao passar o mouse */\r\n    text-decoration: none !important; \r\n    \r\n    /* Apenas uma sutil mudança de cor para indicar que é clicável */\r\n    color: #222222 !important; \r\n}\r\n",
+		"gpHeaderBg": "legacy",
+		"gpHeaderColor": "legacy",
+		"gpFooterBg": "legacy",
+		"gpPanelBorder": "legacy",
+		"gpBorderColor": "legacy",
+		"gpInnerBorder": "legacy",
+		"gpInnerBorderColor": "legacy",
+		"gcOddBg": "legacy",
+		"gcOddColor": "legacy",
+		"gcEvenBg": "legacy",
+		"gcEvenColor": "legacy",
+		"gcRolloverHighlightBg": "legacy",
+		"gcRolloverHighlightColor": "legacy"
+	},
+	"fonts": [
+		{
+			"name": "Sanchez",
+			"pdf": false,
+			"standard": false,
+			"type": 1,
+			"url": "https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap"
+		}
+	],
+	"settingsTable": {
+		"connId": "inmap_franco_at_192_168_100_20",
+		"table": "public.app_inmap_osasco_app_24_v10_5_settings"
+	},
+	"messages": {
+		"SHOW_SEARCH_PANEL": {
+			"Portuguese(Brazil)": "Pesquisa avançada"
+		},
+		"SESSION_EXPIRED_COMMENT": {
+			"Portuguese(Brazil)": "Por motivos de segurança, sua sessão terá tempo em %seconds% segundos, a menos que você continue"
+		},
+		"LOGIN_SUBTITLE": {
+			"Portuguese(Brazil)": "Osasco na palma da sua mão"
+		}
+	},
+	"projectLogo": {
+		"Portuguese(Brazil)": "WebGis"
+	},
+	"cookieBannerText": {
+		"Portuguese(Brazil)": "Utilizamos cookies para melhorar sua experiência em nossos serviços.\nAo utilizar nossos serviços, você aceita a política de uso de cookies."
+	}
+}

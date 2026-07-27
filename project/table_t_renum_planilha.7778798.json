@@ -1,0 +1,3915 @@
+{
+	"orderInfo": [
+		{
+			"index": 1,
+			"asc": true,
+			"field": "cod_log_geo"
+		},
+		{
+			"index": 2,
+			"asc": true,
+			"field": "lado"
+		},
+		{
+			"index": 5,
+			"asc": true,
+			"field": "inscricao"
+		},
+		{
+			"index": 6,
+			"asc": true,
+			"field": "fx_min"
+		}
+	],
+	"sql": "SELECT\ncod_log_geo,\nlado,\ncodgis,\ncruzamento,\ninscricao,\nfx_min,\nfx_max,\ndiv_min,\ndiv_max,\nnum_minimo,\nnum_medio,\nnum_maximo,\nnum_cad,\ndiv_num_cad,\ncod_log_cad,\ncod_log_oficial,\ntipo_const_cad,\ncompl_cad,\nqt_unid_cad,\nnum_atribuido,\ncompl_atribuido,\nstatus_num,\nident,\nnome,\ncodgeo_ini,\ncodgeo_fim,\nnome_ini,\nnome_fim\nFROM app.t_renum_planilha \nORDER BY cod_log_geo, lado, fx_min, inscricao",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_renum_planilha",
+	"name": "app.t_renum_planilha",
+	"shortTableName": "t_renum_planilha",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"pageSizeRecords": 10,
+	"pageSizePrintRecords": 35,
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"50",
+		"100",
+		"200",
+		"500",
+		"-1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"ident"
+	],
+	"detailsBadgeColor": "B22222",
+	"fields": [
+		{
+			"name": "cod_log_geo",
+			"sqlExpression": "cod_log_geo",
+			"strField": "cod_log_geo",
+			"googleLikeSearch": false,
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_log_geo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Log."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "lado",
+			"sqlExpression": "lado",
+			"strField": "lado",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "lado",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Lado"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "codgis",
+			"sqlExpression": "codgis",
+			"strField": "codgis",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 13,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgis",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Codgis"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "cruzamento",
+			"sqlExpression": "cruzamento",
+			"strField": "cruzamento",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cruzamento",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cruzamento"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "inscricao",
+			"sqlExpression": "inscricao",
+			"strField": "inscricao",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "inscricao",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Inscrição"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "fx_min",
+			"sqlExpression": "fx_min",
+			"strField": "fx_min",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fx_min",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fx. Min."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "fx_max",
+			"sqlExpression": "fx_max",
+			"strField": "fx_max",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fx_max",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fx. Max."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "div_min",
+			"sqlExpression": "div_min",
+			"strField": "div_min",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 1,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "div_min",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Div Min"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "div_max",
+			"sqlExpression": "div_max",
+			"strField": "div_max",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 1,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "div_max",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Div Max"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "num_minimo",
+			"sqlExpression": "num_minimo",
+			"strField": "num_minimo",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_minimo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Mín."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "num_medio",
+			"sqlExpression": "num_medio",
+			"strField": "num_medio",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_medio",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Méd."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "num_maximo",
+			"sqlExpression": "num_maximo",
+			"strField": "num_maximo",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_maximo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Máx."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "num_cad",
+			"sqlExpression": "num_cad",
+			"strField": "num_cad",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Num. Cad."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "div_num_cad",
+			"sqlExpression": "div_num_cad",
+			"strField": "div_num_cad",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 1,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "div_num_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Div Num Cad"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "cod_log_cad",
+			"sqlExpression": "cod_log_cad",
+			"strField": "cod_log_cad",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_log_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Log. Cad."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "cod_log_oficial",
+			"sqlExpression": "cod_log_oficial",
+			"strField": "cod_log_oficial",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_log_oficial",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Oficial"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "tipo_const_cad",
+			"sqlExpression": "tipo_const_cad",
+			"strField": "tipo_const_cad",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "tipo_const_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Tipo Const. Cad"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "compl_cad",
+			"sqlExpression": "compl_cad",
+			"strField": "compl_cad",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "compl_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Compl. Cad."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "qt_unid_cad",
+			"sqlExpression": "qt_unid_cad",
+			"strField": "qt_unid_cad",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "qt_unid_cad",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Qt. Unid. Cad."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "num_atribuido",
+			"sqlExpression": "num_atribuido",
+			"strField": "num_atribuido",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_atribuido",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Num. Atrib."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "compl_atribuido",
+			"sqlExpression": "compl_atribuido",
+			"strField": "compl_atribuido",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "compl_atribuido",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Compl. Atrib."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "status_num",
+			"sqlExpression": "status_num",
+			"strField": "status_num",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "status_num",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Alterado"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "ident",
+			"sqlExpression": "ident",
+			"strField": "ident",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ident",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ident"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "nome",
+			"sqlExpression": "nome",
+			"strField": "nome",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nome",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "codgeo_ini",
+			"sqlExpression": "codgeo_ini",
+			"strField": "codgeo_ini",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_ini",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Ini."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "codgeo_fim",
+			"sqlExpression": "codgeo_fim",
+			"strField": "codgeo_fim",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_fim",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Fim"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "nome_ini",
+			"sqlExpression": "nome_ini",
+			"strField": "nome_ini",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nome_ini",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Nome Ini."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		},
+		{
+			"name": "nome_fim",
+			"sqlExpression": "nome_fim",
+			"strField": "nome_fim",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nome_fim",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Nome Fim"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_renum_planilha"
+		}
+	],
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"whereTabs": [
+		{
+			"title": {
+				"text": "Lado Direito",
+				"type": 0
+			},
+			"where": "lado = 'D'",
+			"id": "dir",
+			"showCount": true
+		},
+		{
+			"title": {
+				"text": "Lado Esquerdo",
+				"type": 0
+			},
+			"where": "lado = 'E'",
+			"id": "esq",
+			"showCount": true
+		}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_BEFOREPROCESSROW_LIST",
+			"pageType": "list",
+			"code": "\n$_SESSION[\"codlog\"] = $data[\"cod_log_geo\"];\n\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_BEFOREPROCESSROW_PRINT",
+			"pageType": "print",
+			"code": "\n$_SESSION[\"codlog\"] = $data[\"cod_log_geo\"];\n\n$_SESSION[\"desc_log\"] = $data[\"nome\"];\n\n$_SESSION[\"cod_ini\"] = $data[\"codgeo_ini\"];\n$_SESSION[\"desc_ini\"] = $data[\"nome_ini\"];\n\n$_SESSION[\"cod_fim\"] = $data[\"codgeo_fim\"];\n$_SESSION[\"desc_fim\"] = $data[\"nome_fim\"];\n\nif ($data[\"lado\"] == 'D')\n{\n\t$_SESSION[\"desc_lado\"] = 'Direito';\n}\nelse if ($data[\"lado\"] == 'E')\n{\n\t$_SESSION[\"desc_lado\"] = 'Esquerdo';\n}\nelse\n{\n};\n\nif ($data[\"status_num\"] == 'cruz')\n{\n$data[\"cod_log_geo\"] = 'Cruzamento';\n$data[\"status_num\"] = '';\n}\nelse\n{\n};\n\n\n\n\nreturn true;"
+		},
+		{
+			"eventId": "EVENT_BEFOREMOVENEXT_PRINT",
+			"pageType": "print",
+			"code": "\n$record[\"num_cad_css\"]='color:#0000b3;';\n$record[\"num_atribuido_css\"]='color:#0000b3;';\n\nif (($data[\"num_cad\"] <> $data[\"num_atribuido\"]) AND ($data[\"status_num\"] == 'sim'))\n{\n$record[\"num_atribuido_css\"]='color:#bb2e2e;';\n$record[\"status_num_css\"]='color:#bb2e2e;';\n}\nelse\n{\n};\n\nif ($data[\"cruzamento\"] == 'sim')\n{\n$record[\"css\"]='color:#959493;';\n}\nelse\n{\n};\n\nif (($data[\"status_num\"] == 'nao') AND ($data[\"cod_log_oficial\"] == 'sim'))\n{\n$record[\"status_num_css\"]='color:#959493;';\n//$record[\"num_atribuido_css\"]='color:#959493;';\n}\nelse if (($data[\"status_num\"] == 'nao') AND ($data[\"cod_log_oficial\"] == 'nao'))\n{\n$record[\"status_num_css\"]='color:#959493;';\n$record[\"num_atribuido_css\"]='color:#959493;';\n}\nelse\n{\n};\n\nif (($data[\"status_num\"] == 'nao_visivel') AND ($data[\"cod_log_oficial\"] == 'sim'))\n{\n$record[\"num_atribuido_css\"]='color:#bb2e2e;';\n$record[\"status_num_css\"]='color:#bb2e2e;';\n}\nelse\n{\n};\n\n\n"
+		},
+		{
+			"eventId": "EVENT_BEFORESHOW_PRINT",
+			"pageType": "print",
+			"code": "\n$descricao_log = 'Cód. Log.'.$_SESSION[\"codlog\"].' - '.$_SESSION[\"desc_log\"].' - '.'Lado '.$_SESSION[\"desc_lado\"];\n$xt->assign(\"descricao_log\",$descricao_log);\n\n$descricao_ini = 'Cód. '.$_SESSION[\"cod_ini\"].' - '.$_SESSION[\"desc_ini\"];\n$xt->assign(\"descricao_ini\",$descricao_ini);\n\n$descricao_fim = 'Cód. '.$_SESSION[\"cod_fim\"].' - '.$_SESSION[\"desc_fim\"];\n$xt->assign(\"descricao_fim\",$descricao_fim);\n\n"
+		},
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "print",
+			"code": "window.print();\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_BEFOREMOVENEXT_LIST",
+			"pageType": "list",
+			"code": "$record[\"num_cad_css\"]='color:#0000b3;';\n$record[\"num_atribuido_css\"]='color:#0000b3;';\n\nif (($data[\"num_cad\"] <> $data[\"num_atribuido\"]) AND ($data[\"status_num\"] == 'sim'))\n{\n$record[\"num_atribuido_css\"]='color:#bb2e2e;';\n$record[\"status_num_css\"]='color:#bb2e2e;';\n}\nelse\n{\n};\n\nif ($data[\"cruzamento\"] == 'sim')\n{\n$record[\"css\"]='color:#959493;';\n}\nelse\n{\n};\n\nif (($data[\"status_num\"] == 'nao') AND ($data[\"cod_log_oficial\"] == 'sim'))\n{\n$record[\"status_num_css\"]='color:#959493;';\n//$record[\"num_atribuido_css\"]='color:#959493;';\n}\nelse if (($data[\"status_num\"] == 'nao') AND ($data[\"cod_log_oficial\"] == 'nao'))\n{\n$record[\"status_num_css\"]='color:#959493;';\n$record[\"num_atribuido_css\"]='color:#959493;';\n}\nelse\n{\n};\n\nif (($data[\"status_num\"] == 'nao_visivel') AND ($data[\"cod_log_oficial\"] == 'sim'))\n{\n$record[\"num_atribuido_css\"]='color:#bb2e2e;';\n$record[\"status_num_css\"]='color:#bb2e2e;';\n}\nelse\n{\n};"
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "cod_log_geo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "lado",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "codgis",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "cruzamento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "inscricao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "fx_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "fx_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "div_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "div_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "num_minimo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "num_medio",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "num_maximo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "div_num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "cod_log_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "cod_log_oficial",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "tipo_const_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "compl_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "qt_unid_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "num_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "compl_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "status_num",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "codgeo_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "codgeo_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "nome_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "nome_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "cod_log_geo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "lado",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "codgis",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "cruzamento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "inscricao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "fx_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "fx_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "div_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "div_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "num_minimo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "num_medio",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "num_maximo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "div_num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "cod_log_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "cod_log_oficial",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "tipo_const_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "compl_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "qt_unid_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "num_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "compl_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "status_num",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "codgeo_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "codgeo_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "nome_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "nome_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field23",
+								"export_field24",
+								"export_field25",
+								"export_field26",
+								"export_field30"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "cod_log_geo",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "lado",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "codgis",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "cruzamento",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "inscricao",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "fx_min",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "fx_max",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "div_min",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "div_max",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "num_minimo",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "num_medio",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "num_maximo",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "num_cad",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "div_num_cad",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "cod_log_cad",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "cod_log_oficial",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "tipo_const_cad",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "compl_cad",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "qt_unid_cad",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "num_atribuido",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "compl_atribuido",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "status_num",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "nome",
+					"type": "export_field"
+				},
+				"export_field23": {
+					"field": "codgeo_ini",
+					"type": "export_field"
+				},
+				"export_field24": {
+					"field": "codgeo_fim",
+					"type": "export_field"
+				},
+				"export_field25": {
+					"field": "nome_ini",
+					"type": "export_field"
+				},
+				"export_field26": {
+					"field": "nome_fim",
+					"type": "export_field"
+				},
+				"export_field30": {
+					"field": "ident",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19",
+								"import_field20",
+								"import_field21",
+								"import_field22",
+								"import_field23",
+								"import_field24",
+								"import_field25",
+								"import_field26",
+								"import_field30"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "cod_log_geo",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "lado",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "codgis",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "cruzamento",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "inscricao",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "fx_min",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "fx_max",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "div_min",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "div_max",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "num_minimo",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "num_medio",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "num_maximo",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "num_cad",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "div_num_cad",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "cod_log_cad",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "cod_log_oficial",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "tipo_const_cad",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "compl_cad",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "qt_unid_cad",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "num_atribuido",
+					"type": "import_field"
+				},
+				"import_field20": {
+					"field": "compl_atribuido",
+					"type": "import_field"
+				},
+				"import_field21": {
+					"field": "status_num",
+					"type": "import_field"
+				},
+				"import_field22": {
+					"field": "nome",
+					"type": "import_field"
+				},
+				"import_field23": {
+					"field": "codgeo_ini",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "codgeo_fim",
+					"type": "import_field"
+				},
+				"import_field25": {
+					"field": "nome_ini",
+					"type": "import_field"
+				},
+				"import_field26": {
+					"field": "nome_fim",
+					"type": "import_field"
+				},
+				"import_field30": {
+					"field": "ident",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field4",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field15",
+								"simple_grid_field21"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Renumeracao"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"simple_grid_field21": {
+					"field": "status_num",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field20": {
+					"field": "compl_atribuido",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field19": {
+					"field": "num_atribuido",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field15": {
+					"field": "cod_log_oficial",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field12": {
+					"field": "num_cad",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field11": {
+					"field": "num_maximo",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field10": {
+					"field": "num_medio",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field9": {
+					"field": "num_minimo",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field4": {
+					"field": "inscricao",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field1": {
+					"field": "lado",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field": {
+					"field": "cod_log_geo",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"-3": {
+					"type": "-"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"-4": {
+					"type": "-"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"snippet",
+								"print_pages"
+							],
+							"nowrap": true,
+							"orientation": "vertical"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c": {
+							"model": "c2",
+							"items": [
+								"image",
+								"print_header"
+							],
+							"orientation": "horizontal"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								},
+								{
+									"cell": "headcell_field7"
+								},
+								{
+									"cell": "headcell_field8"
+								},
+								{
+									"cell": "headcell_field9"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_field8"
+								},
+								{
+									"cell": "cell_field9"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field6"
+								},
+								{
+									"cell": "footcell_field7"
+								},
+								{
+									"cell": "footcell_field8"
+								},
+								{
+									"cell": "footcell_field9"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "cod_log_geo",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "cod_log_geo",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cod_log_geo",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "inscricao",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "inscricao",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "inscricao",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field13"
+							],
+							"field": "num_minimo",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "num_minimo",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_minimo",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field14"
+							],
+							"field": "num_medio",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "num_medio",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_medio",
+							"columnName": "field"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "num_maximo",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field11"
+							],
+							"field": "num_maximo",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_maximo",
+							"columnName": "field"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field17"
+							],
+							"field": "num_cad",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "num_cad",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_cad",
+							"columnName": "field"
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field18"
+							],
+							"field": "cod_log_oficial",
+							"columnName": "field"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field15"
+							],
+							"field": "cod_log_oficial",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field6": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cod_log_oficial",
+							"columnName": "field"
+						},
+						"headcell_field7": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field22"
+							],
+							"field": "num_atribuido",
+							"columnName": "field"
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field19"
+							],
+							"field": "num_atribuido",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field7": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_atribuido",
+							"columnName": "field"
+						},
+						"headcell_field8": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field23"
+							],
+							"field": "compl_atribuido",
+							"columnName": "field"
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field20"
+							],
+							"field": "compl_atribuido",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field8": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "compl_atribuido",
+							"columnName": "field"
+						},
+						"headcell_field9": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field24"
+							],
+							"field": "status_num",
+							"columnName": "field"
+						},
+						"cell_field9": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field21"
+							],
+							"field": "status_num",
+							"columnName": "field",
+							"nowrap": true
+						},
+						"footcell_field9": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "status_num",
+							"columnName": "field"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header",
+					"title": {
+						"page": "print",
+						"table": "app.t_renum_planilha",
+						"type": 7
+					},
+					"nowrap": true
+				},
+				"print_pages": {
+					"type": "print_pages",
+					"font-size": "10px"
+				},
+				"simple_grid_field": {
+					"field": "cod_log_geo",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "inscricao",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field9": {
+					"field": "num_minimo",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"field": "num_medio",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"field": "num_maximo",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field12": {
+					"field": "num_cad",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field15": {
+					"field": "cod_log_oficial",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field19": {
+					"field": "num_atribuido",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field20": {
+					"field": "compl_atribuido",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field21": {
+					"field": "status_num",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"type": "grid_field_label",
+					"field": "cod_log_geo"
+				},
+				"simple_grid_field5": {
+					"type": "grid_field_label",
+					"field": "inscricao"
+				},
+				"simple_grid_field13": {
+					"type": "grid_field_label",
+					"field": "num_minimo"
+				},
+				"simple_grid_field14": {
+					"type": "grid_field_label",
+					"field": "num_medio"
+				},
+				"simple_grid_field16": {
+					"type": "grid_field_label",
+					"field": "num_maximo"
+				},
+				"simple_grid_field17": {
+					"type": "grid_field_label",
+					"field": "num_cad"
+				},
+				"simple_grid_field18": {
+					"type": "grid_field_label",
+					"field": "cod_log_oficial"
+				},
+				"simple_grid_field22": {
+					"type": "grid_field_label",
+					"field": "num_atribuido"
+				},
+				"simple_grid_field23": {
+					"type": "grid_field_label",
+					"field": "compl_atribuido"
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "status_num"
+				},
+				"image": {
+					"type": "image",
+					"width": "50px",
+					"height": "45px",
+					"image": {
+						"image": "Machado.png",
+						"source": 2
+					}
+				},
+				"snippet": {
+					"type": "snippet",
+					"eventId": "descricao_log",
+					"label": {
+						"text": "descricao_log",
+						"type": 0
+					},
+					"eventGid": 3165319720
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"customHtml": "<!doctype html>\r\n<html  {$html_attrs}>\r\n  <head>\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>\r\n      {$pagetitle}\r\n    </title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n    <base href=\"{$projectPath}\">\r\n    <link REL=\"stylesheet\" href=\"styles/default.css?{$wizardBuildKey}\" type=\"text/css\">\r\n    {BEGIN rtlCSS}\r\n      <link REL=\"stylesheet\" href=\"styles/defaultRTL.css?{$wizardBuildKey}\" type=\"text/css\">\r\n    {END rtlCSS}\r\n    {BEGIN styleCSSFiles}\r\n      <link REL=\"stylesheet\" href=\"{$stylepath}\" type=\"text/css\">\r\n    {END styleCSSFiles}\r\n  </head>\r\n  <BODY class=\"{$stylename} function-print\" {$bodyattrs}>\r\n    {BEGIN body}\r\n      {$header}\r\n      <style>\r\n        {$containerCss}\r\n      </style>\r\n      {$locking}\r\n      <DIV class=\"r-small-page\" data-body-align=\"left\" data-body-width=\"standard\">\r\n        {BEGIN top_block}\r\n          <DIV class=\"r-form\" data-location=\"top\" id=\"form_top_{$pageid}\" data-makeup=\"small\" {$form_top} data-pageid=\"{$pageid}\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"top_c\" data-pageid=\"{$pageid}\" {$cell_top_c} class=\"r-ori-horiz col-md-12\">\r\n                <img src=\"{$file_url images/osasco_brasao.png}\" data-itemtype=\"image\" data-itemid=\"image\" {$item_image} data-pageid=\"{$pageid}\" data-page=\"t_renum_planilha_print\" />\r\n                <h2 data-itemtype=\"print_header\" data-itemid=\"print_header\" {$item_print_header} data-pageid=\"{$pageid}\" data-page=\"t_renum_planilha_print\" style=\"font-size: 20px;\" >\r\n                  {$pagetitlelabel app_t_renum_planilha print}\r\n                </h2>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END top_block}\r\n        {BEGIN above-grid_block}\r\n          <DIV class=\"r-form\" data-location=\"above-grid\" id=\"form_above-grid_{$pageid}\" data-makeup=\"small\" {$form_above-grid} data-pageid=\"{$pageid}\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"above-grid_c1\" data-pageid=\"{$pageid}\" {$cell_above-grid_c1} class=\"col-md-12\">\r\n                {BEGIN firstAboveGridCell}\r\n\r\n                  <span data-itemtype=\"snippet\" data-itemid=\"snippet\" {$item_snippet} data-pageid=\"{$pageid}\" style=\"font-size: 16px; font-weight: bold;\">\r\n                    {$descricao_log}\r\n                  </span>\r\n\t\t\t\t\t\t\t\t\t </BR>\r\n                  <span data-itemtype=\"print_pages\" data-itemid=\"print_pages\" {$item_print_pages} data-pageid=\"{$pageid}\" data-small >\r\n                    {$print_pages_labelprint_pages}\r\n                  </span>\r\n\r\n                {END firstAboveGridCell}\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END above-grid_block}\r\n        {BEGIN grid_block}\r\n          {BEGIN message_block}\r\n            <DIV data-grid-message data-pageid=\"{$pageid}\" class=\"alert {$message_class}\" role=\"alert\" {$grid_message_attrs}>\r\n              {$message}\r\n            </div>\r\n          {END message_block}\r\n          <TABLE data-location=\"grid\" id=\"form_grid_{$pageid}\" data-makeup=\"small\" {$form_grid} data-pageid=\"{$pageid}\" class=\"table {$grid_classes} r-horizontal-grid rnr-b-grid rnr-gridtable\" cellpadding=\"0\" data-body-height=\"1\">\r\n            <thead>\r\n              {BEGIN grid_header}\r\n                <TR {$rowattrs} {$row_grid_0} class=\"{$rowclass} {$gridHeader_class} r-gridrow\">\r\n                  {BEGIN cellblock_grid_headcell_field}\r\n                    <TH {$cell_grid_headcell_field} {$recordattrs} class=\"r-ori-vert {$cod_log_geo_class}\" data-field=\"cod_log_geo\" data-cellId=\"grid_headcell_field\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN cod_log_geo_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field2\" {$item_simple_grid_field2} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"cod_log_geo\" data-fieldname=\"cod_log_geo\">\r\n                          {$label app_t_renum_planilha cod_log_geo}\r\n                        </span>\r\n                      {END cod_log_geo_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field}\r\n                  {BEGIN cellblock_grid_headcell_field1}\r\n                    <TH {$cell_grid_headcell_field1} {$recordattrs} class=\"r-ori-vert {$inscricao_class}\" data-field=\"inscricao\" data-cellId=\"grid_headcell_field1\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN inscricao_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field5\" {$item_simple_grid_field5} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"inscricao\" data-fieldname=\"inscricao\">\r\n                          {$label app_t_renum_planilha inscricao}\r\n                        </span>\r\n                      {END inscricao_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field1}\r\n                  {BEGIN cellblock_grid_headcell_field2}\r\n                    <TH {$cell_grid_headcell_field2} {$recordattrs} class=\"r-ori-vert {$num_minimo_class}\" data-field=\"num_minimo\" data-cellId=\"grid_headcell_field2\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_minimo_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field13\" {$item_simple_grid_field13} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_minimo\" data-fieldname=\"num_minimo\">\r\n                          {$label app_t_renum_planilha num_minimo}\r\n                        </span>\r\n                      {END num_minimo_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field2}\r\n                  {BEGIN cellblock_grid_headcell_field3}\r\n                    <TH {$cell_grid_headcell_field3} {$recordattrs} class=\"r-ori-vert {$num_medio_class}\" data-field=\"num_medio\" data-cellId=\"grid_headcell_field3\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_medio_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field14\" {$item_simple_grid_field14} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_medio\" data-fieldname=\"num_medio\">\r\n                          {$label app_t_renum_planilha num_medio}\r\n                        </span>\r\n                      {END num_medio_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field3}\r\n                  {BEGIN cellblock_grid_headcell_field4}\r\n                    <TH {$cell_grid_headcell_field4} {$recordattrs} class=\"r-ori-vert {$num_maximo_class}\" data-field=\"num_maximo\" data-cellId=\"grid_headcell_field4\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_maximo_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field16\" {$item_simple_grid_field16} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_maximo\" data-fieldname=\"num_maximo\">\r\n                          {$label app_t_renum_planilha num_maximo}\r\n                        </span>\r\n                      {END num_maximo_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field4}\r\n                  {BEGIN cellblock_grid_headcell_field5}\r\n                    <TH {$cell_grid_headcell_field5} {$recordattrs} class=\"r-ori-vert {$num_cad_class}\" data-field=\"num_cad\" data-cellId=\"grid_headcell_field5\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_cad_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field17\" {$item_simple_grid_field17} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_cad\" data-fieldname=\"num_cad\">\r\n                          {$label app_t_renum_planilha num_cad}\r\n                        </span>\r\n                      {END num_cad_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field5}\r\n                  {BEGIN cellblock_grid_headcell_field6}\r\n                    <TH {$cell_grid_headcell_field6} {$recordattrs} class=\"r-ori-vert {$cod_log_oficial_class}\" data-field=\"cod_log_oficial\" data-cellId=\"grid_headcell_field6\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN cod_log_oficial_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field18\" {$item_simple_grid_field18} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"cod_log_oficial\" data-fieldname=\"cod_log_oficial\">\r\n                          {$label app_t_renum_planilha cod_log_oficial}\r\n                        </span>\r\n                      {END cod_log_oficial_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field6}\r\n                  {BEGIN cellblock_grid_headcell_field7}\r\n                    <TH {$cell_grid_headcell_field7} {$recordattrs} class=\"r-ori-vert {$num_atribuido_class}\" data-field=\"num_atribuido\" data-cellId=\"grid_headcell_field7\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_atribuido_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field22\" {$item_simple_grid_field22} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_atribuido\" data-fieldname=\"num_atribuido\">\r\n                          {$label app_t_renum_planilha num_atribuido}\r\n                        </span>\r\n                      {END num_atribuido_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field7}\r\n                  {BEGIN cellblock_grid_headcell_field8}\r\n                    <TH {$cell_grid_headcell_field8} {$recordattrs} class=\"r-ori-vert {$compl_atribuido_class}\" data-field=\"compl_atribuido\" data-cellId=\"grid_headcell_field8\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN compl_atribuido_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field23\" {$item_simple_grid_field23} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"compl_atribuido\" data-fieldname=\"compl_atribuido\">\r\n                          {$label app_t_renum_planilha compl_atribuido}\r\n                        </span>\r\n                      {END compl_atribuido_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field8}\r\n                  {BEGIN cellblock_grid_headcell_field9}\r\n                    <TH {$cell_grid_headcell_field9} {$recordattrs} class=\"r-ori-vert {$status_num_class}\" data-field=\"status_num\" data-cellId=\"grid_headcell_field9\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN status_num_fieldheadercolumn}\r\n                        <span data-itemtype=\"grid_field_label\" data-itemid=\"simple_grid_field24\" {$item_simple_grid_field24} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"status_num\" data-fieldname=\"status_num\">\r\n                          {$label app_t_renum_planilha status_num}\r\n                        </span>\r\n                      {END status_num_fieldheadercolumn}\r\n                    </th>\r\n                  {END cellblock_grid_headcell_field9}\r\n                </tr>\r\n              {END grid_header}\r\n            </thead>\r\n            {BEGIN grid_row}\r\n              <tbody>\r\n                <TR {$rowattrs} {$row_grid_1} class=\"{$rowclass} r-gridrow\">\r\n                  {BEGIN cellblock_grid_cell_field}\r\n                    <TD {$cell_grid_cell_field} {$recordattrs} class=\"r-ori-vert {$cod_log_geo_class}\" data-field=\"cod_log_geo\" data-cellId=\"grid_cell_field\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN cod_log_geo_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field\" {$item_simple_grid_field} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"cod_log_geo\" data-fieldname=\"cod_log_geo\" data-default-width >\r\n                          {$cod_log_geo_value}\r\n                        </span>\r\n                      {END cod_log_geo_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field}\r\n                  {BEGIN cellblock_grid_cell_field1}\r\n                    <TD {$cell_grid_cell_field1} {$recordattrs} class=\"r-ori-vert {$inscricao_class}\" data-field=\"inscricao\" data-cellId=\"grid_cell_field1\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN inscricao_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field4\" {$item_simple_grid_field4} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"inscricao\" data-fieldname=\"inscricao\" data-default-width >\r\n                          {$inscricao_value}\r\n                        </span>\r\n                      {END inscricao_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field1}\r\n                  {BEGIN cellblock_grid_cell_field2}\r\n                    <TD {$cell_grid_cell_field2} {$recordattrs} class=\"r-ori-vert {$num_minimo_class}\" data-field=\"num_minimo\" data-cellId=\"grid_cell_field2\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_minimo_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field9\" {$item_simple_grid_field9} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_minimo\" data-fieldname=\"num_minimo\" data-default-width >\r\n                          {$num_minimo_value}\r\n                        </span>\r\n                      {END num_minimo_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field2}\r\n                  {BEGIN cellblock_grid_cell_field3}\r\n                    <TD {$cell_grid_cell_field3} {$recordattrs} class=\"r-ori-vert {$num_medio_class}\" data-field=\"num_medio\" data-cellId=\"grid_cell_field3\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_medio_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field10\" {$item_simple_grid_field10} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_medio\" data-fieldname=\"num_medio\" data-default-width >\r\n                          {$num_medio_value}\r\n                        </span>\r\n                      {END num_medio_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field3}\r\n                  {BEGIN cellblock_grid_cell_field4}\r\n                    <TD {$cell_grid_cell_field4} {$recordattrs} class=\"r-ori-vert {$num_maximo_class}\" data-field=\"num_maximo\" data-cellId=\"grid_cell_field4\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_maximo_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field11\" {$item_simple_grid_field11} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_maximo\" data-fieldname=\"num_maximo\" data-default-width >\r\n                          {$num_maximo_value}\r\n                        </span>\r\n                      {END num_maximo_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field4}\r\n                  {BEGIN cellblock_grid_cell_field5}\r\n                    <TD {$cell_grid_cell_field5} {$recordattrs} class=\"r-ori-vert {$num_cad_class}\" data-field=\"num_cad\" data-cellId=\"grid_cell_field5\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_cad_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field12\" {$item_simple_grid_field12} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_cad\" data-fieldname=\"num_cad\" data-default-width >\r\n                          {$num_cad_value}\r\n                        </span>\r\n                      {END num_cad_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field5}\r\n                  {BEGIN cellblock_grid_cell_field6}\r\n                    <TD {$cell_grid_cell_field6} {$recordattrs} class=\"r-ori-vert {$cod_log_oficial_class}\" data-field=\"cod_log_oficial\" data-cellId=\"grid_cell_field6\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN cod_log_oficial_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field15\" {$item_simple_grid_field15} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"cod_log_oficial\" data-fieldname=\"cod_log_oficial\" data-default-width >\r\n                          {$cod_log_oficial_value}\r\n                        </span>\r\n                      {END cod_log_oficial_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field6}\r\n                  {BEGIN cellblock_grid_cell_field7}\r\n                    <TD {$cell_grid_cell_field7} {$recordattrs} class=\"r-ori-vert {$num_atribuido_class}\" data-field=\"num_atribuido\" data-cellId=\"grid_cell_field7\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN num_atribuido_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field19\" {$item_simple_grid_field19} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"num_atribuido\" data-fieldname=\"num_atribuido\" data-default-width >\r\n                          {$num_atribuido_value}\r\n                        </span>\r\n                      {END num_atribuido_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field7}\r\n                  {BEGIN cellblock_grid_cell_field8}\r\n                    <TD {$cell_grid_cell_field8} {$recordattrs} class=\"r-ori-vert {$compl_atribuido_class}\" data-field=\"compl_atribuido\" data-cellId=\"grid_cell_field8\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN compl_atribuido_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field20\" {$item_simple_grid_field20} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"compl_atribuido\" data-fieldname=\"compl_atribuido\" data-default-width >\r\n                          {$compl_atribuido_value}\r\n                        </span>\r\n                      {END compl_atribuido_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field8}\r\n                  {BEGIN cellblock_grid_cell_field9}\r\n                    <TD {$cell_grid_cell_field9} {$recordattrs} class=\"r-ori-vert {$status_num_class}\" data-field=\"status_num\" data-cellId=\"grid_cell_field9\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\">\r\n                      {BEGIN status_num_fieldcolumn}\r\n                        <span data-itemtype=\"grid_field\" data-itemid=\"simple_grid_field21\" {$item_simple_grid_field21} data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-field=\"status_num\" data-fieldname=\"status_num\" data-default-width >\r\n                          {$status_num_value}\r\n                        </span>\r\n                      {END status_num_fieldcolumn}\r\n                    </td>\r\n                  {END cellblock_grid_cell_field9}\r\n                </tr>\r\n              </tbody>\r\n            {END grid_row}\r\n            <tfoot>\r\n              <TR {$rowattrs} {$row_grid_2} class=\"{$rowclass} {$gridFooter_class} r-gridrow\">\r\n                {BEGIN cellblock_grid_footcell_field}\r\n                  <TD {$cell_grid_footcell_field} {$recordattrs} class=\"r-ori-vert {$cod_log_geo_class}\" data-field=\"cod_log_geo\" data-cellId=\"grid_footcell_field\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field}\r\n                {BEGIN cellblock_grid_footcell_field1}\r\n                  <TD {$cell_grid_footcell_field1} {$recordattrs} class=\"r-ori-vert {$inscricao_class}\" data-field=\"inscricao\" data-cellId=\"grid_footcell_field1\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field1}\r\n                {BEGIN cellblock_grid_footcell_field2}\r\n                  <TD {$cell_grid_footcell_field2} {$recordattrs} class=\"r-ori-vert {$num_minimo_class}\" data-field=\"num_minimo\" data-cellId=\"grid_footcell_field2\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field2}\r\n                {BEGIN cellblock_grid_footcell_field3}\r\n                  <TD {$cell_grid_footcell_field3} {$recordattrs} class=\"r-ori-vert {$num_medio_class}\" data-field=\"num_medio\" data-cellId=\"grid_footcell_field3\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field3}\r\n                {BEGIN cellblock_grid_footcell_field4}\r\n                  <TD {$cell_grid_footcell_field4} {$recordattrs} class=\"r-ori-vert {$num_maximo_class}\" data-field=\"num_maximo\" data-cellId=\"grid_footcell_field4\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field4}\r\n                {BEGIN cellblock_grid_footcell_field5}\r\n                  <TD {$cell_grid_footcell_field5} {$recordattrs} class=\"r-ori-vert {$num_cad_class}\" data-field=\"num_cad\" data-cellId=\"grid_footcell_field5\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field5}\r\n                {BEGIN cellblock_grid_footcell_field6}\r\n                  <TD {$cell_grid_footcell_field6} {$recordattrs} class=\"r-ori-vert {$cod_log_oficial_class}\" data-field=\"cod_log_oficial\" data-cellId=\"grid_footcell_field6\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field6}\r\n                {BEGIN cellblock_grid_footcell_field7}\r\n                  <TD {$cell_grid_footcell_field7} {$recordattrs} class=\"r-ori-vert {$num_atribuido_class}\" data-field=\"num_atribuido\" data-cellId=\"grid_footcell_field7\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field7}\r\n                {BEGIN cellblock_grid_footcell_field8}\r\n                  <TD {$cell_grid_footcell_field8} {$recordattrs} class=\"r-ori-vert {$compl_atribuido_class}\" data-field=\"compl_atribuido\" data-cellId=\"grid_footcell_field8\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field8}\r\n                {BEGIN cellblock_grid_footcell_field9}\r\n                  <TD {$cell_grid_footcell_field9} {$recordattrs} class=\"r-ori-vert {$status_num_class}\" data-field=\"status_num\" data-cellId=\"grid_footcell_field9\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field9}\r\n                {BEGIN cellblock_grid_footcell_field10}\r\n                  <TD {$cell_grid_footcell_field10} {$recordattrs} class=\"r-ori-vert {$lado_class}\" data-field=\"lado\" data-cellId=\"grid_footcell_field10\" data-pageid=\"{$pageid}\" data-record-id=\"{$recId}\" data-page=\"t_renum_planilha_print\">\r\n                  </td>\r\n                {END cellblock_grid_footcell_field10}\r\n              </tr>\r\n            </tfoot>\r\n          </table>\r\n        {END grid_block}\r\n        {BEGIN below-grid_block}\r\n          <DIV class=\"r-form\" data-location=\"below-grid\" id=\"form_below-grid_{$pageid}\" data-makeup=\"small\" {$form_below-grid} data-pageid=\"{$pageid}\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"below-grid_c1\" data-pageid=\"{$pageid}\" {$cell_below-grid_c1} class=\"r-ori-vert col-md-12\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END below-grid_block}\r\n      </div>\r\n      {$footer}\r\n    {END body}\r\n  </body>\r\n</html>\r\n",
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3",
+								"integrated_search_field4",
+								"integrated_search_field5"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "num_minimo",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "num_medio",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field2": {
+					"field": "num_maximo",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field3": {
+					"field": "num_cad",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field4": {
+					"field": "num_atribuido",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field5": {
+					"field": "ident",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field30"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": []
+				},
+				"integrated_edit_field": {
+					"field": "cod_log_geo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "lado",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "codgis",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "cruzamento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "inscricao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "fx_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "fx_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "div_min",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "div_max",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "num_minimo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "num_medio",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "num_maximo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "div_num_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "cod_log_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "cod_log_oficial",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "tipo_const_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "compl_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "qt_unid_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "num_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "compl_atribuido",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "status_num",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "codgeo_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "codgeo_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "nome_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "nome_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "ident",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Renumeração"
+	}
+}

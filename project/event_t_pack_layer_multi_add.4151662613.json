@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "t_pack_layer_multi_add",
+	"beforeJsCode": "var popup = Runner.displayPopup( {\n   url: \"t_pack_layer_view_add.php\",\n   width: 1100,\n   height: 600,\n   header: 'Adicionar'\n});"
+}

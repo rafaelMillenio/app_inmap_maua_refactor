@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_FIELD",
+	"name": "t_pack_layer_view_title",
+	"serverCode": "$valores = $params[\"value\"]; // Ex: \"Administradores,CGM,COMDEC\"\n$data = [];\n\nif (is_array($valores)){\n\tforeach ($valores as $valor) {\n\t\t$valor = db_addslashes($valor);\n\t\t$rs = DB::Query(\"SELECT prefixed_name FROM public.layer_group_access WHERE title = '$valor' LIMIT 1\");\n\t\tif ($rs){\n\t\t\t$row = $rs->fetchAssoc();\n\t\t\tif ($row){\n\t\t\t\t$data[] = $row[\"prefixed_name\"];\n\t\t\t}\n\t\t} else{\n\t\t\techo $valor;\n\t\t}\n\t}\n\n\t$result[\"prefixed_name\"] = implode(',', $data);\n} else{\n\t$valores = db_addslashes($valores);\n\t$rs = DB::Query(\"SELECT prefixed_name FROM public.layer_group_access WHERE title = '$valores' LIMIT 1\");\n\tif ($rs){\n\t\t\t$row = $rs->fetchAssoc();\n\t\t\tif ($row){\n\t\t\t\t$result[\"prefixed_name\"] = $row[\"prefixed_name\"];\n\t\t\t}\n\t\t} else{\n\t\t\techo \"<script>alert('Select Deu errado!')</script>\";\n\t\t}\t\n}\n// Agora sim: envia o JSON da estrutura final\n\n",
+	"beforeJsCode": "\n// Sample:\nparams[\"value\"] = this.getValue();\n\n",
+	"afterJsCode": "var fuid_group = Runner.getControl(pageid, \"prefixed_name\");\nfuid_group.setValue(result['prefixed_name']);"
+}

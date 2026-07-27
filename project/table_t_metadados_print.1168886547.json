@@ -1,0 +1,2146 @@
+{
+	"sql": "SELECT\n\t\"uid\",\n\ttitulo,\n\tdescricao,\n\tcliente,\n\tdepartamento,\n\tlogo_brasao,\n\trc_1,\n\trc_2,\n\ttipo_img,\n\timagem,\n\tisurl,\n\toverflow_texto\nFROM app.t_metadados_print ",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_metadados_print",
+	"name": "app.t_metadados_print",
+	"shortTableName": "t_metadados_print",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": null
+			},
+			"openData": {
+				"how": "popup",
+				"page": "edit",
+				"table": null,
+				"url": ""
+			}
+		},
+		"fields": {
+			"cliente": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"departamento": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"descricao": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"logo_brasao": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"rc_1": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"rc_2": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"tipo_img": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"titulo": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"uid": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 1,
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"detailsBadgeColor": "CFAE83",
+	"fields": [
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "titulo",
+			"sqlExpression": "titulo",
+			"strField": "titulo",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 30,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "titulo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Título"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "descricao",
+			"sqlExpression": "descricao",
+			"strField": "descricao",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 80,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "descricao",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Descrição"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "cliente",
+			"sqlExpression": "cliente",
+			"strField": "cliente",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cliente",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Organização"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "departamento",
+			"sqlExpression": "departamento",
+			"strField": "departamento",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "departamento",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Departamento"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "logo_brasao",
+			"sqlExpression": "logo_brasao",
+			"strField": "logo_brasao",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "logo_brasao",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "logo_brasao"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "rc_1",
+			"sqlExpression": "rc_1",
+			"strField": "rc_1",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "rc_1",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Texto 1"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "rc_2",
+			"sqlExpression": "rc_2",
+			"strField": "rc_2",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "rc_2",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Texto 2"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "tipo_img",
+			"sqlExpression": "tipo_img",
+			"strField": "tipo_img",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 20,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "tipo_img",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Tipo Img"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "imagem",
+			"sqlExpression": "imagem",
+			"strField": "imagem",
+			"type": 201,
+			"viewFormats": [
+				{
+					"format": "File-based Image",
+					"imageShowThumbnail": true,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Document upload",
+					"required": true,
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileMaxNumber": 1,
+					"fileTypes": [
+						"jpg",
+						"png"
+					],
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "imagem",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Logo-Brasão"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "isurl",
+			"sqlExpression": "isurl",
+			"strField": "isurl",
+			"type": 11,
+			"viewFormats": [
+				{
+					"format": "Checkbox",
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Checkbox",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Options list"
+			},
+			"sourceSingle": "isurl",
+			"label": {
+				"Portuguese(Brazil)": "Isurl"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		},
+		{
+			"name": "overflow_texto",
+			"sqlExpression": "overflow_texto",
+			"strField": "overflow_texto",
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 60,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "overflow_texto",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Overflow Texto"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_metadados_print"
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditDetails": 83,
+	"afterAddDetail": 81,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_BEFOREEDIT",
+			"pageType": "edit",
+			"code": "\n// get information about uploaded files\n$fileArray = my_json_decode($values[\"imagem\"]);\n\nfor($i = 0; $i < count($fileArray); $i++)\n{\n\t$values['tipo_img'] = \"image/\".pathinfo($fileArray[$i][\"name\"])['extension'];\n\n\t$tmp_path_file = file_get_contents($fileArray[$i][\"name\"]);\n\t$values['logo_brasao'] = base64_encode($tmp_path_file);\n}\n\nreturn true;\n\n"
+		},
+		{
+			"eventId": "EVENT_AFTEREDIT",
+			"pageType": "edit",
+			"code": "\necho '<script>alert(\"Configurações salvas.\")</script>';\n\necho \"<script>window.close();</script>\";\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "titulo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "descricao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "cliente",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "departamento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "logo_brasao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "rc_1",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "rc_2",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "tipo_img",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_reset"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field8",
+								"integrated_edit_field5",
+								"integrated_edit_field6"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header",
+					"title": {
+						"page": "edit",
+						"table": "app.t_metadados_print",
+						"type": 7
+					}
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"integrated_edit_field": {
+					"field": "titulo",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "titulo",
+						"table": "app.t_metadados_print",
+						"type": 3
+					},
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field1": {
+					"field": "descricao",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field2": {
+					"field": "cliente",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field3": {
+					"field": "departamento",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field5": {
+					"field": "rc_1",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field6": {
+					"field": "rc_2",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field8": {
+					"field": "imagem",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"customHtml": "<!doctype html>\r\n<html  {$html_attrs}>\r\n  <head>\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>\r\n      {$pagetitle}\r\n    </title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n    <base href=\"{$projectPath}\">\r\n    <link REL=\"stylesheet\" href=\"styles/default.css?{$wizardBuildKey}\" type=\"text/css\">\r\n    {BEGIN rtlCSS}\r\n      <link REL=\"stylesheet\" href=\"styles/defaultRTL.css?{$wizardBuildKey}\" type=\"text/css\">\r\n    {END rtlCSS}\r\n    {BEGIN styleCSSFiles}\r\n      <link REL=\"stylesheet\" href=\"{$stylepath}\" type=\"text/css\">\r\n    {END styleCSSFiles}\r\n  </head>\r\n  <BODY class=\"{$stylename} function-edit\">\r\n    {BEGIN body}\r\n      {$header}\r\n      <style>\r\n        {$containerCss}\r\n      </style>\r\n      {$locking}\r\n      <DIV class=\"r-small-page\" data-body-align=\"center\" data-body-width=\"standard\">\r\n        {BEGIN top_block}\r\n          <DIV class=\"r-form\" data-location=\"top\" id=\"form_top_{$pageid}\" data-makeup=\"small\" {$form_top} data-pageid=\"{$pageid}\" data-v-width=\"4\" data-v-margin=\"1\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"top_c1\" data-pageid=\"{$pageid}\" {$cell_top_c1} class=\"r-ori-vert col-md-12\">\r\n                <h2 data-itemtype=\"edit_header\" data-itemid=\"edit_header\" {$item_edit_header} data-pageid=\"{$pageid}\" >\r\n                  {$pagetitlelabel app_t_metadados_print edit}\r\n                </h2>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END top_block}\r\n        {BEGIN above-grid_block}\r\n          <DIV class=\"r-form\" data-location=\"above-grid\" id=\"form_above-grid_{$pageid}\" data-makeup=\"small\" {$form_above-grid} data-pageid=\"{$pageid}\" data-v-width=\"4\" data-v-margin=\"1\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"above-grid_c1\" data-pageid=\"{$pageid}\" {$cell_above-grid_c1} class=\"r-ori-vert col-md-12\">\r\n                <DIV data-itemtype=\"edit_message\" data-itemid=\"edit_message\" {$item_edit_message} data-pageid=\"{$pageid}\" class=\"alert {$message_class}\" role=\"alert\">\r\n                  <h5>\r\n                    {$message}\r\n                  </h5>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END above-grid_block}\r\n        {BEGIN grid_block}\r\n          <TABLE data-body-align=\"center\" data-location=\"grid\" id=\"form_grid_{$pageid}\" data-makeup=\"small\" {$form_grid} data-pageid=\"{$pageid}\" class=\"r-edit-form\" cellpadding=\"0\" cellspacing=\"0\" {$grid_hiddenattr} data-form-width=\"1\" data-v-width=\"4\">\r\n            <tbody>\r\n              <tr {$row_grid_0} >\r\n                {BEGIN cellblock_grid_c3}\r\n                  <TD {$cell_grid_c3} class=\"r-ori-vert\" data-fullwidth data-cellId=\"grid_c3\" data-pageid=\"{$pageid}\" data-v-cell=\"4\">\r\n                    <DIV edit-form-cell class=\"clearfix\">\r\n                      {BEGIN titulo_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_titulo} r-vertical-field\" data-signal-error-for=\"titulo{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field\" {$item_integrated_edit_field} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"titulo\" data-fieldname=\"titulo\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_titulo}\">\r\n                            {BEGIN titulo_label}\r\n                              {$label app_t_metadados_print titulo}\r\n                            {END titulo_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$titulo_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"titulo\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print titulo}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END titulo_fieldblock}\r\n                      {BEGIN descricao_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_descricao} r-vertical-field\" data-signal-error-for=\"descricao{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field1\" {$item_integrated_edit_field1} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"descricao\" data-fieldname=\"descricao\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_descricao}\">\r\n                            {BEGIN descricao_label}\r\n                              {$label app_t_metadados_print descricao}\r\n                            {END descricao_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$descricao_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"descricao\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print descricao}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END descricao_fieldblock}\r\n                      {BEGIN cliente_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_cliente} r-vertical-field\" data-signal-error-for=\"cliente{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field2\" {$item_integrated_edit_field2} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"cliente\" data-fieldname=\"cliente\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_cliente}\">\r\n                            {BEGIN cliente_label}\r\n                              {$label app_t_metadados_print cliente}\r\n                            {END cliente_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$cliente_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"cliente\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print cliente}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END cliente_fieldblock}\r\n                      {BEGIN departamento_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_departamento} r-vertical-field\" data-signal-error-for=\"departamento{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field3\" {$item_integrated_edit_field3} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"departamento\" data-fieldname=\"departamento\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_departamento}\">\r\n                            {BEGIN departamento_label}\r\n                              {$label app_t_metadados_print departamento}\r\n                            {END departamento_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$departamento_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"departamento\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print departamento}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END departamento_fieldblock}\r\n                      {BEGIN imagem_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_imagem} r-vertical-field\" data-signal-error-for=\"imagem{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field8\" {$item_integrated_edit_field8} data-pageid=\"{$pageid}\" data-field=\"imagem\" data-fieldname=\"imagem\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_imagem}\">\r\n                            {BEGIN imagem_label}\r\n                              {$label app_t_metadados_print imagem}\r\n                            {END imagem_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$imagem_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"imagem\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print imagem}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END imagem_fieldblock}\r\n                      {BEGIN rc_1_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_rc_1} r-vertical-field\" data-signal-error-for=\"rc_1{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field5\" {$item_integrated_edit_field5} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"rc_1\" data-fieldname=\"rc_1\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_rc_1}\">\r\n                            {BEGIN rc_1_label}\r\n                              {$label app_t_metadados_print rc_1}\r\n                            {END rc_1_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$rc_1_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"rc_1\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print rc_1}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END rc_1_fieldblock}\r\n                      {BEGIN rc_2_fieldblock}\r\n                        <DIV class=\"r-integrated-field form-group clearfix {$fielddispclass_rc_2} r-vertical-field\" data-signal-error-for=\"rc_2{$id}\" data-itemtype=\"integrated_edit_field\" data-itemid=\"integrated_edit_field6\" {$item_integrated_edit_field6} data-pageid=\"{$pageid}\" data-page=\"t_metadados_print_edit\" data-field=\"rc_2\" data-fieldname=\"rc_2\">\r\n                          <LABEL class=\"r-edit-label control-label\" for=\"{$labelfor_rc_2}\">\r\n                            {BEGIN rc_2_label}\r\n                              {$label app_t_metadados_print rc_2}\r\n                            {END rc_2_label}\r\n                          </label>\r\n                          <DIV class=\"r-edit-field\">\r\n                            {$rc_2_editcontrol}\r\n                          </div>\r\n                          <DIV class=\"r-edit-tooltip\" data-helpfor=\"rc_2\">\r\n                            <DIV class=\"text-muted\">\r\n                              {$tooltip app_t_metadados_print rc_2}\r\n                            </div>\r\n                          </div>\r\n                        </div>\r\n                      {END rc_2_fieldblock}\r\n                  </td>\r\n                {END cellblock_grid_c3}\r\n              </tr>\r\n            </tbody>\r\n          </table>\r\n        {END grid_block}\r\n        {BEGIN below-grid_block}\r\n          <DIV class=\"r-form\" data-location=\"below-grid\" id=\"form_below-grid_{$pageid}\" data-makeup=\"small\" {$form_below-grid} data-pageid=\"{$pageid}\" data-v-width=\"4\" data-v-margin=\"1\">\r\n            <DIV class=\"row\">\r\n              <DIV data-cellId=\"below-grid_c1\" data-pageid=\"{$pageid}\" {$cell_below-grid_c1} class=\"col-md-6\">\r\n                {BEGIN save_edit}\r\n                  <span data-itemtype=\"edit_save\" data-itemid=\"edit_save\" {$item_edit_save} data-pageid=\"{$pageid}\" data-small data-button-item>\r\n                    <A type=\"button\" title class=\"btn btn-primary\" {$savebutton_attrs}>\r\n                      Salvar\r\n                    </a>\r\n                  </span>\r\n                {END save_edit}\r\n                {BEGIN close_button}\r\n                  <span data-itemtype=\"edit_close\" data-itemid=\"edit_close\" {$item_edit_close} data-pageid=\"{$pageid}\" data-small data-button-item>\r\n                    <A type=\"button\" title class=\"btn btn-default\" {$closebutton_attrs}>\r\n                      Cancelar\r\n                    </a>\r\n                  </span>\r\n                {END close_button}\r\n              </div>\r\n              <DIV data-cellId=\"below-grid_c2\" data-pageid=\"{$pageid}\" {$cell_below-grid_c2} class=\"r-align-right r-ori-vert col-md-6\">\r\n                <span data-itemtype=\"edit_reset\" data-itemid=\"edit_reset\" {$item_edit_reset} data-pageid=\"{$pageid}\" data-small data-button-item>\r\n                  <A type=\"button\" title class=\"btn btn-default\" {$resetbutton_attrs}>\r\n                    Limpar\r\n                  </a>\r\n                </span>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        {END below-grid_block}\r\n      </div>\r\n      {$footer}\r\n    {END body}\r\n  </body>\r\n</html>\r\n",
+			"title": {
+				"Portuguese(Brazil)": "Configurar Impressão"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "uid",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "titulo",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "descricao",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "cliente",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "departamento",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "logo_brasao",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "rc_1",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "rc_2",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "tipo_img",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "uid",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "titulo",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "descricao",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "cliente",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "departamento",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "logo_brasao",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "rc_1",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "rc_2",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "tipo_img",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"popup": true
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"-3": {
+					"type": "-"
+				},
+				"simple_grid_field": {
+					"field": "uid",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field1": {
+					"field": "titulo",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field2": {
+					"field": "descricao",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field3": {
+					"field": "cliente",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field4": {
+					"field": "departamento",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field5": {
+					"field": "logo_brasao",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field6": {
+					"field": "rc_1",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field7": {
+					"field": "rc_2",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				},
+				"simple_grid_field8": {
+					"field": "tipo_img",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": false
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "uid",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "titulo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "descricao",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "cliente",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "departamento",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "logo_brasao",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "rc_1",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "rc_2",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "tipo_img",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "uid",
+					"type": "integrated_search_field",
+					"orientation": 0
+				},
+				"integrated_search_field1": {
+					"field": "imagem",
+					"type": "integrated_search_field",
+					"orientation": 0
+				},
+				"integrated_search_field2": {
+					"field": "isurl",
+					"type": "integrated_search_field",
+					"orientation": 0
+				},
+				"integrated_search_field3": {
+					"field": "overflow_texto",
+					"type": "integrated_search_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				},
+				"integrated_edit_field": {
+					"field": "uid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "titulo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "descricao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "cliente",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "departamento",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "logo_brasao",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "rc_1",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "rc_2",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "tipo_img",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Config. Impressão"
+	}
+}

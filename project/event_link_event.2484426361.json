@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_FIELD",
+	"name": "link_event",
+	"beforeJsCode": "\nvar doc_cliente = this.getValue();\n\nvar link_view = Runner.getControl(pageid, 'link_view');\nlink_view.setValue(doc_cliente.replace('list', 'view'));\n\nvar link_print = Runner.getControl(pageid, 'link_print');\nlink_print.setValue(doc_cliente.replace('list', 'print'));\n"
+}

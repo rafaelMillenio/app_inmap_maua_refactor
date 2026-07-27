@@ -1,0 +1,6 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Imprimir1",
+	"beforeJsCode": "params[\"ic\"] = Runner.getControl(pageid, 'cinscmobiliarianew');\n\nparams[\"ic\"] = params[\"ic\"].getValue();\n\n",
+	"afterJsCode": "window.open('t_mobiliario_empresa_print.php?q=%28cinscmobiliarianew~equal~'+params[\"ic\"]+'%29','_blank');"
+}

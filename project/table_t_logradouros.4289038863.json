@@ -1,0 +1,4971 @@
+{
+	"sql": "SELECT\ncod_logradouro,\nlogradouro,\ncep_correio,\nesc_mapa,\ntp_dec_lei,\nnum_dec_lei,\nano_dec_lei,\nnom_anterior,\ncodgeo_ini,\ncodgeo_fim,\nloteamento,\nlivro,\nfolha,\nobs,\ntipo,\nproblema,\nnome,\nlink,\ncodgeo_eixo,\ncodgeo_eixo_correto,\n\"uid\"\nFROM app.t_logradouros\n",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_logradouros",
+	"name": "app.t_logradouros",
+	"shortTableName": "t_logradouros",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": null
+			},
+			"openData": {
+				"how": "popup",
+				"page": "view",
+				"table": null,
+				"url": ""
+			}
+		},
+		"fields": {
+			"agua": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"aguas_pluviais": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ano_dec_lei": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cep_correio": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cod_logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"codgeo_fim": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"codgeo_ini": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"coleta_lixo": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"esc_mapa": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"esgoto": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"folha": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"ilum_publica": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"livro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"loteamento": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"luz": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"meio_fio": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"nom_anterior": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"num_dec_lei": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"obs": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"pavimentacao": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"telefone": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"tipo": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"tp_dec_lei": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"uid": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 5,
+	"pageSizePrintRecords": 4,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"25",
+		"50",
+		"100",
+		"200"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"cod_logradouro"
+	],
+	"detailsBadgeColor": "BC8F8F",
+	"fields": [
+		{
+			"name": "cod_logradouro",
+			"sqlExpression": "cod_logradouro",
+			"strField": "cod_logradouro",
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"denyDuplicate": true,
+					"denyDuplicateMessage": {
+						"text": "Código %value%ja cadastrado",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_logradouro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Código"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "logradouro",
+			"sqlExpression": "logradouro",
+			"strField": "logradouro",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "logradouro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "cep_correio",
+			"sqlExpression": "cep_correio",
+			"strField": "cep_correio",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cep_correio",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cep"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "esc_mapa",
+			"sqlExpression": "esc_mapa",
+			"strField": "esc_mapa",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "esc_mapa",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Esc. Mapa"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "tp_dec_lei",
+			"sqlExpression": "tp_dec_lei",
+			"strField": "tp_dec_lei",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "tp_dec_lei",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Tipo Dec/Lei"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "num_dec_lei",
+			"sqlExpression": "num_dec_lei",
+			"strField": "num_dec_lei",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "num_dec_lei",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Num. Dec/Lei"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "ano_dec_lei",
+			"sqlExpression": "ano_dec_lei",
+			"strField": "ano_dec_lei",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "ano_dec_lei",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ano Dec/Lei"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "nom_anterior",
+			"sqlExpression": "nom_anterior",
+			"strField": "nom_anterior",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nom_anterior",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Nome Ant."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "codgeo_ini",
+			"sqlExpression": "codgeo_ini",
+			"strField": "codgeo_ini",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_ini",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Ini."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "codgeo_fim",
+			"sqlExpression": "codgeo_fim",
+			"strField": "codgeo_fim",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_fim",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Fim"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "loteamento",
+			"sqlExpression": "loteamento",
+			"strField": "loteamento",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "loteamento",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Loteamento"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "livro",
+			"sqlExpression": "livro",
+			"strField": "livro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "livro",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Livro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "folha",
+			"sqlExpression": "folha",
+			"strField": "folha",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "folha",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Folha"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "obs",
+			"sqlExpression": "obs",
+			"strField": "obs",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "obs",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Obs."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "tipo",
+			"sqlExpression": "tipo",
+			"strField": "tipo",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 254,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "tipo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Tipo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "problema",
+			"sqlExpression": "problema",
+			"strField": "problema",
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "problema",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Problema"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "nome",
+			"sqlExpression": "nome",
+			"strField": "nome",
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "nome",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "link",
+			"sqlExpression": "link",
+			"strField": "link",
+			"type": 201,
+			"viewFormats": [
+				{
+					"format": "Hyperlink",
+					"linkDisplay": 1,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "link",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Lei/Decreto"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "codgeo_eixo",
+			"sqlExpression": "codgeo_eixo",
+			"strField": "codgeo_eixo",
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_eixo",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Codgeo Eixo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "codgeo_eixo_correto",
+			"sqlExpression": "codgeo_eixo_correto",
+			"strField": "codgeo_eixo_correto",
+			"type": 200,
+			"viewFormats": [
+				{
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codgeo_eixo_correto",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Codgeo Eixo Correto"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		},
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 2,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_logradouros"
+		}
+	],
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"whereTabs": [
+		{}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "print",
+			"code": "window.print();\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_AFTERADD",
+			"pageType": "add",
+			"code": "\nif ($values[\"link\"]) {\n\n\tDB::exec(\"UPDATE geo_eixo_de_logradouro SET \\\"Lei/Decreto\\\" = '\".$values[\"link\"].\"' WHERE codgeo = '\".$values[\"cod_logradouro\"].\"'\");\n\n}\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_AFTEREDIT",
+			"pageType": "edit",
+			"code": "\n\n\nif ($values[\"link\"] and ($oldvalues[\"link\"] != $values[\"link\"])) {\n\n\tDB::exec(\"UPDATE geo_eixo_de_logradouro SET \\\"Lei/Decreto\\\" = '\".$values[\"link\"].\"' WHERE codgeo = '\".$values[\"cod_logradouro\"].\"'\");\n\n}\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							],
+							"align": "right"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c4",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c4": {
+							"model": "c3",
+							"items": [
+								"tabs"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 2,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c10"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c11"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c15"
+								},
+								{
+									"cell": "c16"
+								},
+								{
+									"cell": "c17"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c12"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9"
+								},
+								{
+									"cell": "c13"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 3
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field13"
+							],
+							"useFullWidth": true
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field"
+							]
+						},
+						"c3": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field1"
+							]
+						},
+						"c4": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field2"
+							]
+						},
+						"c5": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field10"
+							]
+						},
+						"c6": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field5"
+							]
+						},
+						"c7": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field6"
+							]
+						},
+						"c8": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field11"
+							]
+						},
+						"c9": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field12"
+							]
+						},
+						"c10": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field7"
+							]
+						},
+						"c11": {
+							"model": "c1",
+							"items": []
+						},
+						"c12": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field4"
+							]
+						},
+						"c13": {
+							"model": "c1",
+							"items": []
+						},
+						"c15": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field8"
+							]
+						},
+						"c16": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field9"
+							]
+						},
+						"c17": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field14"
+							]
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field18"
+							],
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section2": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field17",
+								"integrated_edit_field16"
+							],
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					}
+				},
+				"add_cancel": {
+					"type": "add_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "cod_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field1": {
+					"field": "logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field2": {
+					"field": "cep_correio",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field4": {
+					"field": "tp_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field5": {
+					"field": "num_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field6": {
+					"field": "ano_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field7": {
+					"field": "nom_anterior",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field8": {
+					"field": "codgeo_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field9": {
+					"field": "codgeo_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field10": {
+					"field": "loteamento",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field11": {
+					"field": "livro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field12": {
+					"field": "folha",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field13": {
+					"field": "obs",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Identificação",
+							"type": 0
+						},
+						{
+							"text": "Dados",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section2"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"integrated_edit_field14": {
+					"field": "tipo",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true
+				},
+				"integrated_edit_field16": {
+					"field": "problema",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "link",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_save",
+								"edit_reset",
+								"edit_back_list",
+								"edit_close"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c4",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c4": {
+							"model": "c3",
+							"items": [
+								"tabs"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 2,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c10"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c11"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c15"
+								},
+								{
+									"cell": "c16"
+								},
+								{
+									"cell": "c17"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c12"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9"
+								},
+								{
+									"cell": "c13"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 3
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field13"
+							],
+							"useFullWidth": true
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field"
+							]
+						},
+						"c3": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field1"
+							]
+						},
+						"c4": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field2"
+							]
+						},
+						"c5": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field10"
+							]
+						},
+						"c6": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field5"
+							]
+						},
+						"c7": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field6"
+							]
+						},
+						"c8": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field11"
+							]
+						},
+						"c9": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field12"
+							]
+						},
+						"c10": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field7"
+							]
+						},
+						"c11": {
+							"model": "c1",
+							"items": []
+						},
+						"c12": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field4"
+							]
+						},
+						"c13": {
+							"model": "c1",
+							"items": []
+						},
+						"c15": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field8"
+							]
+						},
+						"c16": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field9"
+							]
+						},
+						"c17": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field14"
+							]
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field18"
+							],
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section2": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field17",
+								"integrated_edit_field16"
+							],
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					}
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"integrated_edit_field": {
+					"field": "cod_logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field1": {
+					"field": "logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field2": {
+					"field": "cep_correio",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field4": {
+					"field": "tp_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field5": {
+					"field": "num_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field6": {
+					"field": "ano_dec_lei",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field7": {
+					"field": "nom_anterior",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field8": {
+					"field": "codgeo_ini",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field9": {
+					"field": "codgeo_fim",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field10": {
+					"field": "loteamento",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field11": {
+					"field": "livro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field12": {
+					"field": "folha",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true
+				},
+				"integrated_edit_field13": {
+					"field": "obs",
+					"type": "integrated_edit_field",
+					"orientation": 1,
+					"nowrap": true,
+					"bold": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Identificação",
+							"type": 0
+						},
+						{
+							"text": "Dados",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section2"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"integrated_edit_field14": {
+					"field": "tipo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "problema",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "link",
+					"type": "integrated_edit_field",
+					"orientation": 1,
+					"updateOnEdit": false,
+					"bold": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field17"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"export_field": {
+					"field": "cod_logradouro",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "logradouro",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "cep_correio",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "tp_dec_lei",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "num_dec_lei",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "ano_dec_lei",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "nom_anterior",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "codgeo_ini",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "codgeo_fim",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "loteamento",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "livro",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "folha",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "obs",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "tipo",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "link",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ";",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field24"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "cod_logradouro",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "logradouro",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "cep_correio",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "esc_mapa",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "tp_dec_lei",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "num_dec_lei",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "ano_dec_lei",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "nom_anterior",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "codgeo_ini",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "codgeo_fim",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "loteamento",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "livro",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "folha",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "obs",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "tipo",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "uid",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button2",
+								"custom_button1",
+								"custom_button3",
+								"add"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							],
+							"nowrap": true
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_panel"
+							]
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"show_search_panel",
+								"hide_search_panel"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"voltar"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "cell_checkbox1"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field6"
+								},
+								{
+									"cell": "headcell_field9"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox2"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_field9"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "cell_checkbox3"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field6"
+								},
+								{
+									"cell": "footcell_field9"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "cod_logradouro",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "cod_logradouro",
+							"columnName": "field"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "cod_logradouro",
+							"columnName": "field"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "logradouro",
+							"columnName": "field"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "logradouro",
+							"columnName": "field"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "logradouro",
+							"columnName": "field"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "tp_dec_lei",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "tp_dec_lei",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "tp_dec_lei",
+							"columnName": "field"
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "num_dec_lei",
+							"columnName": "field"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "num_dec_lei",
+							"columnName": "field"
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "num_dec_lei",
+							"columnName": "field"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field11"
+							],
+							"field": "ano_dec_lei",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "ano_dec_lei",
+							"columnName": "field"
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "ano_dec_lei",
+							"columnName": "field"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "nom_anterior",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "nom_anterior",
+							"columnName": "field"
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "nom_anterior",
+							"columnName": "field"
+						},
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field13"
+							],
+							"field": "loteamento",
+							"columnName": "field"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "loteamento",
+							"columnName": "field"
+						},
+						"footcell_field6": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "loteamento",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox1": {
+							"model": "headcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox2": {
+							"model": "cell_checkbox",
+							"items": [
+								"custom_button"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox3": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"headcell_field9": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label2"
+							],
+							"field": "link",
+							"columnName": "field"
+						},
+						"cell_field9": {
+							"model": "cell_field",
+							"items": [
+								"grid_field2"
+							],
+							"field": "link",
+							"columnName": "field"
+						},
+						"footcell_field9": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "link",
+							"columnName": "field"
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [
+								"grid_edit"
+							],
+							"columnName": "edit",
+							"field": ""
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Logradouros"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field6",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field5",
+						"search_panel_field1",
+						"search_panel_field4"
+					],
+					"_flexiblePanel": true
+				},
+				"search_panel_field": {
+					"field": "cod_logradouro",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field1": {
+					"field": "logradouro",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field4": {
+					"field": "loteamento",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"-": {
+					"type": "-"
+				},
+				"simple_grid_field": {
+					"field": "cod_logradouro",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field1": {
+					"field": "logradouro",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field4": {
+					"field": "tp_dec_lei",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field5": {
+					"field": "num_dec_lei",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field6": {
+					"field": "ano_dec_lei",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field7": {
+					"field": "nom_anterior",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field10": {
+					"field": "loteamento",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"nowrap": true,
+					"bold": true
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Fechar pesquisa"
+					},
+					"background": "transparent"
+				},
+				"show_search_panel": {
+					"type": "show_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Pesquisa avançada"
+					},
+					"background": "transparent"
+				},
+				"simple_grid_field2": {
+					"type": "grid_field_label",
+					"field": "cod_logradouro",
+					"clickSort": true
+				},
+				"simple_grid_field3": {
+					"type": "grid_field_label",
+					"field": "logradouro",
+					"clickSort": true
+				},
+				"simple_grid_field8": {
+					"type": "grid_field_label",
+					"field": "tp_dec_lei",
+					"clickSort": true
+				},
+				"simple_grid_field9": {
+					"type": "grid_field_label",
+					"field": "num_dec_lei",
+					"clickSort": true
+				},
+				"simple_grid_field11": {
+					"type": "grid_field_label",
+					"field": "ano_dec_lei",
+					"clickSort": true
+				},
+				"simple_grid_field12": {
+					"type": "grid_field_label",
+					"field": "nom_anterior",
+					"clickSort": true
+				},
+				"simple_grid_field13": {
+					"type": "grid_field_label",
+					"field": "loteamento",
+					"clickSort": true
+				},
+				"custom_button": {
+					"eventId": "marcar_mapa_log1",
+					"label": {
+						"text": "",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "map-marker"
+					},
+					"buttonSize": "xtra-small",
+					"buttonStyle": "default",
+					"width": "22px",
+					"tooltip": {
+						"text": "Marcar no mapa",
+						"type": 0
+					},
+					"eventGid": 420982974
+				},
+				"custom_button1": {
+					"eventId": "selecionar_log",
+					"label": {
+						"text": "Aplicar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"tooltip": {
+						"text": "Simboliza no mapa os registros selecionados",
+						"type": 0
+					},
+					"icon": {
+						"fa": "map"
+					},
+					"eventGid": 2468993207
+				},
+				"custom_button2": {
+					"eventId": "criar_tema_selecao_log",
+					"label": {
+						"text": "Configurar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "gear"
+					},
+					"tooltip": {
+						"text": "Simboliza no mapa os registros selecionados",
+						"type": 0
+					},
+					"eventGid": 3538898734
+				},
+				"search_panel_field5": {
+					"field": "tipo",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"custom_button3": {
+					"eventId": "salvar_mapa_log",
+					"label": {
+						"text": "Salvar mapa",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "save"
+					},
+					"eventGid": 1784416002
+				},
+				"search_panel_field2": {
+					"field": "tp_dec_lei",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field3": {
+					"field": "num_dec_lei",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field6": {
+					"field": "ano_dec_lei",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"grid_field2": {
+					"field": "link",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"grid_field_label2": {
+					"type": "grid_field_label",
+					"field": "link",
+					"clickSort": true,
+					"label": {
+						"field": "link",
+						"table": "app.t_logradouros",
+						"type": 3
+					}
+				},
+				"add": {
+					"type": "add",
+					"popup": true,
+					"label": {
+						"type": 0,
+						"text": "Incluir"
+					}
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"popup": true,
+					"buttonStyle": "primary",
+					"buttonSize": "xtra-small",
+					"width": "22px"
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"voltar": {
+					"eventId": "voltar6",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"type": "custom_button",
+					"icon": {
+						"glyph": "arrow-left"
+					},
+					"eventGid": 1363563559
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c": {
+							"model": "c1",
+							"items": [
+								"image",
+								"text"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "columns-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_top",
+									"colspan": 6
+								}
+							],
+							"section": "head"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_label2",
+									"colspan": 6
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_label1"
+								},
+								{
+									"cell": "cell_field1"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field24",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_field26",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label3",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_label4"
+								},
+								{
+									"cell": "cell_field4"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label6",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_label7"
+								},
+								{
+									"cell": "cell_field7"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label9",
+									"colspan": 3
+								},
+								{
+									"cell": "cell_label11",
+									"colspan": 3
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label5"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_label8"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_label10"
+								},
+								{
+									"cell": "cell_field8"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_dpreview",
+									"colspan": 6
+								}
+							],
+							"section": "foot"
+						}
+					],
+					"cells": {
+						"cell_top": {
+							"model": "cell_top",
+							"items": [
+								"text2"
+							]
+						},
+						"cell_dpreview": {
+							"model": "cell_dpreview",
+							"items": []
+						},
+						"cell_label": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field3",
+								"simple_grid_field"
+							],
+							"field": "cod_logradouro",
+							"nowrap": true,
+							"orientation": "vertical",
+							"align": "right"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field14",
+								"simple_grid_field1"
+							],
+							"field": "cod_logradouro",
+							"nowrap": true,
+							"orientation": "vertical",
+							"align": "left"
+						},
+						"cell_label1": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field28",
+								"simple_grid_field7"
+							],
+							"field": "codgeo_fim",
+							"nowrap": true,
+							"orientation": "vertical",
+							"align": "right"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field24",
+								"simple_grid_field2"
+							],
+							"field": "codgeo_fim",
+							"nowrap": true,
+							"orientation": "vertical",
+							"align": "left"
+						},
+						"cell_label3": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field29",
+								"simple_grid_field8"
+							],
+							"field": "logradouro",
+							"nowrap": true,
+							"align": "right",
+							"orientation": "vertical"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field30",
+								"simple_grid_field9"
+							],
+							"field": "logradouro",
+							"nowrap": true,
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"cell_label4": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field26",
+								"simple_grid_field5"
+							],
+							"field": "loteamento",
+							"nowrap": true,
+							"align": "right",
+							"orientation": "vertical"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field27",
+								"simple_grid_field6"
+							],
+							"field": "loteamento",
+							"nowrap": true,
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"cell_label6": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field25",
+								"simple_grid_field4"
+							],
+							"field": "cep_correio",
+							"nowrap": true,
+							"align": "right",
+							"orientation": "vertical"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field32",
+								"simple_grid_field11"
+							],
+							"field": "cep_correio",
+							"nowrap": true,
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"cell_label7": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field33",
+								"simple_grid_field12"
+							],
+							"field": "livro",
+							"nowrap": true,
+							"align": "right",
+							"orientation": "vertical"
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"grid_field_label",
+								"grid_field"
+							],
+							"field": "livro",
+							"nowrap": true,
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"cell_label9": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field34"
+							],
+							"field": "tp_dec_lei",
+							"nowrap": true,
+							"align": "right",
+							"orientation": "horizontal"
+						},
+						"cell_field24": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field31"
+							],
+							"field": "logradouro",
+							"nowrap": true,
+							"align": "right"
+						},
+						"cell_field26": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "logradouro",
+							"nowrap": true,
+							"align": "left"
+						},
+						"cell_label11": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field13"
+							],
+							"field": "tp_dec_lei",
+							"nowrap": true,
+							"align": "left",
+							"orientation": "horizontal"
+						},
+						"cell_label2": {
+							"model": "cell_label",
+							"items": [
+								"text3"
+							],
+							"field": "cod_logradouro",
+							"align": "left",
+							"background": "#e1e1e1"
+						},
+						"cell_label5": {
+							"model": "cell_label",
+							"items": [
+								"grid_field_label1"
+							],
+							"field": "link"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"grid_field1"
+							],
+							"field": "link"
+						},
+						"cell_label8": {
+							"model": "cell_label",
+							"items": []
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": []
+						},
+						"cell_label10": {
+							"model": "cell_label",
+							"items": []
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"buildType": 2,
+					"columnCount": 3
+				}
+			},
+			"items": {
+				"simple_grid_field": {
+					"field": "cod_logradouro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field1": {
+					"field": "logradouro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"field": "cep_correio",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"type": "grid_field_label",
+					"field": "cod_logradouro",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field4": {
+					"field": "tp_dec_lei",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field5": {
+					"field": "num_dec_lei",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field6": {
+					"field": "ano_dec_lei",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "nom_anterior",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"field": "codgeo_ini",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field9": {
+					"field": "codgeo_fim",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"field": "loteamento",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"field": "livro",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field12": {
+					"field": "folha",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field13": {
+					"field": "obs",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field14": {
+					"type": "grid_field_label",
+					"field": "logradouro",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "cep_correio",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field25": {
+					"type": "grid_field_label",
+					"field": "tp_dec_lei",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field26": {
+					"type": "grid_field_label",
+					"field": "num_dec_lei",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field27": {
+					"type": "grid_field_label",
+					"field": "ano_dec_lei",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field28": {
+					"type": "grid_field_label",
+					"field": "nom_anterior",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field29": {
+					"type": "grid_field_label",
+					"field": "codgeo_ini",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field30": {
+					"type": "grid_field_label",
+					"field": "codgeo_fim",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field31": {
+					"type": "grid_field_label",
+					"field": "loteamento",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field32": {
+					"type": "grid_field_label",
+					"field": "livro",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field33": {
+					"type": "grid_field_label",
+					"field": "folha",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field34": {
+					"type": "grid_field_label",
+					"field": "obs",
+					"nowrap": true,
+					"bold": false
+				},
+				"grid_field": {
+					"field": "tipo",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"grid_field_label": {
+					"type": "grid_field_label",
+					"field": "tipo",
+					"nowrap": true,
+					"bold": false
+				},
+				"image": {
+					"type": "image",
+					"image": {
+						"image": "Machado.png",
+						"source": 2
+					},
+					"width": "69px",
+					"height": "63px"
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "PREFEITURA DE MACHADO"
+					},
+					"editedByRte": false,
+					"nowrap": true,
+					"bold": true,
+					"font-size": "22px"
+				},
+				"text2": {
+					"type": "text",
+					"label": {
+						"text": "LOGRADOURO",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true
+				},
+				"text3": {
+					"type": "text",
+					"label": {
+						"text": "IDENTIFICAÇÂO",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px"
+				},
+				"grid_field1": {
+					"field": "link",
+					"type": "grid_field"
+				},
+				"grid_field_label1": {
+					"type": "grid_field_label",
+					"field": "link"
+				}
+			},
+			"version": 14,
+			"pageWidth": "compact",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1",
+								"integrated_search_field2",
+								"integrated_search_field3",
+								"integrated_search_field4",
+								"integrated_search_field5",
+								"integrated_search_field6"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "uid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "problema",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field2": {
+					"field": "nome",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field3": {
+					"field": "link",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field4": {
+					"field": "codgeo_eixo",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field5": {
+					"field": "codgeo_eixo_correto",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field6": {
+					"field": "cod_logradouro",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c4",
+									"colspan": 1
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c4": {
+							"model": "c3",
+							"items": [
+								"tabs"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 2,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c10"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c11"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c15"
+								},
+								{
+									"cell": "c16"
+								},
+								{
+									"cell": "c17"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c12"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c8"
+								},
+								{
+									"cell": "c9"
+								},
+								{
+									"cell": "c13"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 3
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c",
+									"colspan": 3
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label4",
+								"integrated_edit_field13"
+							],
+							"orientation": "horizontal",
+							"align": "left",
+							"useFullWidth": true
+						},
+						"c2": {
+							"model": "c3",
+							"items": [
+								"edit_field_label2",
+								"integrated_edit_field"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"edit_field_label1",
+								"integrated_edit_field1"
+							]
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"edit_field_label3",
+								"integrated_edit_field2"
+							]
+						},
+						"c5": {
+							"model": "c3",
+							"items": [
+								"edit_field_label10",
+								"integrated_edit_field10"
+							]
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"edit_field_label13",
+								"integrated_edit_field5"
+							]
+						},
+						"c7": {
+							"model": "c3",
+							"items": [
+								"edit_field_label12",
+								"integrated_edit_field6"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"edit_field_label5",
+								"integrated_edit_field11"
+							]
+						},
+						"c9": {
+							"model": "c3",
+							"items": [
+								"edit_field_label6",
+								"integrated_edit_field12"
+							]
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"edit_field_label",
+								"integrated_edit_field7"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": []
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"edit_field_label9",
+								"integrated_edit_field4"
+							]
+						},
+						"c13": {
+							"model": "c1",
+							"items": []
+						},
+						"c15": {
+							"model": "c3",
+							"items": [
+								"edit_field_label14",
+								"integrated_edit_field8"
+							]
+						},
+						"c16": {
+							"model": "c3",
+							"items": [
+								"edit_field_label11",
+								"integrated_edit_field9"
+							]
+						},
+						"c17": {
+							"model": "c3",
+							"items": [
+								"edit_field_label7",
+								"integrated_edit_field14"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field17"
+							],
+							"orientation": "horizontal",
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section1": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"integrated_edit_field16",
+								"integrated_edit_field15"
+							],
+							"useFullWidth": true
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header",
+					"title": {
+						"page": "view",
+						"table": "app.t_logradouros",
+						"type": 7
+					}
+				},
+				"view_back_list": {
+					"type": "view_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"view_close": {
+					"type": "view_close",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					],
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"integrated_edit_field": {
+					"field": "cod_logradouro",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field1": {
+					"field": "logradouro",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field2": {
+					"field": "cep_correio",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field4": {
+					"field": "tp_dec_lei",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field5": {
+					"field": "num_dec_lei",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field6": {
+					"field": "ano_dec_lei",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field7": {
+					"field": "nom_anterior",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field8": {
+					"field": "codgeo_ini",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field9": {
+					"field": "codgeo_fim",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field10": {
+					"field": "loteamento",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field11": {
+					"field": "livro",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field12": {
+					"field": "folha",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field13": {
+					"field": "obs",
+					"type": "edit_field",
+					"orientation": 0,
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Identificação",
+							"type": 0
+						},
+						{
+							"text": "Dados",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section1"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"integrated_edit_field14": {
+					"field": "tipo",
+					"type": "edit_field",
+					"orientation": 0,
+					"nowrap": true,
+					"bold": true,
+					"joined": false,
+					"separated": true
+				},
+				"edit_field_label": {
+					"type": "edit_field_label",
+					"field": "nom_anterior",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label1": {
+					"type": "edit_field_label",
+					"field": "logradouro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label2": {
+					"type": "edit_field_label",
+					"field": "cod_logradouro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label3": {
+					"type": "edit_field_label",
+					"field": "cep_correio",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label4": {
+					"type": "edit_field_label",
+					"field": "obs",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label5": {
+					"type": "edit_field_label",
+					"field": "livro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label6": {
+					"type": "edit_field_label",
+					"field": "folha",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label7": {
+					"type": "edit_field_label",
+					"field": "tipo",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label9": {
+					"type": "edit_field_label",
+					"field": "tp_dec_lei",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label10": {
+					"type": "edit_field_label",
+					"field": "loteamento",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label11": {
+					"type": "edit_field_label",
+					"field": "codgeo_fim",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label12": {
+					"type": "edit_field_label",
+					"field": "ano_dec_lei",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label13": {
+					"type": "edit_field_label",
+					"field": "num_dec_lei",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label14": {
+					"type": "edit_field_label",
+					"field": "codgeo_ini",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"integrated_edit_field15": {
+					"field": "problema",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "nome",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "link",
+					"type": "integrated_edit_field",
+					"orientation": 1,
+					"bold": true
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Logradouro {%logradouro}"
+			},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Logradouros"
+	}
+}

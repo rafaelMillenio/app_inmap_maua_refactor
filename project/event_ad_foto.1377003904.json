@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "ad_foto",
+	"beforeJsCode": "var popup = Runner.displayPopup( {\n   url: \"t_arquivos_foto_add.php\",\n   width: 350,\n   height: 350,\n   header: 'Adicionar Foto'\n});"
+}

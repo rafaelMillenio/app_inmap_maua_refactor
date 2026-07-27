@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_FIELD",
+	"name": "name_group_event",
+	"serverCode": "$valores = $params[\"value\"]; // Ex: \"Administradores,CGM,COMDEC\"\n\n$data = [];\n\nif (is_array($valores)) {\n    foreach ($valores as $valor) {\n\t\t\t\t\n        $valor = trim($valor);\n        $safeValor = addslashes($valor);\n        $rs = DB::Query(\"SELECT uid as fuid_group FROM app.t_groups WHERE name = '{$safeValor}' LIMIT 1\");\n        \n        if ($rs) {\n            $row = $rs->fetchAssoc();\n            if ($row) {\n                $data[] = $row[\"fuid_group\"];\n            }\n        } else {\n            echo \"<script>alert('Erro ao consultar grupo: {$valor}')</script>\";\n        }\n\n\t\t\t\t$result[\"fuid_groups\"] = implode(',', $data);\n    }\n\n} else {\n    $valores = trim($valores);\n    $safeValor = addslashes($valores);\n    $rs = DB::Query(\"SELECT uid as fuid_group FROM app.t_groups WHERE name = '{$safeValor}' LIMIT 1\");\n\n    if ($rs) {\n        $row = $rs->fetchAssoc();\n        if ($row) {\n            $result[\"fuid_groups\"] = $row[\"fuid_group\"];\n        }\n    } else {\n        echo \"<script>alert('Erro ao consultar grupo: {$valores}')</script>\";\n    }\n}",
+	"beforeJsCode": "params[\"value\"] = this.getValue();\n",
+	"afterJsCode": "var fuid_group = Runner.getControl(pageid, 'fuid_group');\n\ndocument.querySelector('[data-itemid=\"snippet\"]').textContent =result['fuid_groups'];\nfuid_group.setValue(result['fuid_groups'].split(',')[0]);\n"
+}

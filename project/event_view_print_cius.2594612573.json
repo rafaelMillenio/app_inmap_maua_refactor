@@ -1,0 +1,6 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "view_print_cius",
+	"beforeJsCode": "params[\"ic\"] = Runner.getControl(pageid, 'id');\n\nparams[\"ic\"] = params[\"ic\"].getValue();",
+	"afterJsCode": "window.open('t_cius_consulta_print.php?q=%28id~equal~'+params[\"ic\"]+'%29','_blank');"
+}

@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Cadastrar",
+	"afterJsCode": "var message = \"register.php\";\n\nvar win = Runner.displayPopup( {\n url: message,\n width: 600,\n height: 450,\n header: 'Registre-se'\n});"
+}

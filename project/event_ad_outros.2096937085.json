@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "ad_outros",
+	"beforeJsCode": "var popup = Runner.displayPopup( {\n   url: \"t_arquivos_outros_add.php\",\n   width: 350,\n   height: 350,\n   header: 'Adicionar Anexo'\n});"
+}

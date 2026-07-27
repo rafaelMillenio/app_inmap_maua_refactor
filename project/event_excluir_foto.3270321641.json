@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "excluir_foto",
+	"serverCode": "$id = $params['id'];\n$quadra = substr($params['arquivo'],0,9);\n$path_file = \"../gedosasco/fotos/\".$quadra.\"/\".$params['arquivo'];\n$result = 0;\n\nif(file_exists($path_file))\n{\n$result = 1;\n$delete = \"DELETE FROM app.t_arquivos_anexos WHERE uid = ('\".$id.\"')\";\nCustomQuery($delete);\nunlink($path_file);\n}else{\n$result = 1;\n$delete = \"DELETE FROM app.t_arquivos_anexos WHERE uid = ('\".$id.\"')\";\nCustomQuery($delete);\n}",
+	"beforeJsCode": "if(confirm(\"Deseja realmente excluir o arquivo?\")){\n\tparams[\"id\"] = rowData.fields['uid'].text();\n\tparams[\"arquivo\"] = rowData.fields['arquivos'].text();\n}else{\nreturn false;\n}\n\n//fotos",
+	"afterJsCode": "if(result == 1){\n\talert('O arquivo foi excluído!');\n}else{\n\talert(\"Algo inesperado aconteceu e o arquivo não foi excluído!\");\n}"
+}

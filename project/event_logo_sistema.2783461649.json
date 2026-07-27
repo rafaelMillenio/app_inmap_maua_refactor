@@ -1,0 +1,4 @@
+{
+	"name": "logo_sistema",
+	"serverCode": "// * renderiza apenas a tag HTML da imagem com as travas de tamanho para o menu\necho \"<div style='display: block; text-align: center; padding: 10px 0; width: 100%;'>\";\necho \"  <img src='images/_img-menu-logo.png' \";\necho \"       alt='Logo do Sistema' \";\necho \"       style='max-width: 140px; max-height: 50px; height: auto; width: auto; object-fit: contain;' />\";\necho \"</div>\";"
+}

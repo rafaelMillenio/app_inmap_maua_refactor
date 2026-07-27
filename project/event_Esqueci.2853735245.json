@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Esqueci",
+	"afterJsCode": "var message = \"remind.php\";\n\nvar win = Runner.displayPopup( {\n url: message,\n width: 400,\n height: 350,\n header: 'Troque sua senha'\n});"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "New_Button3",
+	"serverCode": "// Put your code here.\n$result[\"txt\"] = $params[\"txt\"].\" world!\";\n",
+	"beforeJsCode": "// Put your code here.\nparams[\"txt\"] = \"Hello\";\najax.setMessage(\"Sending request to server...\");\n // Uncomment the following line to prevent execution of \"Server\" and \"Client After\" events.\n // return false;",
+	"afterJsCode": "// Put your code here.\nvar message = result[\"txt\"] + \" !!!\";\najax.setMessage(message);\n"
+}

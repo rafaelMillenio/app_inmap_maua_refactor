@@ -1,0 +1,1214 @@
+{
+	"type": 4,
+	"name": "admin_cadastros",
+	"shortTableName": "admin_cadastros",
+	"caseSensitiveSearch": "",
+	"pageSizeSelectorRecords": [
+		"10",
+		"20",
+		"30",
+		"50",
+		"100",
+		"500",
+		"-1"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"detailsBadgeColor": "D2AF80",
+	"warnLeavingEdit": true,
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"dashSearchFields": [
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_depart_cadastro_grupo_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "fuid_group"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid Group"
+			},
+			"field": "app_t_depart_cadastro_grupo_fuid_group",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "name_group"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Grupo"
+			},
+			"field": "app_t_depart_cadastro_grupo_name_group",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "fuid_depart_cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Setor_Cadastro"
+			},
+			"field": "app_t_depart_cadastro_grupo_fuid_depart_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "fuid_depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid Depart"
+			},
+			"field": "app_t_depart_cadastro_grupo_fuid_depart",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Setor"
+			},
+			"field": "app_t_depart_cadastro_grupo_depart",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "fuid_cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid Cadastro"
+			},
+			"field": "app_t_depart_cadastro_grupo_fuid_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Cadastro"
+			},
+			"field": "app_t_depart_cadastro_grupo_cadastro",
+			"allFieldsSearch": true
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_depart_cadastro_grupo_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_depart_cadastro_grupo_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_depart_cadastro_grupo_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_depart_cadastro_grupo_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_depart_cadastro_grupo_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_groups_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "name"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Nome"
+			},
+			"field": "app_t_groups_name",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "jbrules"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Regras"
+			},
+			"field": "app_t_groups_jbrules",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_groups_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_groups_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_groups_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_groups_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_groups_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "modulo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Módulo"
+			},
+			"field": "app_t_groups_modulo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "permissao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Permissão"
+			},
+			"field": "app_t_groups_permissao",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_groups",
+					"field": "tipo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Tipo"
+			},
+			"field": "app_t_groups_tipo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro_grupo",
+					"field": "link"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Link"
+			},
+			"field": "app_t_depart_cadastro_grupo_link",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.tbl_pesq_rapida_permissao",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_tbl_pesq_rapida_permissao_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.tbl_pesq_rapida_permissao",
+					"field": "item"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Item"
+			},
+			"field": "app_tbl_pesq_rapida_permissao_item",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.tbl_pesq_rapida_permissao",
+					"field": "grupo"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Grupo"
+			},
+			"field": "app_tbl_pesq_rapida_permissao_grupo",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_depart_tabela_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Cadastro"
+			},
+			"field": "app_t_depart_tabela_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "descricao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descricao"
+			},
+			"field": "app_t_depart_tabela_descricao",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "ordem_cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem Cadastro"
+			},
+			"field": "app_t_depart_tabela_ordem_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "chave_cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Chave Cadastro"
+			},
+			"field": "app_t_depart_tabela_chave_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "camada"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Camada"
+			},
+			"field": "app_t_depart_tabela_camada",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "chave_camada"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Chave Camada"
+			},
+			"field": "app_t_depart_tabela_chave_camada",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_depart_tabela_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_depart_tabela_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_depart_tabela_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_depart_tabela_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_depart_tabela_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_tabela",
+					"field": "url_link"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Url Link"
+			},
+			"field": "app_t_depart_tabela_url_link",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_depart_cadastro_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "fuid_depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid Depart"
+			},
+			"field": "app_t_depart_cadastro_fuid_depart",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Depart"
+			},
+			"field": "app_t_depart_cadastro_depart",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "fuid_cad"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid Cad"
+			},
+			"field": "app_t_depart_cadastro_fuid_cad",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "cadastro"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Cadastro"
+			},
+			"field": "app_t_depart_cadastro_cadastro",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_depart_cadastro_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_depart_cadastro_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_depart_cadastro_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_depart_cadastro_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_depart_cadastro_fuid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "link"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Link"
+			},
+			"field": "app_t_depart_cadastro_link",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart_cadastro",
+					"field": "name_link"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Name Link"
+			},
+			"field": "app_t_depart_cadastro_name_link",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "uid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"field": "app_t_depart_uid",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Depart"
+			},
+			"field": "app_t_depart_depart",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "descricao"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Descricao"
+			},
+			"field": "app_t_depart_descricao",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "ordem_depart"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Ordem Depart"
+			},
+			"field": "app_t_depart_ordem_depart",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "md_add"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"field": "app_t_depart_md_add",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "md_alt"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"field": "app_t_depart_md_alt",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "md_usr"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"field": "app_t_depart_md_usr",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "md_usr_last"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"field": "app_t_depart_md_usr_last",
+			"allFieldsSearch": false
+		},
+		{
+			"refs": [
+				{
+					"table": "app.t_depart",
+					"field": "fuid"
+				}
+			],
+			"labels": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"field": "app_t_depart_fuid",
+			"allFieldsSearch": false
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "dashboard",
+			"type": "dashboard",
+			"layoutId": "topbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "topbar-dashboard",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "dashboard-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "dashboard-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_0_"
+								},
+								{
+									"cell": "cell_0_2"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_0_1"
+								},
+								{
+									"cell": "cell_0_4"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_0_3"
+								},
+								{
+									"cell": "cell_0_5"
+								}
+							]
+						}
+					],
+					"cells": {
+						"cell_0_": {
+							"model": "c1",
+							"items": [
+								"dashboard-item1"
+							],
+							"width": ""
+						},
+						"cell_0_2": {
+							"model": "c1",
+							"items": [
+								"t_depart_cadastro_grupo_list"
+							],
+							"width": ""
+						},
+						"cell_0_4": {
+							"model": "c1",
+							"items": [
+								"dashboard-item"
+							],
+							"width": ""
+						},
+						"cell_0_1": {
+							"model": "c1",
+							"items": [
+								"dashboard-item2"
+							],
+							"width": ""
+						},
+						"cell_0_3": {
+							"model": "c1",
+							"items": [
+								"dashboard-item3"
+							],
+							"width": ""
+						},
+						"cell_0_5": {
+							"model": "c1",
+							"items": [
+								"dashboard-item4"
+							],
+							"width": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1,
+					"dashGap": "16px"
+				}
+			},
+			"items": {
+				"menu": {
+					"type": "menu",
+					"menuId": "admin_cadastros"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"t_depart_cadastro_grupo_list": {
+					"type": "dashboard-item",
+					"table": 2490330034,
+					"dashType": 0,
+					"reloadInterval": 0,
+					"pageId": "",
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_groups",
+					"dashName": "t_depart_cadastro_grupo_list",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "calendar"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"copyRecord": false,
+					"deleteRecords": true,
+					"updateSelected": false,
+					"height": "44vh",
+					"headerControls": true
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"dashboard-item1": {
+					"type": "dashboard-item",
+					"table": 911406773,
+					"dashType": 0,
+					"dashName": "app_t_groups_grid",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "fire"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"height": "44vh",
+					"reloadInterval": 0,
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"pageId": "list",
+					"headerControls": true
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"dashboard-item": {
+					"type": "dashboard-item",
+					"table": 3999173074,
+					"dashType": 0,
+					"dashName": "app_tbl_pesq_rapida_permissao_grid",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "flag"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"height": "44vh",
+					"reloadInterval": 0,
+					"detailsFilterByMaster": true,
+					"detailsMasterTable": "app.t_groups",
+					"addRecord": true,
+					"editRecord": true,
+					"viewRecord": false,
+					"deleteRecords": true,
+					"pageId": "list",
+					"headerControls": true
+				},
+				"custom_button": {
+					"type": "custom_button",
+					"eventId": "Voltar",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"width": "30px",
+					"icon": {
+						"fa": "arrow-left"
+					},
+					"eventGid": 2425514004
+				},
+				"dashboard-item2": {
+					"type": "dashboard-item",
+					"table": 2353249986,
+					"dashType": 0,
+					"dashName": "app_t_depart_cadastro_grid1",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "camera"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"height": "44vh",
+					"reloadInterval": 0,
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": "app.t_depart",
+					"addRecord": true,
+					"editRecord": true,
+					"deleteRecords": true,
+					"pageId": "list",
+					"headerControls": true
+				},
+				"dashboard-item3": {
+					"type": "dashboard-item",
+					"table": 3707860173,
+					"dashType": 0,
+					"dashName": "app_t_depart_grid",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"fa": "pencil"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"height": "44vh",
+					"reloadInterval": 0,
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"addRecord": true,
+					"editRecord": true,
+					"deleteRecords": true,
+					"headerControls": true
+				},
+				"dashboard-item4": {
+					"type": "dashboard-item",
+					"table": 2230971716,
+					"dashType": 0,
+					"dashName": "app_t_depart_tabela_grid1",
+					"bsStyle": "primary",
+					"panelType": 1,
+					"icon": {
+						"glyph": "star-empty"
+					},
+					"viewTab": true,
+					"editTab": true,
+					"addTab": true,
+					"initialTab": 0,
+					"hiddenDetails": {},
+					"detailsOptions": [],
+					"mapUpdateGridWhenMoved": true,
+					"height": "44vh",
+					"reloadInterval": 0,
+					"detailsFilterByMaster": false,
+					"detailsMasterTable": null,
+					"addRecord": true,
+					"editRecord": true,
+					"deleteRecords": true,
+					"headerControls": true
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Administração Cadastros"
+	}
+}

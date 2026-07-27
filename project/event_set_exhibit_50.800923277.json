@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "set_exhibit_50",
+	"beforeJsCode": "pageObj.baseParams.pagesize = 50;\npageObj.reload()"
+}

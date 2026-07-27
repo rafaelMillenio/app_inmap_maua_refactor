@@ -1,0 +1,5 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "voltar3",
+	"beforeJsCode": "atual = window.location.href\nfinal = atual.split('/').at(-1)\n\nwindow.location.replace(atual.replace(final, ''))"
+}

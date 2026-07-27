@@ -1,0 +1,4 @@
+{
+	"name": "_global__snippet1",
+	"serverCode": "echo '<label for=\"cars\">Choose a car:</label>\n<select id=\"cars\" name=\"cars\">\n  <option value=\"volvo\">Volvo</option>\n  <option value=\"saab\">Saab</option>\n  <option value=\"fiat\">Fiat</option>\n  <option value=\"audi\">Audi</option>\n</select>';"
+}

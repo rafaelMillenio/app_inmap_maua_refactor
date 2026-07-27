@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "lista_numeracao",
+	"serverCode": "\n$result[\"txt\"] = '/forms/t_renum_planilha_list.php?q=(cod_log_geo~equals~'.$params[\"txt\"].')&tab=dir&orderby=acod_log_geo;alado;afx_min;ainscricao';\n",
+	"beforeJsCode": "params[\"txt\"] = rowData.fields['cod_log_geo'].text();",
+	"afterJsCode": "\n// Put your code here.\nvar url = result[\"txt\"];\n//ctrl.setMessage(url);\nwindow.open(url, target=\"_blank\");"
+}

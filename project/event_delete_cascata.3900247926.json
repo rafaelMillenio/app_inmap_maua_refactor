@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "delete_cascata",
+	"serverCode": "\nwhile ( $record = $button->getNextSelectedRecord() ) {\n    $temaParaExcluir = $record[\"tema\"];\n    if ($temaParaExcluir == 'Mapas Base') {\n        continue;\n    }\n    if (!empty($temaParaExcluir)) {\n        $sqlDeletaPacotes = \"DELETE FROM app.t_pack \n                             WHERE pack IN (\n                                 SELECT pack FROM app.t_tema_pack WHERE tema = '\" . $temaParaExcluir . \"'\n                             )\";\n        DB::Exec($sqlDeletaPacotes);\n        $sqlDeletaRelacao = \"DELETE FROM app.t_tema_pack WHERE tema = '\" . $temaParaExcluir . \"'\";\n        DB::Exec($sqlDeletaRelacao);\n        $sqlDeletaTemaPrincipal = \"DELETE FROM app.t_tema WHERE tema = '\" . $temaParaExcluir . \"'\";\n        DB::Exec($sqlDeletaTemaPrincipal);\n    }\n}",
+	"beforeJsCode": "\nif (confirm(\"Atenção: Esta ação realizará uma exclusão em CASCATA e apagará todos os pacotes amarrados! Deseja continuar?\")) {\n    submit();\n} else {\n    return false; \n}",
+	"afterJsCode": "// Exibe um alerta simples e recarrega a página para sumir com os registros apagados\nalert(\"Exclusão em cascata concluída com sucesso!\");\nlocation.reload();"
+}

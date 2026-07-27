@@ -1,0 +1,5351 @@
+{
+	"sql": "SELECT\n\texercicio,\n\tface_quadra,\n\tlogradouro,\n\tbairro,\n\tcep,\n\tzona_fiscal,\n\tvalorm2,\n\tfolha,\n\tparametro,\n\tquadra,\n\tcodface,\n\tchave_face,\n\tcod_log,\n\tlog_cad,\n\tagua,\n\tluz,\n\tpavimentacao,\n\tmeio_fio,\n\tesgoto,\n\tcoleta_lixo,\n\ttelefone,\n\tilum_publica,\n\taguas_pluviais,\n\tmd_add,\n\tmd_alt,\n\tmd_usr,\n\tmd_usr_last,\n\tfuid,\n\t\"uid\"\nFROM app.t_face_quadra ",
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_face_quadra",
+	"name": "app.t_face_quadra",
+	"shortTableName": "t_face_quadra",
+	"displayLoading": true,
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"listAjax": true,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": null
+			},
+			"openData": {
+				"how": "popup",
+				"page": "view",
+				"table": null,
+				"url": ""
+			}
+		},
+		"fields": {
+			"bairro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cep": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"chave_face": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cod_log": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"codface": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"exercicio": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"face_quadra": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"folha": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"log_cad": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"logradouro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"parametro": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"quadra": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"uid": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"valorm2": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"zona fiscal": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 5,
+	"pageSizePrintRecords": 4,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"20",
+		"50",
+		"100",
+		"200"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"detailsBadgeColor": "DAA520",
+	"fields": [
+		{
+			"name": "exercicio",
+			"sqlExpression": "exercicio",
+			"strField": "exercicio",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "exercicio",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Exercício"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "face_quadra",
+			"sqlExpression": "face_quadra",
+			"strField": "face_quadra",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "face_quadra",
+			"defaultSearchOption": "Starts with",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Face Código"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "logradouro",
+			"sqlExpression": "logradouro",
+			"strField": "logradouro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "logradouro",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "bairro",
+			"sqlExpression": "bairro",
+			"strField": "bairro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "bairro",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Bairro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "cep",
+			"sqlExpression": "cep",
+			"strField": "cep",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cep",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "CEP"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "zona_fiscal",
+			"sqlExpression": "zona_fiscal",
+			"strField": "zona_fiscal",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "zona_fiscal",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Zona Fiscal"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "valorm2",
+			"sqlExpression": "valorm2",
+			"strField": "valorm2",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"format": "Number",
+					"videoRewindEnabled": false
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "valorm2",
+			"searchOptions": [
+				"Equals",
+				"More than",
+				"Less than",
+				"Empty",
+				"NOT More than",
+				"NOT Less than",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Valor m2 Terreno"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "folha",
+			"sqlExpression": "folha",
+			"strField": "folha",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "folha",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Folha"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "parametro",
+			"sqlExpression": "parametro",
+			"strField": "parametro",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "parametro",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Parâmetro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "quadra",
+			"sqlExpression": "quadra",
+			"strField": "quadra",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "quadra",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Quadra"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "codface",
+			"sqlExpression": "codface",
+			"strField": "codface",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "codface",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Face"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "chave_face",
+			"sqlExpression": "chave_face",
+			"strField": "chave_face",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "chave_face",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Face Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "cod_log",
+			"sqlExpression": "cod_log",
+			"strField": "cod_log",
+			"googleLikeSearch": false,
+			"type": 3,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cod_log",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Cod. Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "log_cad",
+			"sqlExpression": "log_cad",
+			"strField": "log_cad",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "log_cad",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "agua",
+			"sqlExpression": "agua",
+			"strField": "agua",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "agua",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Água"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "luz",
+			"sqlExpression": "luz",
+			"strField": "luz",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "luz",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Energia"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "pavimentacao",
+			"sqlExpression": "pavimentacao",
+			"strField": "pavimentacao",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "pavimentacao",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Pavimentação"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "meio_fio",
+			"sqlExpression": "meio_fio",
+			"strField": "meio_fio",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "meio_fio",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Meio Fio"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "esgoto",
+			"sqlExpression": "esgoto",
+			"strField": "esgoto",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "esgoto",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Esgoto"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "coleta_lixo",
+			"sqlExpression": "coleta_lixo",
+			"strField": "coleta_lixo",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "coleta_lixo",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Coleta Lixo"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "telefone",
+			"sqlExpression": "telefone",
+			"strField": "telefone",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "telefone",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Telefone"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "ilum_publica",
+			"sqlExpression": "ilum_publica",
+			"strField": "ilum_publica",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "ilum_publica",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Iluminação Pública"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "aguas_pluviais",
+			"sqlExpression": "aguas_pluviais",
+			"strField": "aguas_pluviais",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Lookup wizard",
+					"textboxMaxLenth": 50,
+					"textHTML5Input": "0",
+					"lookupType": 0,
+					"lookupValues": [
+						"Sim",
+						"Não"
+					],
+					"lookupControlType": 4,
+					"lookupHorizontal": true,
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list",
+				"filterTotalsField": "uid",
+				"hideControl": true
+			},
+			"sourceSingle": "aguas_pluviais",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Águas Pluviais"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		},
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Readonly",
+					"required": true,
+					"validateAs": "Number",
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"More than",
+				"Less than",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Starts with",
+				"NOT More than",
+				"NOT Less than"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_face_quadra"
+		}
+	],
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"whereTabs": [
+		{}
+	],
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "print",
+			"code": "window.print();\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "exercicio",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "face_quadra",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "logradouro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "cep",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "valorm2",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "folha",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "parametro",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "quadra",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "codface",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "chave_face",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "cod_log",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "log_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_back_list"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"edit_save",
+								"edit_close",
+								"edit_reset"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c5"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c8"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c9"
+								},
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c12"
+								},
+								{
+									"cell": "c13"
+								},
+								{
+									"cell": "c14"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c"
+								},
+								{
+									"cell": "c4"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c18"
+								},
+								{
+									"cell": "c19"
+								},
+								{
+									"cell": "c20"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c15"
+								},
+								{
+									"cell": "c16"
+								},
+								{
+									"cell": "c17"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field17"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field15"
+							]
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field16"
+							]
+						},
+						"c1": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field5"
+							]
+						},
+						"c2": {
+							"model": "c3",
+							"items": []
+						},
+						"c5": {
+							"model": "c3",
+							"items": []
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field1"
+							]
+						},
+						"c7": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field11"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field"
+							]
+						},
+						"c9": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field12"
+							]
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field13"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field4"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field3"
+							]
+						},
+						"c13": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field14"
+							]
+						},
+						"c14": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field6"
+							]
+						},
+						"c15": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field23"
+							]
+						},
+						"c16": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field21"
+							]
+						},
+						"c17": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field22"
+							]
+						},
+						"c18": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field20"
+							]
+						},
+						"c19": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field18"
+							]
+						},
+						"c20": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field19"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 3,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header",
+					"title": {
+						"page": "edit",
+						"table": "app.t_face_quadra",
+						"type": 7
+					}
+				},
+				"edit_reset": {
+					"type": "edit_reset",
+					"buttonStyle": "primary"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_close": {
+					"type": "edit_close",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					},
+					"buttonStyle": "primary"
+				},
+				"integrated_edit_field": {
+					"field": "exercicio",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field1": {
+					"field": "face_quadra",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field3": {
+					"field": "bairro",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field4": {
+					"field": "cep",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field6": {
+					"field": "valorm2",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field11": {
+					"field": "chave_face",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field12": {
+					"field": "cod_log",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field13": {
+					"field": "log_cad",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field5": {
+					"field": "uid",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"updateOnEdit": false
+				},
+				"integrated_edit_field14": {
+					"field": "zona_fiscal",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"bold": true
+				},
+				"integrated_edit_field15": {
+					"field": "agua",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field16": {
+					"field": "luz",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field17": {
+					"field": "pavimentacao",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field18": {
+					"field": "meio_fio",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field19": {
+					"field": "esgoto",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field20": {
+					"field": "coleta_lixo",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field21": {
+					"field": "telefone",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field22": {
+					"field": "ilum_publica",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"integrated_edit_field23": {
+					"field": "aguas_pluviais",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false,
+					"bold": true
+				},
+				"edit_back_list": {
+					"type": "edit_back_list",
+					"label": {
+						"type": 0,
+						"text": "Voltar"
+					}
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Face de Quadra [{%uid}]"
+			},
+			"cardStyle": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field2",
+								"export_field4",
+								"export_field5",
+								"export_field7",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field6"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"export_field2": {
+					"field": "face_quadra",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "bairro",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "cep",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "zona_fiscal",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "valorm2",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "chave_face",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "cod_log",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "log_cad",
+					"type": "export_field"
+				},
+				"export_field": {
+					"field": "agua",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "luz",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "pavimentacao",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "meio_fio",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "esgoto",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "coleta_lixo",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "telefone",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "ilum_publica",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "aguas_pluviais",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ";",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "uid",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "exercicio",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "face_quadra",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "logradouro",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "bairro",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "cep",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "valorm2",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "folha",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "parametro",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "quadra",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "codface",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "chave_face",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "cod_log",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "log_cad",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button2",
+								"custom_button1",
+								"custom_button3"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_panel",
+								"filter_panel"
+							]
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"show_search_panel",
+								"hide_search_panel"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"voltar"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "cell_checkbox1"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field6"
+								},
+								{
+									"cell": "headcell_field10"
+								},
+								{
+									"cell": "headcell_field5"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_checkbox2"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "headcell_field8"
+								},
+								{
+									"cell": "headcell_field11"
+								},
+								{
+									"cell": "cell_field5"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "cell_checkbox3"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "headcell_field9"
+								},
+								{
+									"cell": "headcell_field12"
+								},
+								{
+									"cell": "footcell_field5"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field6": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label"
+							],
+							"columnName": "field",
+							"field": "chave_face"
+						},
+						"headcell_field8": {
+							"model": "cell_field",
+							"items": [
+								"grid_field"
+							],
+							"columnName": "field",
+							"field": "chave_face"
+						},
+						"headcell_field9": {
+							"model": "footcell_field",
+							"items": [],
+							"columnName": "field",
+							"field": "chave_face"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "face_quadra",
+							"columnName": "field"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "face_quadra",
+							"columnName": "field"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "face_quadra",
+							"columnName": "field"
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field9"
+							],
+							"field": "bairro",
+							"columnName": "field"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "bairro",
+							"columnName": "field"
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "bairro",
+							"columnName": "field"
+						},
+						"headcell_field5": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "log_cad",
+							"columnName": "field"
+						},
+						"cell_field5": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field14"
+							],
+							"field": "log_cad",
+							"columnName": "field"
+						},
+						"footcell_field5": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "log_cad",
+							"columnName": "field"
+						},
+						"headcell_field": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field11"
+							],
+							"field": "valorm2",
+							"columnName": "field"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "valorm2",
+							"columnName": "field"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "checkbox",
+							"field": ""
+						},
+						"cell_checkbox1": {
+							"model": "headcell_checkbox",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"cell_checkbox2": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_edit",
+								"custom_button"
+							],
+							"columnName": "edit",
+							"field": "",
+							"nowrap": true,
+							"orientation": "horizontal"
+						},
+						"cell_checkbox3": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "edit",
+							"field": ""
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "valorm2",
+							"columnName": "field"
+						},
+						"headcell_field10": {
+							"model": "headcell_field",
+							"items": [
+								"grid_field_label1"
+							],
+							"columnName": "field",
+							"field": "cod_log"
+						},
+						"headcell_field11": {
+							"model": "cell_field",
+							"items": [
+								"grid_field1"
+							],
+							"columnName": "field",
+							"field": "cod_log"
+						},
+						"headcell_field12": {
+							"model": "footcell_field",
+							"items": [],
+							"columnName": "field",
+							"field": "cod_log"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Face_quadra",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"-": {
+					"type": "-"
+				},
+				"simple_grid_field2": {
+					"field": "face_quadra",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "bairro",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "valorm2",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field14": {
+					"field": "log_cad",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"type": "grid_field_label",
+					"field": "face_quadra",
+					"clickSort": true,
+					"bold": false,
+					"nowrap": true,
+					"label": {
+						"field": "face_quadra",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"simple_grid_field9": {
+					"type": "grid_field_label",
+					"field": "bairro",
+					"clickSort": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"type": "grid_field_label",
+					"field": "valorm2",
+					"clickSort": true,
+					"bold": false,
+					"nowrap": true
+				},
+				"grid_field": {
+					"field": "chave_face",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field16": {
+					"type": "grid_field_label",
+					"field": "log_cad",
+					"clickSort": true,
+					"bold": false,
+					"nowrap": true,
+					"label": {
+						"field": "log_cad",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"custom_button": {
+					"eventId": "marcar_mapa_face",
+					"label": {
+						"text": "",
+						"type": 0
+					},
+					"type": "custom_button",
+					"buttonSize": "xtra-small",
+					"buttonStyle": "default",
+					"icon": {
+						"fa": "map-marker"
+					},
+					"width": "22px",
+					"eventGid": 3260414731
+				},
+				"grid_field_label": {
+					"type": "grid_field_label",
+					"field": "chave_face",
+					"clickSort": true,
+					"bold": false,
+					"nowrap": true,
+					"label": {
+						"field": "chave_face",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"filter_panel": {
+					"type": "filter_panel",
+					"items": [
+						"filter_panel_field",
+						"filter_panel_field8",
+						"filter_panel_field7",
+						"filter_panel_field6",
+						"filter_panel_field5",
+						"filter_panel_field4",
+						"filter_panel_field3",
+						"filter_panel_field2",
+						"filter_panel_field1"
+					]
+				},
+				"filter_panel_field": {
+					"field": "agua",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field1": {
+					"field": "luz",
+					"type": "filter_panel_field",
+					"label": {
+						"field": "luz",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"filter_panel_field2": {
+					"field": "pavimentacao",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field3": {
+					"field": "meio_fio",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field4": {
+					"field": "esgoto",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field5": {
+					"field": "coleta_lixo",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field6": {
+					"field": "telefone",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field7": {
+					"field": "ilum_publica",
+					"type": "filter_panel_field"
+				},
+				"filter_panel_field8": {
+					"field": "aguas_pluviais",
+					"type": "filter_panel_field"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"search_panel_field": {
+					"field": "face_quadra",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field1": {
+					"field": "valorm2",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field2": {
+					"field": "cod_log",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field3": {
+					"field": "log_cad",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"show_search_panel": {
+					"type": "show_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Pesquisa avançada"
+					}
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Fechar pesquisa"
+					}
+				},
+				"custom_button1": {
+					"eventId": "localizar_selecao_face",
+					"label": {
+						"text": "Aplicar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "map"
+					},
+					"eventGid": 3137568199
+				},
+				"custom_button2": {
+					"eventId": "config_style_renum",
+					"label": {
+						"text": "Configurar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "gear"
+					},
+					"eventGid": 1461032354
+				},
+				"custom_button3": {
+					"eventId": "salvar_mapa_face",
+					"label": {
+						"type": 0,
+						"text": "Salvar mapa"
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "save"
+					},
+					"eventGid": 15814427
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"grid_field1": {
+					"field": "cod_log",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true,
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"grid_field_label1": {
+					"type": "grid_field_label",
+					"field": "cod_log",
+					"bold": false,
+					"nowrap": true,
+					"clickSort": true
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"buttonStyle": "primary",
+					"buttonSize": "xtra-small",
+					"width": "22px",
+					"popup": false
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"voltar": {
+					"eventId": "voltar7",
+					"label": {
+						"type": 0,
+						"text": ""
+					},
+					"type": "custom_button",
+					"icon": {
+						"glyph": "arrow-left"
+					},
+					"eventGid": 3360621981
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"image",
+								"text"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "columns-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_top",
+									"colspan": 6
+								}
+							],
+							"section": "head"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field30",
+									"colspan": 6
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field18"
+								},
+								{
+									"cell": "cell_field19"
+								},
+								{
+									"cell": "cell_field20"
+								},
+								{
+									"cell": "cell_field21"
+								},
+								{
+									"cell": "cell_field22"
+								},
+								{
+									"cell": "cell_field23"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_label1"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_label2"
+								},
+								{
+									"cell": "cell_field2"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label3"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_label4"
+								},
+								{
+									"cell": "cell_field4",
+									"colspan": 3
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field24",
+									"colspan": 6
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label6"
+								},
+								{
+									"cell": "cell_field6"
+								},
+								{
+									"cell": "cell_label7"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_label8"
+								},
+								{
+									"cell": "cell_field8"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label9"
+								},
+								{
+									"cell": "cell_field9"
+								},
+								{
+									"cell": "cell_label10"
+								},
+								{
+									"cell": "cell_field10"
+								},
+								{
+									"cell": "cell_label11"
+								},
+								{
+									"cell": "cell_field11"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label12"
+								},
+								{
+									"cell": "cell_field12"
+								},
+								{
+									"cell": "cell_label13"
+								},
+								{
+									"cell": "cell_field13"
+								},
+								{
+									"cell": "cell_label14"
+								},
+								{
+									"cell": "cell_field14"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label15"
+								},
+								{
+									"cell": "cell_field15"
+								},
+								{
+									"cell": "cell_label16"
+								},
+								{
+									"cell": "cell_field16"
+								},
+								{
+									"cell": "cell_label17"
+								},
+								{
+									"cell": "cell_field17"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_dpreview",
+									"colspan": 6
+								}
+							],
+							"section": "foot"
+						}
+					],
+					"cells": {
+						"cell_top": {
+							"model": "cell_top",
+							"items": [
+								"text3"
+							]
+						},
+						"cell_dpreview": {
+							"model": "cell_dpreview",
+							"items": []
+						},
+						"cell_label": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "face_quadra"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "face_quadra"
+						},
+						"cell_label1": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field11"
+							]
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field5"
+							]
+						},
+						"cell_label2": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field23"
+							],
+							"field": "esgoto"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "esgoto"
+						},
+						"cell_label3": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field25"
+							],
+							"field": "chave_face"
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field13"
+							],
+							"field": "chave_face"
+						},
+						"cell_label4": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field26"
+							],
+							"field": "log_cad"
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field14"
+							],
+							"field": "log_cad"
+						},
+						"cell_label6": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "logradouro"
+						},
+						"cell_field6": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "logradouro"
+						},
+						"cell_label7": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field27"
+							],
+							"field": "agua"
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field15"
+							],
+							"field": "agua"
+						},
+						"cell_label8": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field33"
+							],
+							"field": "telefone"
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field21"
+							],
+							"field": "telefone"
+						},
+						"cell_label9": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field28"
+							],
+							"field": "bairro"
+						},
+						"cell_field9": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "bairro"
+						},
+						"cell_label10": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field29"
+							],
+							"field": "luz"
+						},
+						"cell_field10": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field17"
+							],
+							"field": "luz"
+						},
+						"cell_label11": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field34"
+							],
+							"field": "ilum_publica"
+						},
+						"cell_field11": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field22"
+							],
+							"field": "ilum_publica"
+						},
+						"cell_label12": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field32"
+							],
+							"field": "cep"
+						},
+						"cell_field12": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field20"
+							],
+							"field": "cep"
+						},
+						"cell_label13": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field31"
+							],
+							"field": "pavimentacao"
+						},
+						"cell_field13": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field19"
+							],
+							"field": "pavimentacao"
+						},
+						"cell_label14": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field30"
+							],
+							"field": "aguas_pluviais"
+						},
+						"cell_field14": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field18"
+							],
+							"field": "aguas_pluviais"
+						},
+						"cell_label15": {
+							"model": "cell_label",
+							"items": [],
+							"field": "valorm2"
+						},
+						"cell_field15": {
+							"model": "cell_field",
+							"items": [],
+							"field": "valorm2"
+						},
+						"cell_label16": {
+							"model": "cell_label",
+							"items": [],
+							"field": "meio_fio"
+						},
+						"cell_field16": {
+							"model": "cell_field",
+							"items": [],
+							"field": "meio_fio"
+						},
+						"cell_label17": {
+							"model": "cell_label",
+							"items": [],
+							"field": "zona_fiscal"
+						},
+						"cell_field17": {
+							"model": "cell_field",
+							"items": [],
+							"field": "zona_fiscal"
+						},
+						"cell_field18": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "face_quadra"
+						},
+						"cell_field19": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "face_quadra"
+						},
+						"cell_field20": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field24"
+							],
+							"field": "cod_log"
+						},
+						"cell_field21": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field12"
+							],
+							"field": "cod_log"
+						},
+						"cell_field22": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field35"
+							],
+							"field": "esgoto"
+						},
+						"cell_field23": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field6"
+							],
+							"field": "esgoto"
+						},
+						"cell_field24": {
+							"model": "cell_label",
+							"items": [
+								"text2"
+							],
+							"field": "chave_face",
+							"align": "left",
+							"background": "#e1e1e1"
+						},
+						"cell_field30": {
+							"model": "cell_label",
+							"items": [
+								"text1"
+							],
+							"field": "face_quadra",
+							"align": "left",
+							"background": "#e1e1e1"
+						}
+					},
+					"deferredItems": [],
+					"buildType": 2,
+					"columnCount": 3
+				}
+			},
+			"items": {
+				"simple_grid_field2": {
+					"field": "face_quadra",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field4": {
+					"field": "bairro",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field5": {
+					"field": "cep",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field6": {
+					"field": "zona_fiscal",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field7": {
+					"field": "valorm2",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field12": {
+					"field": "chave_face",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field13": {
+					"field": "cod_log",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field14": {
+					"field": "log_cad",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field": {
+					"field": "agua",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field15": {
+					"field": "luz",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field16": {
+					"field": "pavimentacao",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field17": {
+					"field": "meio_fio",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field18": {
+					"field": "esgoto",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field19": {
+					"field": "coleta_lixo",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field20": {
+					"field": "telefone",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field21": {
+					"field": "ilum_publica",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field22": {
+					"field": "aguas_pluviais",
+					"type": "grid_field",
+					"nowrap": true,
+					"bold": true
+				},
+				"simple_grid_field8": {
+					"type": "grid_field_label",
+					"field": "face_quadra",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"type": "grid_field_label",
+					"field": "bairro",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field11": {
+					"type": "grid_field_label",
+					"field": "cep",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field23": {
+					"type": "grid_field_label",
+					"field": "valorm2",
+					"label": {
+						"field": "valorm2",
+						"table": "app.t_face_quadra",
+						"type": 3
+					},
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "chave_face",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field25": {
+					"type": "grid_field_label",
+					"field": "cod_log",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field26": {
+					"type": "grid_field_label",
+					"field": "log_cad",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field1": {
+					"type": "grid_field_label",
+					"field": "agua",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field27": {
+					"type": "grid_field_label",
+					"field": "luz",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field28": {
+					"type": "grid_field_label",
+					"field": "pavimentacao",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field29": {
+					"type": "grid_field_label",
+					"field": "meio_fio",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field30": {
+					"type": "grid_field_label",
+					"field": "esgoto",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field31": {
+					"type": "grid_field_label",
+					"field": "coleta_lixo",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field32": {
+					"type": "grid_field_label",
+					"field": "telefone",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field33": {
+					"type": "grid_field_label",
+					"field": "ilum_publica",
+					"bold": false,
+					"nowrap": true,
+					"label": {
+						"field": "ilum_publica",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"simple_grid_field34": {
+					"type": "grid_field_label",
+					"field": "aguas_pluviais",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field35": {
+					"type": "grid_field_label",
+					"field": "zona_fiscal",
+					"bold": false,
+					"nowrap": true
+				},
+				"image": {
+					"type": "image",
+					"width": "69px",
+					"height": "63px",
+					"image": {
+						"image": "Machado.png",
+						"source": 2
+					}
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "PREFEITURA DE MACHADO"
+					},
+					"editedByRte": false,
+					"font-size": "20px",
+					"bold": true,
+					"nowrap": true
+				},
+				"text2": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "INFRAESTRUTURA"
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px"
+				},
+				"text3": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "FACE DE QUADRA"
+					},
+					"editedByRte": false,
+					"bold": true
+				},
+				"text1": {
+					"type": "text",
+					"label": {
+						"text": "IDENTIFICAÇÃO",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px"
+				}
+			},
+			"version": 14,
+			"pageWidth": "compact",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"prev",
+								"next",
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"tabs"
+							],
+							"field": null
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": true
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c6"
+								},
+								{
+									"cell": "c7"
+								},
+								{
+									"cell": "c8"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c4",
+									"colspan": 2
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label6",
+								"integrated_edit_field2"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"edit_field_label3",
+								"integrated_edit_field12"
+							]
+						},
+						"c2": {
+							"model": "c3",
+							"items": [
+								"edit_field_label",
+								"integrated_edit_field6"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"edit_field_label8",
+								"integrated_edit_field13"
+							]
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"edit_field_label5",
+								"integrated_edit_field14"
+							]
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"edit_field_label7",
+								"integrated_edit_field4"
+							]
+						},
+						"c7": {
+							"model": "c3",
+							"items": [
+								"edit_field_label1",
+								"integrated_edit_field5"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"edit_field_label2",
+								"integrated_edit_field7"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section1": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c"
+								},
+								{
+									"cell": "c8"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								},
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c9"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c10"
+								},
+								{
+									"cell": "c11"
+								},
+								{
+									"cell": "c12"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label9",
+								"integrated_edit_field"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"edit_field_label17",
+								"integrated_edit_field15"
+							]
+						},
+						"c2": {
+							"model": "c3",
+							"items": [
+								"edit_field_label14",
+								"integrated_edit_field16"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"edit_field_label15",
+								"integrated_edit_field17"
+							]
+						},
+						"c8": {
+							"model": "c3",
+							"items": [
+								"edit_field_label10",
+								"integrated_edit_field21"
+							]
+						},
+						"c9": {
+							"model": "c3",
+							"items": [
+								"edit_field_label16",
+								"integrated_edit_field22"
+							]
+						},
+						"c10": {
+							"model": "c3",
+							"items": [
+								"edit_field_label13",
+								"integrated_edit_field20"
+							]
+						},
+						"c11": {
+							"model": "c3",
+							"items": [
+								"edit_field_label12",
+								"integrated_edit_field19"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"edit_field_label11",
+								"integrated_edit_field18"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header",
+					"title": {
+						"page": "view",
+						"table": "app.t_face_quadra",
+						"type": 7
+					}
+				},
+				"view_close": {
+					"type": "view_close",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"integrated_edit_field2": {
+					"field": "face_quadra",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field4": {
+					"field": "bairro",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field5": {
+					"field": "cep",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field6": {
+					"field": "zona_fiscal",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field7": {
+					"field": "valorm2",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field12": {
+					"field": "chave_face",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field13": {
+					"field": "cod_log",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field14": {
+					"field": "log_cad",
+					"type": "edit_field",
+					"nowrap": true,
+					"bold": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field": {
+					"field": "agua",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field15": {
+					"field": "luz",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field16": {
+					"field": "pavimentacao",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field17": {
+					"field": "meio_fio",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field18": {
+					"field": "esgoto",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field19": {
+					"field": "coleta_lixo",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field20": {
+					"field": "telefone",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field21": {
+					"field": "ilum_publica",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field22": {
+					"field": "aguas_pluviais",
+					"type": "edit_field",
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Identificação",
+							"type": 0
+						},
+						{
+							"text": "Infraestrutura",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section1"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"next": {
+					"type": "next",
+					"buttonSize": "normal",
+					"buttonStyle": "primary",
+					"label": {
+						"type": 0,
+						"text": "Próximo"
+					}
+				},
+				"prev": {
+					"type": "prev",
+					"buttonSize": "normal",
+					"buttonStyle": "primary",
+					"label": {
+						"type": 0,
+						"text": "Anterior"
+					}
+				},
+				"edit_field_label": {
+					"type": "edit_field_label",
+					"field": "zona_fiscal",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label1": {
+					"type": "edit_field_label",
+					"field": "cep",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "cep",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"edit_field_label2": {
+					"type": "edit_field_label",
+					"field": "valorm2",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "valorm2",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"edit_field_label3": {
+					"type": "edit_field_label",
+					"field": "chave_face",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label5": {
+					"type": "edit_field_label",
+					"field": "log_cad",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label6": {
+					"type": "edit_field_label",
+					"field": "face_quadra",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label7": {
+					"type": "edit_field_label",
+					"field": "bairro",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label8": {
+					"type": "edit_field_label",
+					"field": "cod_log",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "cod_log",
+						"table": "app.t_face_quadra",
+						"type": 3
+					}
+				},
+				"edit_field_label9": {
+					"type": "edit_field_label",
+					"field": "agua",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label10": {
+					"type": "edit_field_label",
+					"field": "ilum_publica",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label11": {
+					"type": "edit_field_label",
+					"field": "esgoto",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label12": {
+					"type": "edit_field_label",
+					"field": "coleta_lixo",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label13": {
+					"type": "edit_field_label",
+					"field": "telefone",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label14": {
+					"type": "edit_field_label",
+					"field": "pavimentacao",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label15": {
+					"type": "edit_field_label",
+					"field": "meio_fio",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label16": {
+					"type": "edit_field_label",
+					"field": "aguas_pluviais",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label17": {
+					"type": "edit_field_label",
+					"field": "luz",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Face de Quadra {%face_quadra}"
+			},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "Face de Quadra"
+	}
+}

@@ -1,0 +1,4872 @@
+{
+	"sql": "SELECT\n\tcinscmobiliariaold,\n\tcinscmobiliarianew,\n\tcocorrencianew,\n\tcrazaosocialnew,\n\tcnomefantasianew,\n\tccpfcnpjnew,\n\tccodlognew,\n\tclogradouronew,\n\tcnumeronew,\n\tccomplementonew,\n\tcatividadecnaenew,\n\tcobservacaonew,\n\tcinclusao,\n\tcinscricaooldorig,\n\tcinscricaonew,\n\tcchave,\n\tcdatalevantamentonew,\n\t\"uid\",\n\tmd_add,\n\tmd_alt,\n\tmd_usr,\n\tmd_usr_last,\n\tfuid\nFROM app.t_mobiliario_empresa ",
+	"type": 1,
+	"connId": "inmap_franco_at_192_168_100_20",
+	"originalTable": "app.t_mobiliario_empresa",
+	"name": "app.t_mobiliario_empresa2",
+	"shortTableName": "t_mobiliario_empresa2",
+	"caseSensitiveSearch": "",
+	"highlightSearchResults": false,
+	"listAjax": true,
+	"clickActions": {
+		"row": {
+			"action": "open",
+			"codeData": {
+				"snippet": null
+			},
+			"gridData": {
+				"action": "checkbox",
+				"table": null
+			},
+			"openData": {
+				"how": "popup",
+				"page": "view",
+				"table": null,
+				"url": ""
+			}
+		},
+		"fields": {
+			"cAtividadeCnaeNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cChave": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cCodLogNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cComplementoNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cCpfCnpjNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cDataLevantamentoNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cInclusao": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cInscMobiliariaNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cInscMobiliariaOld": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cInscricaoNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cInscricaoOldOrig": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cLogradouroNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cNomeFantasiaNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cNumeroNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cObservacaoNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cOcorrenciaNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			},
+			"cRazaoSocialNew": {
+				"codeData": {
+					"snippet": null
+				},
+				"gridData": {},
+				"openData": {}
+			}
+		}
+	},
+	"pageSizeRecords": 5,
+	"pageSizePrintRecords": 1,
+	"pageSizeSelectorRecords": [
+		"5",
+		"10",
+		"25",
+		"50",
+		"100",
+		"200"
+	],
+	"pageSizeSelectorGroups": [
+		"1",
+		"3",
+		"5",
+		"10",
+		"50",
+		"100",
+		"-1"
+	],
+	"keyFields": [
+		"uid"
+	],
+	"detailsBadgeColor": "E67349",
+	"fields": [
+		{
+			"name": "cinscmobiliariaold",
+			"sqlExpression": "cinscmobiliariaold",
+			"strField": "cinscmobiliariaold",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cInscMobiliariaOld",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Insc. Anterior"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cinscmobiliarianew",
+			"sqlExpression": "cinscmobiliarianew",
+			"strField": "cinscmobiliarianew",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 10,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cInscMobiliariaNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Insc. Mobiliária"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cocorrencianew",
+			"sqlExpression": "cocorrencianew",
+			"strField": "cocorrencianew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 40,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cOcorrenciaNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Ocorrência"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "crazaosocialnew",
+			"sqlExpression": "crazaosocialnew",
+			"strField": "crazaosocialnew",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 200,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cRazaoSocialNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Razão Social"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cnomefantasianew",
+			"sqlExpression": "cnomefantasianew",
+			"strField": "cnomefantasianew",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 200,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cNomeFantasiaNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Nome Fantasia"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "ccpfcnpjnew",
+			"sqlExpression": "ccpfcnpjnew",
+			"strField": "ccpfcnpjnew",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 30,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cCpfCnpjNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "CPF/CNPJ"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "ccodlognew",
+			"sqlExpression": "ccodlognew",
+			"strField": "ccodlognew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 5,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cCodLogNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Cod. Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "clogradouronew",
+			"sqlExpression": "clogradouronew",
+			"strField": "clogradouronew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 80,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cLogradouroNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Logradouro"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cnumeronew",
+			"sqlExpression": "cnumeronew",
+			"strField": "cnumeronew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 6,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cNumeroNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Número"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "ccomplementonew",
+			"sqlExpression": "ccomplementonew",
+			"strField": "ccomplementonew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 80,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cComplementoNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Complemento"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "catividadecnaenew",
+			"sqlExpression": "catividadecnaenew",
+			"strField": "catividadecnaenew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"separateEditViewFormats": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				},
+				{
+					"pageType": "list",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				},
+				{
+					"pageType": "print",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirst": false,
+					"textShowFirstN": 40
+				},
+				{
+					"pageType": "export",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				},
+				{
+					"pageType": "masterlist",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				},
+				{
+					"pageType": "masterprint",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 40
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				},
+				{
+					"pageType": "add",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				},
+				{
+					"pageType": "search",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cAtividadeCnaeNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Atividade CNAE"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cobservacaonew",
+			"sqlExpression": "cobservacaonew",
+			"strField": "cobservacaonew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0,
+					"textShowFirstN": 30
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 255,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cObservacaoNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Observação"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cinclusao",
+			"sqlExpression": "cinclusao",
+			"strField": "cinclusao",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 1,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cInclusao",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Inclusão"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cinscricaooldorig",
+			"sqlExpression": "cinscricaooldorig",
+			"strField": "cinscricaooldorig",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 18,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cInscricaoOldOrig",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "IC Imob. Ant."
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cinscricaonew",
+			"sqlExpression": "cinscricaonew",
+			"strField": "cinscricaonew",
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 18,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cInscricaoNew",
+			"defaultSearchOption": "Contains",
+			"searchOptions": [
+				"Contains",
+				"Equals",
+				"Starts with",
+				"Empty",
+				"NOT Contains",
+				"NOT Equals",
+				"NOT Empty"
+			],
+			"label": {
+				"Portuguese(Brazil)": "Insc. Imobiliária"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cchave",
+			"sqlExpression": "cchave",
+			"strField": "cchave",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 13,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cChave",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Inscrição Lote"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "cdatalevantamentonew",
+			"sqlExpression": "cdatalevantamentonew",
+			"strField": "cdatalevantamentonew",
+			"googleLikeSearch": false,
+			"type": 200,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textboxMaxLenth": 60,
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "cDataLevantamentoNew",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Data Atualização"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "uid",
+			"sqlExpression": "\"uid\"",
+			"strField": "uid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"autoinc": true,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"required": true,
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "uid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Uid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "md_add",
+			"sqlExpression": "md_add",
+			"strField": "md_add",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_add",
+			"label": {
+				"Portuguese(Brazil)": "Md Add"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "md_alt",
+			"sqlExpression": "md_alt",
+			"strField": "md_alt",
+			"googleLikeSearch": false,
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date",
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"dateEditType": 13,
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_alt",
+			"label": {
+				"Portuguese(Brazil)": "Md Alt"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "md_usr",
+			"sqlExpression": "md_usr",
+			"strField": "md_usr",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "md_usr_last",
+			"sqlExpression": "md_usr_last",
+			"strField": "md_usr_last",
+			"googleLikeSearch": false,
+			"type": 201,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Text area",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileResizeSize": 1920,
+					"fileCreateThumbnail": true,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "md_usr_last",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Md Usr Last"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		},
+		{
+			"name": "fuid",
+			"sqlExpression": "fuid",
+			"strField": "fuid",
+			"googleLikeSearch": false,
+			"type": 20,
+			"viewFormats": [
+				{
+					"videoRewindEnabled": false,
+					"numberFractionalDigits": 0
+				}
+			],
+			"editFormats": [
+				{
+					"validateAs": "Number",
+					"validateRegexMessage": {
+						"text": "",
+						"type": 0
+					},
+					"denyDuplicateMessage": {
+						"text": "",
+						"type": 0
+					},
+					"textHTML5Input": "0",
+					"fileMaxNumber": 1,
+					"fileThumbnailField": "th",
+					"timeConvention": 1
+				}
+			],
+			"filterFormat": {
+				"format": "Values list"
+			},
+			"sourceSingle": "fuid",
+			"defaultSearchOption": "Contains",
+			"label": {
+				"Portuguese(Brazil)": "Fuid"
+			},
+			"tooltip": {
+				"Portuguese(Brazil)": ""
+			},
+			"placeholder": {
+				"Portuguese(Brazil)": ""
+			},
+			"tableName": "app.t_mobiliario_empresa"
+		}
+	],
+	"afterEditDetails": 81,
+	"afterAddDetail": 81,
+	"eventHandlers": [
+		{
+			"eventId": "EVENT_JS_ONLOAD",
+			"pageType": "print",
+			"code": "window.print();\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		},
+		{
+			"eventId": "EVENT_PROCESSVALUES_VIEW",
+			"pageType": "view",
+			"code": "$_SESSION[\"ic\"] = str_replace('.','',$values['cinscricaonew']);\n$_SESSION[\"chave\"] = $values['cchave'];\n\n// Place event code here.\n// Use \"Add Action\" button to add code snippets."
+		}
+	],
+	"sortByFields": {
+		"sortOrder": []
+	},
+	"pages": [
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel",
+					"label": {
+						"type": 0,
+						"text": "Cancelar"
+					}
+				},
+				"export_field": {
+					"field": "cinscmobiliariaold",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "cocorrencianew",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "crazaosocialnew",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "cnomefantasianew",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "ccpfcnpjnew",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "ccodlognew",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "clogradouronew",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "cnumeronew",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "ccomplementonew",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "catividadecnaenew",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "cobservacaonew",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "cinclusao",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "cinscricaooldorig",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "cinscricaonew",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "cchave",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "cdatalevantamentonew",
+					"type": "export_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {},
+			"exportFormat": 2,
+			"exportDelimiter": ";",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": 1,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "cinscmobiliariaold",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "cocorrencianew",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "crazaosocialnew",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "cnomefantasianew",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "ccpfcnpjnew",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "ccodlognew",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "clogradouronew",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "cnumeronew",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "ccomplementonew",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "catividadecnaenew",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "cobservacaonew",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "cinclusao",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "cinscricaooldorig",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "cinscricaonew",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "cchave",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "cdatalevantamentonew",
+					"type": "import_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"custom_button2",
+								"custom_button1",
+								"custom_button3"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": []
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu"
+							],
+							"align": "center"
+						},
+						"c": {
+							"model": "c1",
+							"items": [
+								"search_panel"
+							]
+						},
+						"c2": {
+							"model": "c1",
+							"items": [
+								"show_search_panel",
+								"hide_search_panel"
+							],
+							"align": "center"
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "horizontal-grid",
+					"grid": [
+						{
+							"section": "head",
+							"cells": [
+								{
+									"cell": "cell_checkbox1"
+								},
+								{
+									"cell": "headcell_details"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
+								},
+								{
+									"cell": "headcell_field3"
+								},
+								{
+									"cell": "headcell_field4"
+								},
+								{
+									"cell": "headcell_field7"
+								},
+								{
+									"cell": "headcell_field8"
+								},
+								{
+									"cell": "headcell_field10"
+								},
+								{
+									"cell": "headcell_field15"
+								},
+								{
+									"cell": "headcell_field16"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_checkbox2"
+								},
+								{
+									"cell": "cell_details"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								},
+								{
+									"cell": "cell_field3"
+								},
+								{
+									"cell": "cell_field4"
+								},
+								{
+									"cell": "cell_field7"
+								},
+								{
+									"cell": "cell_field8"
+								},
+								{
+									"cell": "cell_field10"
+								},
+								{
+									"cell": "cell_field15"
+								},
+								{
+									"cell": "cell_field16"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_checkbox3",
+									"colspan": 12
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "cell_checkbox4"
+								},
+								{
+									"cell": "footcell_details"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								},
+								{
+									"cell": "footcell_field3"
+								},
+								{
+									"cell": "footcell_field4"
+								},
+								{
+									"cell": "footcell_field7"
+								},
+								{
+									"cell": "footcell_field8"
+								},
+								{
+									"cell": "footcell_field10"
+								},
+								{
+									"cell": "footcell_field15"
+								},
+								{
+									"cell": "footcell_field16"
+								}
+							]
+						}
+					],
+					"cells": {
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field18"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field19"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field2"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field3": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field20"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field3": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field3"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field3": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field4": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field21"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field4": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field4": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field7": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field24"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field7": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field7"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field7": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field8": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field25"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field8": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field8"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field8": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field10": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field27"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field10": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field10"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field10": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field15": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field32"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field15": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field15"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field15": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_field16": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field33"
+							],
+							"field": "",
+							"columnName": ""
+						},
+						"cell_field16": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field16"
+							],
+							"field": "",
+							"columnName": "",
+							"nowrap": true
+						},
+						"footcell_field16": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "",
+							"columnName": ""
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							],
+							"columnName": "",
+							"field": "",
+							"nowrap": true
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox1": {
+							"model": "headcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox2": {
+							"model": "cell_checkbox",
+							"items": [
+								"custom_button"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox3": {
+							"model": "cell_dpreview",
+							"items": [
+								"details_preview"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_checkbox4": {
+							"model": "footcell_checkbox",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"headcell_details": {
+							"model": "headcell_details",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						},
+						"cell_details": {
+							"model": "cell_details",
+							"items": [
+								"grid_alldetails_link",
+								"grid_details_link"
+							],
+							"columnName": "",
+							"field": ""
+						},
+						"footcell_details": {
+							"model": "footcell_details",
+							"items": [],
+							"columnName": "",
+							"field": ""
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"menu": {
+					"type": "menu",
+					"menuId": "Mobiliario2"
+				},
+				"simple_search": {
+					"type": "simple_search",
+					"customCSS": "#ctlSearchFor1 {\n  color: white;\n  font-size: 15px;\n}"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field2",
+						"search_panel_field3",
+						"search_panel_field4",
+						"search_panel_field11",
+						"search_panel_field1",
+						"search_panel_field5"
+					],
+					"_flexiblePanel": true
+				},
+				"search_panel_field11": {
+					"field": "clogradouronew",
+					"type": "search_panel_field",
+					"required": false,
+					"alwaysOnPanel": false
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_details",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"-": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"simple_grid_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"field": "cocorrencianew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "crazaosocialnew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "cnomefantasianew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "clogradouronew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"field": "cnumeronew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"field": "catividadecnaenew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field15": {
+					"field": "cchave",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field16": {
+					"field": "cdatalevantamentonew",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false,
+					"clickSort": true,
+					"bold": true,
+					"nowrap": true
+				},
+				"show_search_panel": {
+					"type": "show_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Mostrar pesquisa"
+					},
+					"background": "transparent"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel",
+					"label": {
+						"type": 0,
+						"text": "Ocultar pesquisa"
+					},
+					"background": "transparent"
+				},
+				"print_details": {
+					"type": "print_details",
+					"tables": {
+						"772557685": true,
+						"789695499": true,
+						"1275479429": true
+					}
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"simple_grid_field18": {
+					"type": "grid_field_label",
+					"field": "cinscmobiliarianew",
+					"clickSort": true,
+					"label": {
+						"field": "cinscmobiliarianew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"simple_grid_field19": {
+					"type": "grid_field_label",
+					"field": "cocorrencianew",
+					"clickSort": true
+				},
+				"simple_grid_field20": {
+					"type": "grid_field_label",
+					"field": "crazaosocialnew",
+					"clickSort": true
+				},
+				"simple_grid_field21": {
+					"type": "grid_field_label",
+					"field": "cnomefantasianew",
+					"clickSort": true
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "clogradouronew",
+					"clickSort": true
+				},
+				"simple_grid_field25": {
+					"type": "grid_field_label",
+					"field": "cnumeronew",
+					"clickSort": true
+				},
+				"simple_grid_field27": {
+					"type": "grid_field_label",
+					"field": "catividadecnaenew",
+					"clickSort": true
+				},
+				"simple_grid_field32": {
+					"type": "grid_field_label",
+					"field": "cchave",
+					"clickSort": true,
+					"label": {
+						"field": "cchave",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"simple_grid_field33": {
+					"type": "grid_field_label",
+					"field": "cdatalevantamentonew",
+					"clickSort": true,
+					"label": {
+						"field": "cdatalevantamentonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"custom_button": {
+					"eventId": "marcar_mapa_empresa",
+					"label": {
+						"text": "",
+						"type": 0
+					},
+					"type": "custom_button",
+					"buttonSize": "xtra-small",
+					"buttonStyle": "default",
+					"icon": {
+						"fa": "map-marker"
+					},
+					"tooltip": {
+						"text": "Marcar no mapa",
+						"type": 0
+					},
+					"width": "22px",
+					"eventGid": 338007021
+				},
+				"custom_button1": {
+					"eventId": "localizar_selecao_empresa",
+					"label": {
+						"text": "Aplicar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"nowrap": true,
+					"icon": {
+						"fa": "map"
+					},
+					"tooltip": {
+						"text": "Simboliza no mapa os registros selecionados",
+						"type": 0
+					},
+					"eventGid": 3800122895
+				},
+				"custom_button2": {
+					"eventId": "Criar_Tema_mob_recad",
+					"label": {
+						"text": "Configurar",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "gear"
+					},
+					"tooltip": {
+						"text": "Simboliza no mapa os registros selecionados",
+						"type": 0
+					},
+					"eventGid": 2739392918
+				},
+				"custom_button3": {
+					"eventId": "salvar_mapa_mob",
+					"label": {
+						"text": "Salvar mapa",
+						"type": 0
+					},
+					"type": "custom_button",
+					"icon": {
+						"fa": "save"
+					},
+					"eventGid": 469014970
+				},
+				"details_preview": {
+					"type": "details_preview",
+					"table": 1275479429,
+					"items": [],
+					"popup": false,
+					"hideEmptyPreview": true,
+					"proceedLink": false,
+					"pageId": "list",
+					"bold": true
+				},
+				"grid_alldetails_link": {
+					"type": "grid_alldetails_link"
+				},
+				"grid_details_link": {
+					"type": "grid_details_link",
+					"table": 1275479429,
+					"badge": true,
+					"hideIfNone": false,
+					"showCount": true
+				},
+				"search_panel_field": {
+					"field": "catividadecnaenew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field2": {
+					"field": "crazaosocialnew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field3": {
+					"field": "cnomefantasianew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field4": {
+					"field": "ccpfcnpjnew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"search_panel_field5": {
+					"field": "cinscricaonew",
+					"type": "search_panel_field",
+					"alwaysOnPanel": false,
+					"required": false
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"changepassword_link"
+					]
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"changepassword_link": {
+					"type": "changepassword_link"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				}
+			},
+			"spreadsheetGrid": false,
+			"version": 14,
+			"reorderRows": false,
+			"reorderRowsField": "",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "masterprint",
+			"type": "masterprint",
+			"layoutId": "masterprint",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "masterlist-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"masterprint_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"masterprint_header": {
+					"type": "masterprint_header"
+				},
+				"simple_grid_field": {
+					"field": "fuid",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "uid",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"image",
+								"text3"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "columns-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "cell_top",
+									"colspan": 3
+								}
+							],
+							"section": "head"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field18",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field22"
+								},
+								{
+									"cell": "cell_field23"
+								},
+								{
+									"cell": "cell_field24"
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label"
+								},
+								{
+									"cell": "cell_label7"
+								},
+								{
+									"cell": "cell_label1"
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field30",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_field26"
+								},
+								{
+									"cell": "cell_field27"
+								},
+								{
+									"cell": "cell_field"
+								}
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_label18"
+								},
+								{
+									"cell": "cell_label19",
+									"colspan": 2
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label2"
+								},
+								{
+									"cell": "cell_field2",
+									"colspan": 2
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label4",
+									"colspan": 3
+								}
+							],
+							"section": "body"
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_label6",
+									"colspan": 3
+								}
+							],
+							"section": "body"
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_label8",
+									"colspan": 3
+								}
+							]
+						},
+						{
+							"cells": [
+								{
+									"cell": "cell_dpreview",
+									"colspan": 3
+								}
+							],
+							"section": "foot"
+						}
+					],
+					"cells": {
+						"cell_top": {
+							"model": "cell_top",
+							"items": [
+								"text4"
+							],
+							"align": "left"
+						},
+						"cell_dpreview": {
+							"model": "cell_dpreview",
+							"items": [
+								"details_preview1"
+							]
+						},
+						"cell_label": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field19",
+								"simple_grid_field2"
+							],
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						},
+						"cell_label1": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field33",
+								"simple_grid_field16"
+							],
+							"field": "clogradouronew",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						},
+						"cell_label2": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field25",
+								"simple_grid_field8"
+							],
+							"field": "ccpfcnpjnew",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field26",
+								"simple_grid_field9"
+							],
+							"field": "ccpfcnpjnew",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_label4": {
+							"model": "cell_label",
+							"items": [
+								"text2"
+							],
+							"field": "ccomplementonew",
+							"align": "left",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"background": "#e1e1e1"
+						},
+						"cell_label6": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field27",
+								"simple_grid_field10"
+							],
+							"field": "cinscricaooldorig",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true,
+							"orientation": "vertical"
+						},
+						"cell_field18": {
+							"model": "cell_label",
+							"items": [
+								"text"
+							],
+							"field": "cinscmobiliariaold",
+							"align": "left",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"background": "#e1e1e1"
+						},
+						"cell_field22": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field18",
+								"simple_grid_field1"
+							],
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						},
+						"cell_field23": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field31",
+								"simple_grid_field14"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						},
+						"cell_field24": {
+							"model": "cell_label",
+							"items": [],
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						},
+						"cell_label18": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field23",
+								"simple_grid_field6"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_label19": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field24",
+								"simple_grid_field7"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_field26": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field20",
+								"simple_grid_field3"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_field27": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field21",
+								"simple_grid_field4"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_field30": {
+							"model": "cell_label",
+							"items": [
+								"text1"
+							],
+							"field": "cinscmobiliariaold",
+							"align": "left",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"background": "#e1e1e1"
+						},
+						"cell_label8": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field28",
+								"simple_grid_field11"
+							],
+							"field": "cinscricaooldorig",
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field22",
+								"simple_grid_field5"
+							],
+							"field": "cinscmobiliariaold",
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left",
+							"nowrap": true
+						},
+						"cell_label7": {
+							"model": "cell_label",
+							"items": [
+								"simple_grid_field29",
+								"simple_grid_field12"
+							],
+							"border": [
+								{
+									"side": "",
+									"width": "1px",
+									"color": "#e5e5e5"
+								}
+							],
+							"align": "left"
+						}
+					},
+					"deferredItems": [],
+					"buildType": 2,
+					"columnCount": 2
+				}
+			},
+			"items": {
+				"simple_grid_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field2": {
+					"field": "cocorrencianew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field3": {
+					"field": "crazaosocialnew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field4": {
+					"field": "cnomefantasianew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field5": {
+					"field": "ccpfcnpjnew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field6": {
+					"field": "ccodlognew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field7": {
+					"field": "clogradouronew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field8": {
+					"field": "cnumeronew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field9": {
+					"field": "ccomplementonew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field10": {
+					"field": "catividadecnaenew",
+					"type": "grid_field",
+					"bold": true
+				},
+				"simple_grid_field11": {
+					"field": "cobservacaonew",
+					"type": "grid_field",
+					"bold": true
+				},
+				"simple_grid_field12": {
+					"field": "cinclusao",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field14": {
+					"field": "cinscricaonew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field16": {
+					"field": "cdatalevantamentonew",
+					"type": "grid_field",
+					"bold": true,
+					"nowrap": true
+				},
+				"simple_grid_field18": {
+					"type": "grid_field_label",
+					"field": "cinscmobiliarianew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field19": {
+					"type": "grid_field_label",
+					"field": "cocorrencianew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field20": {
+					"type": "grid_field_label",
+					"field": "crazaosocialnew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field21": {
+					"type": "grid_field_label",
+					"field": "cnomefantasianew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field22": {
+					"type": "grid_field_label",
+					"field": "ccpfcnpjnew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field23": {
+					"type": "grid_field_label",
+					"field": "ccodlognew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field24": {
+					"type": "grid_field_label",
+					"field": "clogradouronew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field25": {
+					"type": "grid_field_label",
+					"field": "cnumeronew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field26": {
+					"type": "grid_field_label",
+					"field": "ccomplementonew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field27": {
+					"type": "grid_field_label",
+					"field": "catividadecnaenew",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field28": {
+					"type": "grid_field_label",
+					"field": "cobservacaonew",
+					"nowrap": true,
+					"bold": false
+				},
+				"simple_grid_field29": {
+					"type": "grid_field_label",
+					"field": "cinclusao",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field31": {
+					"type": "grid_field_label",
+					"field": "cinscricaonew",
+					"bold": false,
+					"nowrap": true
+				},
+				"simple_grid_field33": {
+					"type": "grid_field_label",
+					"field": "cdatalevantamentonew",
+					"bold": false,
+					"nowrap": true
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"text": "INSCRIÇÃO CADASTRAL",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px",
+					"nowrap": true
+				},
+				"text1": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "ESTABELECIMENTO/ENDEREÇO"
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px",
+					"nowrap": true
+				},
+				"text2": {
+					"type": "text",
+					"label": {
+						"text": "DADOS GERAIS",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "14px",
+					"nowrap": true
+				},
+				"image": {
+					"type": "image",
+					"width": "69px",
+					"height": "63px",
+					"image": {
+						"image": "Machado.png",
+						"source": 2
+					}
+				},
+				"text3": {
+					"type": "text",
+					"label": {
+						"type": 0,
+						"text": "PREFEITURA DE MACHADO"
+					},
+					"editedByRte": false,
+					"bold": true,
+					"font-size": "20px",
+					"padding": {
+						"padding": "20px"
+					},
+					"nowrap": true
+				},
+				"text4": {
+					"type": "text",
+					"label": {
+						"text": "FICHA CADASTRO EMPRESA 2",
+						"type": 0
+					},
+					"editedByRte": false,
+					"bold": true,
+					"nowrap": true
+				},
+				"details_preview1": {
+					"type": "details_preview",
+					"table": 1275479429,
+					"items": [],
+					"popup": false,
+					"pageId": "print",
+					"bold": true,
+					"caption": {
+						"page": "print",
+						"table": "app.t_mobiliario_servicos",
+						"type": 7
+					}
+				}
+			},
+			"version": 14,
+			"pageWidth": "compact",
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "search",
+			"type": "search",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "search-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "search-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_search",
+								"search_reset",
+								"search_back_list",
+								"search_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "search-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-search",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_search_field",
+								"integrated_search_field1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"search_header": {
+					"type": "search_header"
+				},
+				"search_reset": {
+					"type": "search_reset"
+				},
+				"search_back_list": {
+					"type": "search_back_list"
+				},
+				"search_search": {
+					"type": "search_search"
+				},
+				"search_cancel": {
+					"type": "search_cancel"
+				},
+				"integrated_search_field": {
+					"field": "fuid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				},
+				"integrated_search_field1": {
+					"field": "uid",
+					"type": "integrated_search_field",
+					"orientation": 0,
+					"required": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"cardStyle": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": 0,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"text",
+								"custom_button",
+								"custom_button5",
+								"custom_button1",
+								"custom_button2",
+								"custom_button3"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_close"
+							],
+							"align": "left"
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"custom_button4",
+								"prev",
+								"next"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"tabs"
+							],
+							"field": null
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": true
+				},
+				"section": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c3"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c5"
+								},
+								{
+									"cell": "c6"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label2",
+								"integrated_edit_field1"
+							]
+						},
+						"c2": {
+							"model": "c3",
+							"items": []
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"edit_field_label3",
+								"integrated_edit_field14"
+							]
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"edit_field_label6",
+								"integrated_edit_field2"
+							]
+						},
+						"c6": {
+							"model": "c3",
+							"items": [
+								"edit_field_label5",
+								"integrated_edit_field16"
+							]
+						},
+						"c5": {
+							"model": "c3",
+							"items": [
+								"edit_field_label4",
+								"integrated_edit_field12"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section1": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c3",
+									"colspan": 1
+								},
+								{
+									"cell": "c"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c5",
+									"colspan": 2
+								}
+							]
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c12"
+								},
+								{
+									"cell": "c13",
+									"colspan": 2
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label11",
+								"integrated_edit_field3"
+							]
+						},
+						"c": {
+							"model": "c3",
+							"items": [
+								"edit_field_label8",
+								"integrated_edit_field5"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"edit_field_label9",
+								"integrated_edit_field4"
+							]
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"edit_field_label12",
+								"integrated_edit_field6"
+							]
+						},
+						"c5": {
+							"model": "c3",
+							"items": [
+								"edit_field_label10",
+								"integrated_edit_field7"
+							]
+						},
+						"c12": {
+							"model": "c3",
+							"items": [
+								"edit_field_label13",
+								"integrated_edit_field8"
+							]
+						},
+						"c13": {
+							"model": "c3",
+							"items": [
+								"edit_field_label7",
+								"integrated_edit_field9"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section2": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 1
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						},
+						{
+							"section": "",
+							"cells": [
+								{
+									"cell": "c4"
+								},
+								{
+									"cell": "c"
+								}
+							]
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c3",
+							"items": [
+								"edit_field_label14",
+								"integrated_edit_field10"
+							],
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"c4": {
+							"model": "c3",
+							"items": [
+								"edit_field_label15",
+								"integrated_edit_field11"
+							],
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"c": {
+							"model": "c3",
+							"items": [],
+							"align": "left",
+							"orientation": "vertical"
+						},
+						"c2": {
+							"model": "c3",
+							"items": [],
+							"align": "left",
+							"orientation": "vertical"
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section3": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"tabs1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section5": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview2"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section6": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview3"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section7": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section8": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview1"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section9": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview4"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				},
+				"section10": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"details_preview5"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header",
+					"title": {
+						"page": "view",
+						"table": "app.t_mobiliario_empresa2",
+						"type": 7
+					}
+				},
+				"view_close": {
+					"type": "view_close",
+					"label": {
+						"type": 0,
+						"text": "Fechar"
+					},
+					"buttonSize": "normal",
+					"buttonStyle": "primary"
+				},
+				"integrated_edit_field1": {
+					"field": "cinscmobiliarianew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cinscmobiliarianew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field2": {
+					"field": "cocorrencianew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cocorrencianew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field3": {
+					"field": "crazaosocialnew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "crazaosocialnew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field4": {
+					"field": "cnomefantasianew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cnomefantasianew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field5": {
+					"field": "ccpfcnpjnew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "ccpfcnpjnew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field6": {
+					"field": "ccodlognew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "ccodlognew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field7": {
+					"field": "clogradouronew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "clogradouronew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field8": {
+					"field": "cnumeronew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cnumeronew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field9": {
+					"field": "ccomplementonew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "ccomplementonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field10": {
+					"field": "catividadecnaenew",
+					"type": "edit_field",
+					"label": {
+						"field": "catividadecnaenew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field11": {
+					"field": "cobservacaonew",
+					"type": "edit_field",
+					"label": {
+						"field": "cobservacaonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"orientation": 0,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field12": {
+					"field": "cinclusao",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cinclusao",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field14": {
+					"field": "cinscricaonew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cinscricaonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"integrated_edit_field16": {
+					"field": "cdatalevantamentonew",
+					"type": "edit_field",
+					"orientation": 0,
+					"label": {
+						"field": "cdatalevantamentonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					},
+					"bold": true,
+					"nowrap": true,
+					"joined": false,
+					"separated": true
+				},
+				"tabs": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Inscrição Cadastral",
+							"type": 0
+						},
+						{
+							"text": "Estabelecimento/Endereço",
+							"type": 0
+						},
+						{
+							"text": "Dados Gerais",
+							"type": 0
+						},
+						{
+							"text": "Atividades - Serviços",
+							"type": 0
+						},
+						{
+							"text": "Anexos",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section",
+						"section1",
+						"section2",
+						"section8",
+						"section3"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"tabs1": {
+					"type": "tabs",
+					"titles": [
+						{
+							"text": "Matrícula",
+							"type": 0
+						},
+						{
+							"text": "Alvará",
+							"type": 0
+						},
+						{
+							"text": "Fotos",
+							"type": 0
+						},
+						{
+							"text": "Croquis",
+							"type": 0
+						},
+						{
+							"text": "Outros",
+							"type": 0
+						}
+					],
+					"locations": [
+						"section9",
+						"section10",
+						"section5",
+						"section6",
+						"section7"
+					],
+					"bsStyle": "default",
+					"panelType": 2
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"text": "Incluir Documentos",
+						"type": 0
+					},
+					"editedByRte": false
+				},
+				"custom_button": {
+					"type": "custom_button",
+					"eventId": "New_Button4",
+					"label": {
+						"type": 0,
+						"text": "Matricula+"
+					},
+					"buttonStyle": "default",
+					"buttonSize": "xtra-small",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"eventGid": 2481377884
+				},
+				"custom_button1": {
+					"type": "custom_button",
+					"eventId": "New_Button5",
+					"label": {
+						"type": 0,
+						"text": "Foto+"
+					},
+					"buttonStyle": "default",
+					"buttonSize": "xtra-small",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"eventGid": 1377003904
+				},
+				"custom_button2": {
+					"type": "custom_button",
+					"eventId": "Croqui",
+					"label": {
+						"type": 0,
+						"text": "Croqui+"
+					},
+					"buttonStyle": "default",
+					"buttonSize": "xtra-small",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"eventGid": 1896860016
+				},
+				"custom_button3": {
+					"type": "custom_button",
+					"eventId": "Outros",
+					"label": {
+						"type": 0,
+						"text": "Outros+"
+					},
+					"buttonStyle": "default",
+					"buttonSize": "xtra-small",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"eventGid": 2096937085
+				},
+				"custom_button4": {
+					"eventId": "Imprimir1",
+					"label": {
+						"type": 0,
+						"text": "Imprimir"
+					},
+					"type": "custom_button",
+					"buttonStyle": "primary",
+					"icon": {
+						"fa": "print"
+					},
+					"buttonSize": "normal",
+					"eventGid": 602651002
+				},
+				"next": {
+					"type": "next",
+					"buttonStyle": "primary",
+					"label": {
+						"type": 0,
+						"text": "Próximo"
+					}
+				},
+				"prev": {
+					"type": "prev",
+					"buttonStyle": "primary",
+					"label": {
+						"type": 0,
+						"text": "Anterior"
+					}
+				},
+				"details_preview1": {
+					"type": "details_preview",
+					"table": 1275479429,
+					"items": [],
+					"popup": false,
+					"pageId": "list",
+					"bold": true,
+					"caption": {
+						"page": "list",
+						"table": "app.t_mobiliario_servicos",
+						"type": 7
+					}
+				},
+				"details_preview2": {
+					"type": "details_preview",
+					"table": 772557685,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview": {
+					"type": "details_preview",
+					"table": 3226964094,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview3": {
+					"type": "details_preview",
+					"table": 3450134899,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"details_preview4": {
+					"type": "details_preview",
+					"table": 2381953139,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"custom_button5": {
+					"type": "custom_button",
+					"eventId": "ad_alvara",
+					"label": {
+						"type": 0,
+						"text": "Alvará+"
+					},
+					"buttonStyle": "default",
+					"buttonSize": "xtra-small",
+					"customCSS": "/* Put  your custom CSS code here */\n\n:host {\n  display: none;\n}\n",
+					"eventGid": 2478498824
+				},
+				"details_preview5": {
+					"type": "details_preview",
+					"table": 789695499,
+					"items": [],
+					"popup": false,
+					"pageId": "list"
+				},
+				"edit_field_label2": {
+					"type": "edit_field_label",
+					"field": "cinscmobiliarianew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "cinscmobiliarianew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"edit_field_label3": {
+					"type": "edit_field_label",
+					"field": "cinscricaonew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "cinscricaonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"edit_field_label4": {
+					"type": "edit_field_label",
+					"field": "cinclusao",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label5": {
+					"type": "edit_field_label",
+					"field": "cdatalevantamentonew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label6": {
+					"type": "edit_field_label",
+					"field": "cocorrencianew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label7": {
+					"type": "edit_field_label",
+					"field": "ccomplementonew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false,
+					"label": {
+						"field": "ccomplementonew",
+						"table": "app.t_mobiliario_empresa",
+						"type": 3
+					}
+				},
+				"edit_field_label8": {
+					"type": "edit_field_label",
+					"field": "ccpfcnpjnew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label9": {
+					"type": "edit_field_label",
+					"field": "cnomefantasianew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label10": {
+					"type": "edit_field_label",
+					"field": "clogradouronew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label11": {
+					"type": "edit_field_label",
+					"field": "crazaosocialnew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label12": {
+					"type": "edit_field_label",
+					"field": "ccodlognew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label13": {
+					"type": "edit_field_label",
+					"field": "cnumeronew",
+					"separated": true,
+					"nowrap": true,
+					"bold": false
+				},
+				"edit_field_label14": {
+					"type": "edit_field_label",
+					"field": "catividadecnaenew",
+					"separated": true,
+					"bold": false
+				},
+				"edit_field_label15": {
+					"type": "edit_field_label",
+					"field": "cobservacaonew",
+					"separated": true,
+					"bold": false
+				}
+			},
+			"version": 14,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {
+				"Portuguese(Brazil)": "Mobiliário Empresa 2 {%uid}"
+			},
+			"cardStyle": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"Portuguese(Brazil)": "T Mobiliario Empresa2"
+	}
+}
