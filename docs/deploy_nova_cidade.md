@@ -47,6 +47,12 @@ Este documento detalha o procedimento operacional padrão para inicializar o ban
 
 ---
 
+## Trocar botão visitante para o link do inmap da cidade nova
+
+## Trocar origem dos usuarios no botão popula grupos
+
+---
+
 ## 🔒 5. Validação de Segurança e Permissões de Usuários
 
 1. Vá até a aba **Security** no PHPRunner.
